@@ -108,7 +108,7 @@ include 'includes/header.php';
             <!-- Contact Form -->
             <div class="contact-form">
                 <h3>Send us a Message</h3>
-                <p style="margin-bottom: 2rem;">Fill out the form below and we'll get back to you as soon as possible.</p>
+                <p style="margin-bottom: 2rem;">Fill in the form and hit send — it opens WhatsApp with your enquiry ready to send to our team. We reply fast, 24/7.</p>
                 
                 <form onsubmit="submitForm(event)" method="POST">
                     <!-- Honeypot: hidden from real visitors via CSS, invisible to screen readers.
@@ -152,7 +152,7 @@ include 'includes/header.php';
                         <textarea id="message" name="message" required placeholder="Tell us about your requirements..."></textarea>
                     </div>
                     
-                    <button type="submit" class="btn-submit">Send Message</button>
+                    <button type="submit" class="btn-submit"><i class="fab fa-whatsapp"></i> Send via WhatsApp</button>
                 </form>
             </div>
         </div>

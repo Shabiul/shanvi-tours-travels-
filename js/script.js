@@ -25,39 +25,56 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Form Submission
+// Form Submission — sends the enquiry straight to WhatsApp.
+// (Vercel's serverless PHP has no mail server, so there's no email path;
+// this hands the visitor a pre-filled chat to our business number.)
+const WHATSAPP_NUMBER = '919611120023';
+
 function submitForm(event) {
     event.preventDefault();
-    
+
     const form = event.target;
-    const formData = new FormData(form);
-    
-    // Show loading state
+
+    // Honeypot — bots fill every field, real visitors never see this one.
+    if (form.website && form.website.value.trim() !== '') {
+        return;
+    }
+
+    // Let the browser's built-in required-field validation run first.
+    if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+    }
+
+    const get = (n) => (form[n] && form[n].value ? form[n].value.trim() : '');
+    const name = get('name');
+    const email = get('email');
+    const phone = get('phone');
+    const service = get('service');
+    const message = get('message');
+
+    let text = 'New enquiry from shanvitoursandtravels.com\n\n';
+    text += 'Name: ' + name + '\n';
+    text += 'Phone: ' + phone + '\n';
+    if (email) text += 'Email: ' + email + '\n';
+    if (service) text += 'Service: ' + service + '\n';
+    text += 'Message: ' + message;
+
+    const url = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(text);
+
     const submitBtn = form.querySelector('.btn-submit');
     const originalText = submitBtn.textContent;
-    submitBtn.textContent = 'Sending...';
+    submitBtn.textContent = 'Opening WhatsApp...';
     submitBtn.disabled = true;
-    
-    fetch('contact-handler.php', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            alert('Thank you for contacting us! We will get back to you soon.');
-            form.reset();
-        } else {
-            alert('Sorry, there was an error sending your message. Please try again or contact us directly.');
-        }
-    })
-    .catch(error => {
-        alert('Sorry, there was an error sending your message. Please try again or contact us directly.');
-    })
-    .finally(() => {
+
+    // Open in a new tab so the visitor keeps the site open behind it.
+    window.open(url, '_blank');
+
+    setTimeout(() => {
         submitBtn.textContent = originalText;
         submitBtn.disabled = false;
-    });
+        form.reset();
+    }, 1500);
 }
 
 // Initialize Lightbox for Gallery
