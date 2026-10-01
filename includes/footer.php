@@ -39,6 +39,7 @@
                     <p><i class="fas fa-phone"></i> <a href="tel:9611120023">9611120023</a></p>
                     <p><i class="fas fa-phone"></i> <a href="tel:8050507333">8050507333</a></p>
                     <p><i class="fas fa-envelope"></i> <a href="mailto:info@shanvitoursandtravels.com">info@shanvitoursandtravels.com</a></p>
+                    <p><i class="fab fa-google"></i> <a href="https://share.google/1OY3BJ91d12raYjMj" target="_blank" rel="noopener">Read our Google reviews</a></p>
                 </div>
             </div>
             

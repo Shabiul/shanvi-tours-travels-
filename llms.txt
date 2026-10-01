@@ -1,0 +1,31 @@
+# Shanvi Tours & Travels
+
+> Mini bus and bus rental company in Bangalore, India, operating since 2013. Rents vehicles with a driver only (no self-drive) for corporate, wedding, school/college, pilgrimage, and outstation trips across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh.
+
+Phone / WhatsApp: +91 9611120023 (also +91 8050507333)
+Email: info@shanvitoursandtravels.com
+Address: #2472/1, 3rd Block, SMV Layout, Doddabasthihalli, Near Vijaya Hospital, Nagadevanahalli, Bangalore - 560056, Karnataka, India
+Hours: Open 24/7
+Google Business Profile: https://share.google/1OY3BJ91d12raYjMj
+
+## Fleet
+
+- Tempo Traveller — 12+1 seater, AC, GPS-tracked. Best for families, small groups, corporate pickups.
+- Mini Bus — 21+1 seater, Mercedes chassis, AC, GPS-tracked. Best for college trips, office outings, mid-size groups.
+- Bus — 33+1 seater, AC, GPS-tracked, pushback reclining seats. Best for outstation tours, large groups, pilgrimage trips.
+- Luxury Bus — 49+1 seater, AC, GPS-tracked, onboard entertainment screen. Best for weddings, school/college batches, large multi-day tours.
+
+All vehicles come with a professional, background-verified driver. Pricing depends on vehicle size, distance, and trip duration — available on request by phone or WhatsApp.
+
+## Pages
+
+- / (index.php): Home — overview, areas served, service categories, frequent destinations
+- /about.php: Company history (founded 2013 by Pradeep H.B.), mission
+- /services.php: Full service list — employee transport, corporate bus rental, wedding bus rental, school & college trips, outstation bus rental, pilgrimage & package tours
+- /fleet.php: Full fleet detail with seating capacity and features
+- /gallery.php: Real fleet photos (exterior + interior)
+- /contact.php: Contact form, phone, WhatsApp, office address, general FAQ
+
+## Service area
+
+Bangalore (all localities, including Whitefield, Electronic City, Koramangala, Indiranagar, HSR Layout, Marathahalli, Jayanagar, JP Nagar, BTM Layout, Yelahanka, Hebbal, Banashankari, Malleshwaram, Rajajinagar, Sarjapur Road, Bannerghatta Road, KR Puram, Bellandur, RT Nagar, Yeshwanthpur) plus outstation routes across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh, including Mysore, Coorg, Chikmagalur, Gokarna, Wayanad, Alleppey, Munnar, Ooty, Pondicherry, Yercaud, Tirupati, Nellore, and Hyderabad.

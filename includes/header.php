@@ -129,6 +129,7 @@ $og_image           = $site_url . '/images/img_1.jpeg';
             "geoRadius": "40000"
         },
         "sameAs": [
+            "https://share.google/1OY3BJ91d12raYjMj",
             "https://facebook.com",
             "https://instagram.com",
             "https://twitter.com",

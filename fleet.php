@@ -127,6 +127,81 @@ include 'includes/fleet-data.php';
     </div>
 </section>
 
+
+<?php
+// Fleet-specific FAQ copy — kept distinct from the general FAQ on the
+// Contact page (same Q&A duplicated across pages reads as thin content
+// to Google); feeds both the visible accordion and the schema below.
+$fleet_faqs = [
+    [
+        'q' => "What's the difference between the Tempo Traveller and the Mini Bus?",
+        'a' => 'The Tempo Traveller seats 12+1 and suits small groups and families; the Mini Bus seats 21+1 on a Mercedes chassis and fits mid-size groups like office outings or college trips that have outgrown the Tempo Traveller.',
+    ],
+    [
+        'q' => 'Are all vehicles in your fleet air-conditioned?',
+        'a' => 'Yes — the Tempo Traveller, Mini Bus, Bus, and Luxury Bus are all air-conditioned.',
+    ],
+    [
+        'q' => 'Do your buses have GPS tracking?',
+        'a' => 'Yes, every vehicle in the fleet is GPS-tracked, so you can share live location with family, colleagues, or event organizers during the trip.',
+    ],
+    [
+        'q' => 'Which vehicle should I book for a 30-person office trip?',
+        'a' => 'The 33+1 seater Bus is the closest fit for 30 people, with room to spare; the 49+1 seater Luxury Bus works if the group may grow.',
+    ],
+    [
+        'q' => 'Can I see the actual vehicle before booking?',
+        'a' => "Yes — every photo on this page and in our gallery is of our real fleet, not stock imagery, and you're welcome to view the vehicle at our SMV Layout office before confirming.",
+    ],
+];
+?>
+
+<!-- Fleet FAQ -->
+<section class="section-padding" style="background: var(--light-bg);">
+    <div class="container">
+        <div class="section-title">
+            <h2>Fleet Questions, Answered</h2>
+            <p>Common questions about choosing between our vehicles</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="faq-list">
+                    <?php foreach ($fleet_faqs as $i => $faq): ?>
+                    <div class="faq-item<?php echo $i === 0 ? ' is-open' : ''; ?>">
+                        <button class="faq-question" type="button" aria-expanded="<?php echo $i === 0 ? 'true' : 'false'; ?>">
+                            <span><?php echo htmlspecialchars($faq['q']); ?></span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p><?php echo htmlspecialchars($faq['a']); ?></p>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        <?php foreach ($fleet_faqs as $i => $faq): ?>
+        {
+            "@type": "Question",
+            "name": <?php echo json_encode($faq['q']); ?>,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": <?php echo json_encode($faq['a']); ?>
+            }
+        }<?php echo $i < count($fleet_faqs) - 1 ? ',' : ''; ?>
+        <?php endforeach; ?>
+    ]
+}
+</script>
+
 <!-- Call to Action -->
 <section class="section-padding" style="background: var(--brand-navy); color: white;">
     <div class="container text-center">
