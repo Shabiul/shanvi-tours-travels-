@@ -5,4 +5,18 @@ Disallow: /includes/
 Disallow: /cgi-bin/
 Disallow: /contact-handler.php
 
+# Explicitly allow AI answer-engine crawlers (GEO/AEO/AIEO) — already
+# covered by the wildcard group above, listed here for clarity.
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://www.shanvitoursandtravels.com/sitemap.xml
