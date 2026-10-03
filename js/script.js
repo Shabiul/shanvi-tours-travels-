@@ -88,7 +88,7 @@ function initLightbox() {
             lightbox.className = 'lightbox-overlay';
             lightbox.innerHTML = `
                 <div class="lightbox-content">
-                    <img src="${img.src}" alt="${img.alt}">
+                    <img src="${img.src}" alt="${img.alt}" title="${img.title || img.alt}">
                     <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
                 </div>
             `;

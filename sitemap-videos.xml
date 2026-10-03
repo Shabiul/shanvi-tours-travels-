@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.shanvitoursandtravels.com/images/destinations/tajmahal-poster.jpg</video:thumbnail_loc>
+      <video:title>Shanvi Tours &amp; Travels — South India Tour &amp; Luxury Bus Fleet</video:title>
+      <video:description>Cinematic aerial drone tour highlighting outstation destinations and commercial luxury coach services by Shanvi Tours &amp; Travels Bangalore.</video:description>
+      <video:content_loc>https://www.shanvitoursandtravels.com/videos/scene-w2.mp4</video:content_loc>
+      <video:publication_date>2026-10-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:duration>30</video:duration>
+      <video:tag>Bus Rental Bangalore</video:tag>
+      <video:tag>Mini Bus Hire Bangalore</video:tag>
+      <video:tag>Tempo Traveller Bangalore</video:tag>
+      <video:tag>Luxury Coach Rental</video:tag>
+      <video:uploader info="https://www.shanvitoursandtravels.com/">Shanvi Tours &amp; Travels</video:uploader>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/contact.php</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.shanvitoursandtravels.com/images/destinations/gokarna.jpg</video:thumbnail_loc>
+      <video:title>Shanvi Tours &amp; Travels — Scenic Gokarna Coast &amp; South India Tour Destinations</video:title>
+      <video:description>FPV coastal drone footage showcasing outstation beach and holiday tour routes managed by Shanvi Tours &amp; Travels Bangalore.</video:description>
+      <video:content_loc>https://www.shanvitoursandtravels.com/videos/scene-w1.mp4</video:content_loc>
+      <video:publication_date>2026-10-01</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:duration>30</video:duration>
+      <video:tag>Bangalore Outstation Bus</video:tag>
+      <video:tag>Gokarna Bus Trip</video:tag>
+      <video:tag>Tourist Bus Bangalore</video:tag>
+      <video:uploader info="https://www.shanvitoursandtravels.com/">Shanvi Tours &amp; Travels</video:uploader>
+    </video:video>
+  </url>
+</urlset>

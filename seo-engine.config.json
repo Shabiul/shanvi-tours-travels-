@@ -1,0 +1,38 @@
+{
+  "domain": "https://www.shanvitoursandtravels.com",
+  "outputDir": ".",
+  "excludePages": [
+    "index_comingsoon",
+    "contact-handler",
+    "header",
+    "footer",
+    "nav",
+    "partial",
+    "404",
+    "notfound",
+    "admin",
+    "handler",
+    "api",
+    "ajax",
+    "webhook"
+  ],
+  "authorityTerms": [
+    "Karnataka Motor Vehicles",
+    "Motor Vehicles Act",
+    "MoRTH",
+    "Central Motor Vehicles Rules",
+    "CMVR",
+    "All India Tourist Permit",
+    "AITP",
+    "Yellow Board",
+    "commercial badge",
+    "GPS-tracked",
+    "AIS-140",
+    "GST",
+    "since 2013",
+    "background-verified",
+    "licensed",
+    "insured",
+    "Bangalore"
+  ]
+}

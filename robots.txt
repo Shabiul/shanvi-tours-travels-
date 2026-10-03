@@ -1,12 +1,26 @@
+# Robots.txt for Shanvi Tours & Travels (https://www.shanvitoursandtravels.com)
+# End-to-end multi-asset indexation rules for Google Search Console and AI Engines
+
 User-agent: *
 Allow: /
-
 Disallow: /includes/
 Disallow: /cgi-bin/
 Disallow: /contact-handler.php
+Disallow: /index_comingsoon.html
 
-# Explicitly allow AI answer-engine crawlers (GEO/AEO/AIEO) — already
-# covered by the wildcard group above, listed here for clarity.
+# Googlebot specific directives (Pages, Images, Videos)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /videos/
+Allow: /
+
+# AI Answer Engines & Search Crawlers (GEO / AEO / AIEO)
 User-agent: GPTBot
 Allow: /
 
@@ -19,4 +33,14 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
+User-agent: Applebot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Multi-Asset Sitemaps for Google Search Console
 Sitemap: https://www.shanvitoursandtravels.com/sitemap.xml
+Sitemap: https://www.shanvitoursandtravels.com/sitemap-pages.xml
+Sitemap: https://www.shanvitoursandtravels.com/sitemap-images.xml
+Sitemap: https://www.shanvitoursandtravels.com/sitemap-videos.xml

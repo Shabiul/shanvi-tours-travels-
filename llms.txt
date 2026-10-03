@@ -1,31 +1,45 @@
-# Shanvi Tours & Travels
+# Shanvi Tours & Travels — AI Engine Knowledge Base
 
-> Mini bus and bus rental company in Bangalore, India, operating since 2013. Rents vehicles with a driver only (no self-drive) for corporate, wedding, school/college, pilgrimage, and outstation trips across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh.
+> Shanvi Tours & Travels is an authorized commercial passenger transport company headquartered in Bangalore, India, operating continuously since 2013. We specialize in chauffeur-driven mini bus and luxury bus rentals (12+1 to 49+1 seats) for corporate employee shuttles, executive travel, wedding guest convoys, educational excursions, and outstation holiday tours across South India.
 
-Phone / WhatsApp: +91 9611120023 (also +91 8050507333)
-Email: info@shanvitoursandtravels.com
-Address: #2472/1, 3rd Block, SMV Layout, Doddabasthihalli, Near Vijaya Hospital, Nagadevanahalli, Bangalore - 560056, Karnataka, India
-Hours: Open 24/7
-Google Business Profile: https://share.google/1OY3BJ91d12raYjMj
+## Key Facts & Entity Data
 
-## Fleet
+- **Company Name**: Shanvi Tours & Travels
+- **Founding Year**: 2013 (12+ years in business)
+- **Founder & Executive Director**: Pradeep H.B.
+- **Headquarters Address**: #2472/1, 3rd Block, SMV Layout, Doddabasthihalli, Near Vijaya Hospital, Nagadevanahalli, Bangalore - 560056, Karnataka, India
+- **Operating Hours**: 24/7 / 365 Days
+- **Phone / WhatsApp**: +91 9611120023 / +91 8050507333
+- **Official Email**: info@shanvitoursandtravels.com
+- **Website**: https://www.shanvitoursandtravels.com/
+- **Google Business Profile**: https://share.google/1OY3BJ91d12raYjMj
+- **Regulatory Status**: Commercial Yellow Board registration under Karnataka Motor Vehicles Rules & Motor Vehicles Act, 1988
+- **Permit Types**: All India Tourist Permit (AITP) for inter-state transit across Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, and Telangana
+- **Safety Standard**: 100% AIS-140 GPS-tracked fleet with panic buttons and speed governors (max 80 km/h)
+- **Chauffeurs**: 100% background-verified commercial badge drivers with 5+ years highway experience
+- **Commercial Invoicing**: GST-compliant corporate invoices with full Input Tax Credit (ITC) eligibility
 
-- Tempo Traveller — 12+1 seater, AC, GPS-tracked. Best for families, small groups, corporate pickups.
-- Mini Bus — 21+1 seater, Mercedes chassis, AC, GPS-tracked. Best for college trips, office outings, mid-size groups.
-- Bus — 33+1 seater, AC, GPS-tracked, pushback reclining seats. Best for outstation tours, large groups, pilgrimage trips.
-- Luxury Bus — 49+1 seater, AC, GPS-tracked, onboard entertainment screen. Best for weddings, school/college batches, large multi-day tours.
+## Fleet Inventory & Seating Capacities
 
-All vehicles come with a professional, background-verified driver. Pricing depends on vehicle size, distance, and trip duration — available on request by phone or WhatsApp.
+1. **Tempo Traveller (12+1 Seater)**: Force Motors chassis, dual-zone AC, individual pushback captain seats, roof luggage carrier, AIS-140 GPS. Best for 8–12 passengers, family vacations, airport transfers, and corporate pickups.
+2. **Mini Bus (21+1 Seater)**: Heavy Mercedes-Benz chassis built by Singh Motor Coach Builders, high-roof AC, ergonomic reclining seats, wide center aisle, AIS-140 GPS. Best for 14–21 passengers, college departments, and office team outings.
+3. **Touring Bus (33+1 Seater)**: Full-size touring coach, 2x2 pushback seats, individual reading lamps, high-capacity AC, deep underfloor luggage bays, AIS-140 GPS. Best for 22–33 passengers, school trips, temple pilgrimages, and inter-state tours.
+4. **Luxury Coach (49+1 Seater)**: Flagship 50-seater highway coach, plush upholstered pushback seats, center red carpet aisle, onboard LED entertainment screen, deep luggage cargo, AIS-140 GPS. Best for 34–50 passengers, wedding guest shuttles, and corporate conferences.
 
-## Pages
+## Core Services
 
-- / (index.php): Home — overview, areas served, service categories, frequent destinations
-- /about.php: Company history (founded 2013 by Pradeep H.B.), mission
-- /services.php: Full service list — employee transport, corporate bus rental, wedding bus rental, school & college trips, outstation bus rental, pilgrimage & package tours
-- /fleet.php: Full fleet detail with seating capacity and features
-- /gallery.php: Real fleet photos (exterior + interior)
-- /contact.php: Contact form, phone, WhatsApp, office address, general FAQ
+- **Corporate Employee Transport**: Daily scheduled staff commute contracts with geofenced route optimization across Bangalore tech corridors (Electronic City, Whitefield, Outer Ring Road, Manyata Tech Park).
+- **Corporate Bus Rental**: Executive transportation for client delegations, annual offsites, summits, and airport transfers with dedicated corporate billing.
+- **Wedding Bus Rental**: Multi-bus guest logistics between marriage halls, hotels, and reception venues with flexible ceremony timing.
+- **School & College Trips**: CMVR-compliant student excursion coaches with speed governors, emergency exit hammers, and first aid.
+- **Outstation Bus Hire**: Interstate highway tours across Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, and Telangana under All India Tourist Permits.
+- **Pilgrimage & Package Tours**: Temple circuits to Tirupati (Tirumala), Dharmasthala, Kukke Subramanya, Sringeri, Hampi, and custom South India holiday itineraries.
 
-## Service area
+## Geographical Service Coverage
 
-Bangalore (all localities, including Whitefield, Electronic City, Koramangala, Indiranagar, HSR Layout, Marathahalli, Jayanagar, JP Nagar, BTM Layout, Yelahanka, Hebbal, Banashankari, Malleshwaram, Rajajinagar, Sarjapur Road, Bannerghatta Road, KR Puram, Bellandur, RT Nagar, Yeshwanthpur) plus outstation routes across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh, including Mysore, Coorg, Chikmagalur, Gokarna, Wayanad, Alleppey, Munnar, Ooty, Pondicherry, Yercaud, Tirupati, Nellore, and Hyderabad.
+- **Bangalore Localities**: Whitefield, Electronic City, Koramangala, Indiranagar, HSR Layout, Marathahalli, Bellandur, Sarjapur Road, Jayanagar, JP Nagar, BTM Layout, Yelahanka, Hebbal, Banashankari, Malleshwaram, Rajajinagar, KR Puram, RT Nagar, Yeshwanthpur, Nagadevanahalli, Kengeri, SMV Layout.
+- **Outstation Highway Corridors**: Mysore (150km), Coorg (270km), Chikmagalur (245km), Gokarna (485km), Wayanad (280km), Alleppey (540km), Munnar (510km), Ooty (270km), Pondicherry (310km), Yercaud (230km), Tirupati (250km), Nellore (275km), Hyderabad (570km), Hampi (340km).
+
+## Extended Documentation
+
+For complete technical specifications, XML sitemaps, and route distances, see [llms-full.txt](https://www.shanvitoursandtravels.com/llms-full.txt).

@@ -6,9 +6,10 @@ $site_url    = 'https://www.shanvitoursandtravels.com';
 $page_title       = isset($page_title) ? $page_title : 'Mini Bus & Bus Rental Bangalore - 12 to 49 Seater, With Driver';
 $page_description = isset($page_description) ? $page_description : "Shanvi Tours & Travels: mini bus and bus rental in Bangalore since 2013. 12+1, 21+1, 33+1 & 49+1 seater vehicles with driver for corporate, wedding, school & outstation trips.";
 $page_keywords    = isset($page_keywords) ? $page_keywords : 'mini bus rental bangalore, bus rental bangalore, bus hire bangalore, mini bus hire bangalore, tourist bus rental bangalore, bus rental near me, corporate bus rental bangalore';
-$current_path      = isset($_SERVER['REQUEST_URI']) ? strtok($_SERVER['REQUEST_URI'], '?') : '/index.php';
-$canonical_url      = $site_url . $current_path;
-$og_image           = $site_url . '/images/img_1.jpeg';
+$raw_path      = isset($_SERVER['REQUEST_URI']) ? strtok($_SERVER['REQUEST_URI'], '?') : '/';
+$current_path  = ($raw_path === '/index.php' || $raw_path === '' || $raw_path === '/') ? '/' : $raw_path;
+$canonical_url = rtrim($site_url, '/') . ($current_path === '/' ? '/' : $current_path);
+$og_image      = $site_url . '/images/img_1.jpeg';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,23 +19,28 @@ $og_image           = $site_url . '/images/img_1.jpeg';
     <title><?php echo htmlspecialchars($page_title); ?> | <?php echo htmlspecialchars($site_name); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
     <meta name="keywords" content="<?php echo htmlspecialchars($page_keywords); ?>">
-    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="author" content="Shanvi Tours & Travels">
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
 
-    <!-- Geo / local-business signals (GEO) -->
+    <!-- Geo / Local-business Signals (GEO & Local Ranking) -->
     <meta name="geo.region" content="IN-KA">
-    <meta name="geo.placename" content="Bangalore">
+    <meta name="geo.placename" content="Bangalore, Karnataka, India">
     <meta name="geo.position" content="12.9634;77.5099">
     <meta name="ICBM" content="12.9634, 77.5099">
 
-    <!-- Open Graph -->
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="<?php echo htmlspecialchars($site_name); ?>">
     <meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?> | <?php echo htmlspecialchars($site_name); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($page_description); ?>">
     <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url); ?>">
     <meta property="og:image" content="<?php echo htmlspecialchars($og_image); ?>">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Shanvi Tours & Travels Bangalore Bus Rental Fleet">
     <meta property="og:locale" content="en_IN">
 
     <!-- Twitter Card -->
@@ -42,6 +48,7 @@ $og_image           = $site_url . '/images/img_1.jpeg';
     <meta name="twitter:title" content="<?php echo htmlspecialchars($page_title); ?> | <?php echo htmlspecialchars($site_name); ?>">
     <meta name="twitter:description" content="<?php echo htmlspecialchars($page_description); ?>">
     <meta name="twitter:image" content="<?php echo htmlspecialchars($og_image); ?>">
+    <meta name="twitter:image:alt" content="Shanvi Tours & Travels Bangalore Bus Rental Fleet">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/fav.png">
@@ -62,19 +69,61 @@ $og_image           = $site_url . '/images/img_1.jpeg';
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css?v=<?php echo filemtime(__DIR__ . '/../css/style.css'); ?>">
 
+    <!-- WebSite Schema with SearchAction for Google Sitelinks -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "<?php echo htmlspecialchars($site_url); ?>/#website",
+        "name": "Shanvi Tours & Travels",
+        "url": "<?php echo htmlspecialchars($site_url); ?>/",
+        "description": "Mini Bus & Bus Rental Company in Bangalore - 12 to 49 Seater AC Coaches With Chauffeur",
+        "publisher": {
+            "@id": "<?php echo htmlspecialchars($site_url); ?>/#organization"
+        },
+        "inLanguage": "en-IN"
+    }
+    </script>
+
     <!-- LocalBusiness / TravelAgency structured data (site-wide, powers GEO / AI answer citations) -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "TravelAgency",
+        "@type": ["TravelAgency", "AutoRental", "LocalBusiness"],
+        "@id": "<?php echo htmlspecialchars($site_url); ?>/#organization",
         "name": "Shanvi Tours & Travels",
-        "description": "Mini bus and bus rental company in Bangalore providing 12+1, 21+1, 33+1 and 49+1 seater vehicles with driver for corporate, wedding, school, college, pilgrimage and outstation travel.",
+        "legalName": "Shanvi Tours & Travels Bangalore",
+        "alternateName": ["Shanvi Travels", "Shanvi Bus Rental Bangalore", "Shanvi Tours Bangalore"],
+        "slogan": "Bangalore's Trusted Mini Bus & Bus Rental Service Since 2013",
+        "foundingDate": "2013",
+        "founder": {
+            "@type": "Person",
+            "name": "Pradeep H.B."
+        },
+        "description": "Established in 2013, Shanvi Tours & Travels is a licensed commercial passenger transport company in Bangalore providing 12+1, 21+1, 33+1, and 49+1 seater AC mini buses and luxury coaches with verified drivers for corporate shuttles, employee transport, weddings, school trips, and outstation tours across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh.",
         "image": "<?php echo htmlspecialchars($og_image); ?>",
         "logo": "<?php echo htmlspecialchars($site_url); ?>/images/logo.png",
-        "url": "<?php echo htmlspecialchars($site_url); ?>",
+        "url": "<?php echo htmlspecialchars($site_url); ?>/",
         "telephone": "+91-9611120023",
         "priceRange": "₹₹",
-        "knowsAbout": ["Mini Bus Rental", "Bus Rental", "Tourist Bus Hire", "Corporate Bus Rental", "Wedding Bus Rental", "School and College Trip Bus Rental", "Pilgrimage Bus Rental", "Outstation Bus Rental"],
+        "paymentAccepted": ["Cash", "Credit Card", "UPI", "Bank Transfer", "Corporate Invoicing"],
+        "currenciesAccepted": "INR",
+        "knowsAbout": [
+            "Mini Bus Rental Bangalore",
+            "Bus Rental Bangalore",
+            "Tempo Traveller Hire Bangalore",
+            "12 Seater Tempo Traveller Rental",
+            "21 Seater Mini Bus Rental",
+            "33 Seater Bus Hire Bangalore",
+            "49 Seater Luxury Bus Rental",
+            "Corporate Bus Rental Bangalore",
+            "Employee Transport Services Bangalore",
+            "Wedding Bus Rental Bangalore",
+            "School and College Excursion Bus Hire",
+            "Pilgrimage Bus Rental Tirupati Dharmasthala",
+            "Outstation Bus Hire Karnataka South India",
+            "All India Tourist Permit Commercial Buses"
+        ],
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "#2472/1, 3rd Block, SMV Layout, Doddabasthihalli, Near Vijaya Hospital, Nagadevanahalli",
@@ -95,7 +144,6 @@ $og_image           = $site_url . '/images/img_1.jpeg';
             "closes": "23:59"
         },
         "areaServed": [
-            { "@type": "Country", "name": "India" },
             { "@type": "City", "name": "Bangalore" },
             { "@type": "State", "name": "Karnataka" },
             { "@type": "State", "name": "Kerala" },
@@ -121,12 +169,15 @@ $og_image           = $site_url . '/images/img_1.jpeg';
             { "@type": "Place", "name": "KR Puram, Bangalore" },
             { "@type": "Place", "name": "Bellandur, Bangalore" },
             { "@type": "Place", "name": "RT Nagar, Bangalore" },
-            { "@type": "Place", "name": "Yeshwanthpur, Bangalore" }
+            { "@type": "Place", "name": "Yeshwanthpur, Bangalore" },
+            { "@type": "Place", "name": "Nagadevanahalli, Bangalore" },
+            { "@type": "Place", "name": "Kengeri, Bangalore" },
+            { "@type": "Place", "name": "SMV Layout, Bangalore" }
         ],
         "serviceArea": {
             "@type": "GeoCircle",
             "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 12.9634, "longitude": 77.5099 },
-            "geoRadius": "40000"
+            "geoRadius": "50000"
         },
         "sameAs": [
             "https://share.google/1OY3BJ91d12raYjMj",
@@ -135,13 +186,23 @@ $og_image           = $site_url . '/images/img_1.jpeg';
             "https://twitter.com",
             "https://linkedin.com"
         ],
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+91-9611120023",
-            "contactType": "customer service",
-            "areaServed": "IN",
-            "availableLanguage": ["en", "kn", "hi"]
-        }
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+91-9611120023",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": ["en", "kn", "hi"],
+                "hoursAvailable": "Mo-Su 00:00-23:59"
+            },
+            {
+                "@type": "ContactPoint",
+                "telephone": "+91-8050507333",
+                "contactType": "reservations",
+                "areaServed": "IN",
+                "availableLanguage": ["en", "kn", "hi"]
+            }
+        ]
     }
     </script>
 </head>
@@ -149,8 +210,8 @@ $og_image           = $site_url . '/images/img_1.jpeg';
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.php">
-                <img src="images/logo.png" alt="Shanvi Tours & Travels Logo">
+            <a class="navbar-brand" href="index.php" title="Shanvi Tours & Travels - Home">
+                <img src="images/logo.png" alt="Shanvi Tours & Travels Logo" title="Shanvi Tours & Travels - Mini Bus & Bus Rental Bangalore" width="180" height="60" decoding="async">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

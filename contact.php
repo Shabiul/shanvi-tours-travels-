@@ -1,20 +1,64 @@
 <?php
 $page_title = "Contact Us - Book a Bus Rental";
-$page_description = "Reach us 24/7 at +91 9611120023 or WhatsApp to book a mini bus or bus rental in Bangalore. Visit our SMV Layout office or send us a message online.";
-$page_keywords = "bus rental bangalore booking, mini bus rental near me, bus rental phone number, shanvi tours contact, whatsapp bus booking bangalore";
+$page_description = "Contact Shanvi Tours & Travels Bangalore 24/7 at +91-9611120023 or WhatsApp. Instant quotes for 12+1 to 49+1 seater mini bus & bus rentals. SMV Layout office.";
+$page_keywords = "bus rental bangalore booking, mini bus rental near me, bus rental phone number, shanvi tours contact, whatsapp bus booking bangalore, bus booking nagadevanahalli, bus hire kengeri bangalore";
 include 'includes/header.php';
 ?>
 
 <!-- Page Header -->
 <section class="hero-section">
     <div class="carousel-item active">
-        <video autoplay muted loop playsinline poster="images/destinations/gokarna.jpg" aria-label="Cinematic FPV drone footage over a tropical beach cove">
+        <video autoplay muted loop playsinline poster="images/destinations/gokarna.jpg" aria-label="Cinematic FPV drone footage over a tropical beach cove and South India travel route">
             <source src="videos/scene-w1.mp4" type="video/mp4">
         </video>
         <div class="carousel-overlay">
             <div class="hero-content">
-                <h1>Contact Us</h1>
-                <p>We're here to help you plan your journey</p>
+                <h1>Contact Shanvi Tours &amp; Travels</h1>
+                <p>24/7 Reservations, Transparent Quotes &amp; Dispatch Support in Bangalore</p>
+                <div class="d-flex justify-content-center gap-3 flex-wrap mt-3">
+                    <a href="tel:9611120023" class="btn-hero"><i class="fas fa-phone-alt me-1"></i> Call 9611120023</a>
+                    <a href="https://wa.me/919611120023" target="_blank" class="btn-hero-outline"><i class="fab fa-whatsapp me-1"></i> WhatsApp Booking</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VideoObject Schema for Contact Page Video -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Shanvi Tours & Travels — Scenic Gokarna Coast & South India Tour Destinations",
+    "description": "FPV coastal drone footage showcasing outstation beach and holiday tour routes managed by Shanvi Tours & Travels Bangalore.",
+    "thumbnailUrl": "https://www.shanvitoursandtravels.com/images/destinations/gokarna.jpg",
+    "uploadDate": "2026-10-01T08:00:00+05:30",
+    "duration": "PT30S",
+    "contentUrl": "https://www.shanvitoursandtravels.com/videos/scene-w1.mp4",
+    "publisher": {
+        "@type": "TravelAgency",
+        "name": "Shanvi Tours & Travels",
+        "logo": "https://www.shanvitoursandtravels.com/images/logo.png"
+    }
+}
+</script>
+
+<!-- Princeton GEO & AEO Quick Contact Block -->
+<section style="background: #ffffff; border-bottom: 1px solid var(--border-subtle); padding: 2rem 0;">
+    <div class="container">
+        <div style="background: linear-gradient(135deg, rgba(230, 81, 0, 0.05) 0%, rgba(13, 27, 42, 0.03) 100%); border-left: 4px solid var(--primary-color); border-radius: 8px; padding: 1.5rem 1.8rem; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.6rem;">
+                <i class="fas fa-headset" style="color: var(--primary-color); font-size: 1.25rem;"></i>
+                <h2 style="font-size: 1.15rem; margin: 0; font-weight: 700; color: var(--brand-navy); text-transform: uppercase; letter-spacing: 0.5px;">Direct Booking &amp; 24/7 Dispatch Desk</h2>
+            </div>
+            <p style="font-size: 1.05rem; line-height: 1.75; margin-bottom: 0.75rem; color: #2d3748;">
+                To book a <strong>12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Touring Bus, or 49+1 Luxury Bus</strong> in Bangalore, contact Shanvi Tours &amp; Travels directly. We provide immediate vehicle availability checks and fixed quotes. Our administrative dispatch office is located at <strong>#2472/1, 3rd Block, SMV Layout, Doddabasthihalli, Near Vijaya Hospital, Nagadevanahalli, Bangalore - 560056</strong> (accessible via Mysore Road, Kengeri, and Nagadevanahalli Main Road). Phone support is live 24/7/365 at <strong>+91 9611120023</strong> and <strong>+91 8050507333</strong>.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.88rem; color: #4a5568; font-weight: 600;">
+                <span><i class="fas fa-clock" style="color: #2e7d32;"></i> Operating Hours: 24/7 (Mon - Sun)</span>
+                <span><i class="fas fa-phone-volume" style="color: #2e7d32;"></i> Primary: +91 9611120023</span>
+                <span><i class="fas fa-mobile-alt" style="color: #2e7d32;"></i> Secondary: +91 8050507333</span>
+                <span><i class="fas fa-envelope" style="color: #2e7d32;"></i> info@shanvitoursandtravels.com</span>
             </div>
         </div>
     </div>
@@ -24,28 +68,27 @@ include 'includes/header.php';
 <section class="section-padding contact-section">
     <div class="container">
         <div class="section-title">
-            <h2>Get in Touch</h2>
-            <p>Reach out to us for bookings, inquiries, or any assistance</p>
+            <span class="eyebrow">Get in Touch</span>
+            <h2>Reach Out for Inquiries &amp; Reservations</h2>
+            <p>Speak directly with our Bangalore dispatch team for competitive, transparent quotes</p>
         </div>
         
         <div class="contact-content">
             <!-- Contact Information -->
             <div class="contact-info">
-                <h3>Contact Information</h3>
-                <p style="margin-bottom: 2rem;">Feel free to reach out to us through any of the following channels. We're available 24/7 to assist you with your travel needs.</p>
+                <h3>Office Location &amp; Hotlines</h3>
+                <p style="margin-bottom: 2rem; line-height: 1.7;">Connect with us through any channel below. Our team is stationed 24/7 to provide instant itinerary estimates, vehicle availability confirmations, and driver dispatch details.</p>
                 
                 <div class="info-item">
                     <div class="info-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <div class="info-text">
-                        <h5>Our Address</h5>
+                        <h5>Our Bangalore Address</h5>
                         <p>
                             #2472/1, 3rd Block, SMV Layout,<br>
-                            Doddabasthihalli,<br>
-                            Near Vijaya Hospital,<br>
-                            Nagadevanahalli,<br>
-                            Bangalore - 560056<br>
+                            Doddabasthihalli, Near Vijaya Hospital,<br>
+                            Nagadevanahalli, Bangalore - 560056,<br>
                             Karnataka, India
                         </p>
                     </div>
@@ -56,12 +99,12 @@ include 'includes/header.php';
                         <i class="fas fa-phone"></i>
                     </div>
                     <div class="info-text">
-                        <h5>Phone Numbers</h5>
+                        <h5>Direct Phone Lines</h5>
                         <p>
-                            <a href="tel:9611120023">+91 9611120023</a><br>
-                            <a href="tel:8050507333">+91 8050507333</a>
+                            <a href="tel:9611120023">+91 9611120023</a> (Primary)<br>
+                            <a href="tel:8050507333">+91 8050507333</a> (Reservations)
                         </p>
-                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Available 24/7 for bookings and support</p>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem; color: #64748b;">Available 24 hours daily for urgent departures and schedule revisions</p>
                     </div>
                 </div>
                 
@@ -70,11 +113,11 @@ include 'includes/header.php';
                         <i class="fas fa-envelope"></i>
                     </div>
                     <div class="info-text">
-                        <h5>Email</h5>
+                        <h5>Official Email</h5>
                         <p>
                             <a href="mailto:info@shanvitoursandtravels.com">info@shanvitoursandtravels.com</a>
                         </p>
-                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">We'll respond within 24 hours</p>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem; color: #64748b;">Corporate RFP proposals and billing enquiries handled within 12 hours</p>
                     </div>
                 </div>
                 
@@ -83,11 +126,11 @@ include 'includes/header.php';
                         <i class="fab fa-whatsapp"></i>
                     </div>
                     <div class="info-text">
-                        <h5>WhatsApp</h5>
+                        <h5>WhatsApp Chat</h5>
                         <p>
-                            <a href="https://wa.me/919611120023" target="_blank">Chat with us on WhatsApp</a>
+                            <a href="https://wa.me/919611120023" target="_blank">Chat with our fleet desk on WhatsApp</a>
                         </p>
-                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Quick bookings and instant replies</p>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem; color: #64748b;">Instant replies with vehicle photos, seating layouts, and rates</p>
                     </div>
                 </div>
                 
@@ -96,10 +139,10 @@ include 'includes/header.php';
                         <i class="fas fa-clock"></i>
                     </div>
                     <div class="info-text">
-                        <h5>Office Hours</h5>
+                        <h5>Operating Hours</h5>
                         <p>
-                            Monday - Sunday: 24/7<br>
-                            We're always available for your convenience
+                            Monday &ndash; Sunday: Open 24/7<br>
+                            Always ready for planned tours and emergency bookings
                         </p>
                     </div>
                 </div>
@@ -107,12 +150,11 @@ include 'includes/header.php';
             
             <!-- Contact Form -->
             <div class="contact-form">
-                <h3>Send us a Message</h3>
-                <p style="margin-bottom: 2rem;">Fill in the form and hit send — it opens WhatsApp with your enquiry ready to send to our team. We reply fast, 24/7.</p>
+                <h3>Send Us an Inquiry</h3>
+                <p style="margin-bottom: 2rem; line-height: 1.7;">Fill out your trip details below. Clicking send immediately formats your requirement into a pre-filled WhatsApp message sent straight to our booking manager.</p>
                 
                 <form onsubmit="submitForm(event)" method="POST">
-                    <!-- Honeypot: hidden from real visitors via CSS, invisible to screen readers.
-                         Bots that auto-fill every field trip this; contact-handler.php checks it. -->
+                    <!-- Honeypot -->
                     <div style="position: absolute; left: -9999px; top: -9999px;" aria-hidden="true">
                         <label for="website">Website</label>
                         <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
@@ -130,29 +172,32 @@ include 'includes/header.php';
                     
                     <div class="form-group">
                         <label for="phone">Phone Number *</label>
-                        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                        <input type="tel" id="phone" name="phone" required placeholder="Enter your mobile number">
                     </div>
                     
                     <div class="form-group">
                         <label for="service">Service Interested In</label>
                         <select id="service" name="service" style="width: 100%; padding: 12px 20px; border: 2px solid #e0e0e0; border-radius: 10px; font-family: 'Manrope', sans-serif;">
-                            <option value="">Select a service</option>
-                            <option value="Employee Transport">Employee Transport</option>
-                            <option value="Corporate Bus Rental">Corporate Bus Rental</option>
-                            <option value="Wedding Bus Rental">Wedding Bus Rental</option>
-                            <option value="School/College Trip">School / College Trip</option>
-                            <option value="Outstation">Outstation Bus Rental</option>
-                            <option value="Package Tours">Pilgrimage &amp; Package Tours</option>
-                            <option value="Other">Other</option>
+                            <option value="">Select a service category</option>
+                            <option value="12+1 Tempo Traveller">12+1 Seater Tempo Traveller</option>
+                            <option value="21+1 Mini Bus">21+1 Seater Mini Bus</option>
+                            <option value="33+1 Touring Bus">33+1 Seater Touring Bus</option>
+                            <option value="49+1 Luxury Bus">49+1 Seater Luxury Bus</option>
+                            <option value="Employee Transport">Corporate Employee Transport</option>
+                            <option value="Wedding Bus Rental">Wedding Guest Transport</option>
+                            <option value="School/College Trip">School / College Excursion</option>
+                            <option value="Outstation Tour">Outstation Vacation Tour</option>
+                            <option value="Pilgrimage Tour">Pilgrimage &amp; Temple Circuit</option>
+                            <option value="Other">Other Requirement</option>
                         </select>
                     </div>
                     
                     <div class="form-group">
-                        <label for="message">Your Message *</label>
-                        <textarea id="message" name="message" required placeholder="Tell us about your requirements..."></textarea>
+                        <label for="message">Your Requirements *</label>
+                        <textarea id="message" name="message" required placeholder="Provide dates, passenger count, pickup locality, and destination..."></textarea>
                     </div>
                     
-                    <button type="submit" class="btn-submit"><i class="fab fa-whatsapp"></i> Send via WhatsApp</button>
+                    <button type="submit" class="btn-submit"><i class="fab fa-whatsapp"></i> Send via WhatsApp (Instant Reply)</button>
                 </form>
             </div>
         </div>
@@ -163,8 +208,9 @@ include 'includes/header.php';
 <section class="section-padding" style="background: white; padding-top: 0;">
     <div class="container">
         <div class="section-title">
-            <h2>Find Us on Map</h2>
-            <p>Visit our office in Bangalore</p>
+            <span class="eyebrow">Location Map</span>
+            <h2>Find Our Office in Bangalore</h2>
+            <p>Visit our facility in Nagadevanahalli, SMV Layout to inspect vehicles or discuss corporate contracts</p>
         </div>
         <div style="border-radius: 20px; overflow: hidden; box-shadow: var(--shadow);">
             <iframe
@@ -174,7 +220,8 @@ include 'includes/header.php';
                 style="border:0;" 
                 allowfullscreen="" 
                 loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Shanvi Tours and Travels Office Location Bangalore">
             </iframe>
         </div>
     </div>
@@ -184,31 +231,32 @@ include 'includes/header.php';
 <section class="section-padding" style="background: var(--light-bg);">
     <div class="container">
         <div class="section-title">
+            <span class="eyebrow">Immediate Action</span>
             <h2>Quick Contact Options</h2>
-            <p>Choose the most convenient way to reach us</p>
+            <p>Choose the fastest channel to reserve your vehicle</p>
         </div>
         <div class="row g-4">
             <div class="col-md-4">
                 <div class="service-card text-center">
                     <div class="service-icon" style="margin: 0 auto 20px;"><i class="fas fa-phone-alt"></i></div>
-                    <h3>Call Us Now</h3>
-                    <p>Speak directly with our team for immediate assistance and bookings.</p>
-                    <a href="tel:9611120023" class="btn-hero" style="margin-top: 1rem;">9611120023</a>
+                    <h3>Call Us Directly</h3>
+                    <p>Immediate vehicle confirmation with our senior dispatch coordinator.</p>
+                    <a href="tel:9611120023" class="btn-hero" style="margin-top: 1rem;">Call 9611120023</a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service-card text-center">
                     <div class="service-icon" style="margin: 0 auto 20px;"><i class="fab fa-whatsapp"></i></div>
-                    <h3>WhatsApp Chat</h3>
-                    <p>Quick and convenient messaging for bookings and inquiries.</p>
-                    <a href="https://wa.me/919611120023" target="_blank" class="btn-hero" style="margin-top: 1rem;">Start Chat</a>
+                    <h3>WhatsApp Booking</h3>
+                    <p>Get vehicle exterior and interior photos, rate cards, and location pins instantly.</p>
+                    <a href="https://wa.me/919611120023" target="_blank" class="btn-hero" style="margin-top: 1rem;">Start WhatsApp Chat</a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service-card text-center">
                     <div class="service-icon" style="margin: 0 auto 20px;"><i class="fas fa-envelope"></i></div>
-                    <h3>Email Us</h3>
-                    <p>Send detailed inquiries and we'll respond within 24 hours.</p>
+                    <h3>Corporate Email</h3>
+                    <p>Submit formal RFPs, vendor onboarding packages, and monthly shuttle requirements.</p>
                     <a href="mailto:info@shanvitoursandtravels.com" class="btn-hero" style="margin-top: 1rem;">Send Email</a>
                 </div>
             </div>
@@ -217,48 +265,46 @@ include 'includes/header.php';
 </section>
 
 <?php
-// Single source of truth for the FAQ copy — feeds both the visible accordion
-// and the FAQPage structured data below, so the two can never drift apart.
 $faqs = [
     [
-        'q' => 'Where can I rent a mini bus in Bangalore?',
-        'a' => "Shanvi Tours & Travels rents mini buses and buses directly, based out of SMV Layout, Nagadevanahalli, Bangalore. Book by phone, WhatsApp, or the form on this page — we're available 24/7."
+        'q' => 'Where can I rent a mini bus or bus in Bangalore?',
+        'a' => "Shanvi Tours & Travels rents commercial mini buses and luxury buses directly from our facility at #2472/1, 3rd Block, SMV Layout, Nagadevanahalli, Bangalore. You can book 24/7 by calling +91 9611120023, via WhatsApp, or through our online inquiry desk."
     ],
     [
-        'q' => 'Which bus is suitable for my group size?',
-        'a' => 'We run four sizes: a 12+1 seater Tempo Traveller for small groups and families, a 21+1 seater Mini Bus for mid-size groups, a 33+1 seater Bus for larger groups, and a 49+1 seater Luxury Bus for the biggest events. Tell us your headcount and we\'ll recommend the right one.'
+        'q' => 'Which bus size is most suitable for my group headcount?',
+        'a' => 'We operate four standardized capacities: 12+1 Seater Tempo Traveller (best for 8-12 passengers), 21+1 Seater Mini Bus (best for 14-21 passengers), 33+1 Seater Touring Bus (best for 22-33 passengers), and 49+1 Seater Luxury Bus (best for 34-50 passengers). Let us know your passenger headcount and we will deploy the exact fit.'
     ],
     [
-        'q' => 'Can I rent a bus with a driver in Bangalore?',
-        'a' => 'Yes — every vehicle comes with a professional, background-verified driver. We don\'t offer self-drive rentals.'
+        'q' => 'Are professional commercial drivers provided with all rentals?',
+        'a' => 'Yes. Every booking includes a licensed, background-verified chauffeur with at least 5 years commercial highway driving experience. We operate exclusively with drivers and do not offer self-drive rentals.'
     ],
     [
-        'q' => 'How much does a mini bus or bus rental cost in Bangalore?',
-        'a' => 'Pricing depends on the vehicle size, trip distance, and duration — local, outstation, and multi-day trips are priced differently. Call or WhatsApp us with your route and group size for an exact quote.'
+        'q' => 'How are bus rental prices calculated in Bangalore?',
+        'a' => 'Pricing is determined by vehicle seating capacity, trip type (local 8hr/80km packages vs outstation per-km calculation), toll fees, and driver daily allowance (bata). We provide fully itemized quotes with zero hidden surprises at drop-off.'
     ],
     [
-        'q' => 'Do you provide AC mini buses and buses?',
-        'a' => 'Yes, all four vehicles in our fleet are air-conditioned.'
+        'q' => 'Do all vehicles have operational air conditioning and GPS tracking?',
+        'a' => 'Yes. 100% of our fleet (12+1, 21+1, 33+1, 49+1) is equipped with dual-zone climate-controlled air conditioning and government-certified AIS-140 GPS telematics with emergency SOS buttons.'
     ],
     [
-        'q' => 'Do you provide buses for weddings, corporate events, or school/college trips?',
-        'a' => 'Yes — weddings, corporate travel, school and college trips, and pilgrimage tours are some of our most common bookings. See our Services page for what each vehicle size is best suited to.'
+        'q' => 'Do you handle wedding guest transportation and corporate event logistics?',
+        'a' => 'Yes. Wedding guest shuttles, corporate team offsites, conference transfers, and pilgrimage tours represent our primary daily operations. We coordinate multi-bus convoys and continuous shuttle loops.'
     ],
     [
-        'q' => 'Which destinations do you cover from Bangalore?',
-        'a' => 'We run outstation trips across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh — including popular routes like Mysore, Coorg, Ooty, Wayanad, Hampi, and Tirupati.'
+        'q' => 'Which outstation holiday and pilgrimage routes do you cover?',
+        'a' => 'We cover all highway routes across Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, and Telangana under All India Tourist Permits (AITP), including Mysore, Coorg, Ooty, Wayanad, Munnar, Gokarna, Hampi, Tirupati, and Hyderabad.'
     ],
     [
-        'q' => 'Do you provide one-way or round-trip bus rental?',
-        'a' => 'Both. Outstation bookings can be one-way or round-trip, priced on a per-km or per-day basis depending on the route.'
+        'q' => 'Can we book one-way drops as well as round trips?',
+        'a' => 'Yes. Both one-way inter-city drops and multi-day round-trip tours are available with transparent per-km or fixed package pricing.'
     ],
     [
-        'q' => 'What is your cancellation policy?',
-        'a' => 'Cancellations made 24 hours before the scheduled pickup time are free of charge. Cancellations within 24 hours may incur a small fee. Please contact us for specific details.'
+        'q' => 'What is your cancellation and refund policy?',
+        'a' => 'Cancellations notified at least 24 hours prior to the scheduled pickup time are processed free of charge. Cancellations within 24 hours may incur a nominal mobilization fee. Please consult dispatch for holiday peak terms.'
     ],
     [
-        'q' => 'What payment methods do you accept?',
-        'a' => 'We accept cash, UPI, bank transfers, credit/debit cards, and digital wallets. For corporate clients, we offer invoice-based billing with flexible payment terms.'
+        'q' => 'What payment methods and invoicing options do you provide?',
+        'a' => 'We accept UPI, cash, bank NEFT/RTGS transfers, and credit/debit cards. For corporate clients, we provide itemized GST tax invoices compliant with Input Tax Credit (ITC) regulations.'
     ],
 ];
 ?>
@@ -267,8 +313,9 @@ $faqs = [
 <section class="section-padding">
     <div class="container">
         <div class="section-title">
+            <span class="eyebrow">Help &amp; Support</span>
             <h2>Frequently Asked Questions</h2>
-            <p>Quick answers to common questions</p>
+            <p>Everything you need to know about booking, payments, and fleet amenities</p>
         </div>
         <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -290,7 +337,7 @@ $faqs = [
     </div>
 </section>
 
-<!-- FAQPage structured data: lets AI answer engines (Google AI Overviews, ChatGPT, Perplexity) and rich results quote these answers directly -->
+<!-- FAQPage structured data -->
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
@@ -309,5 +356,42 @@ $faqs = [
     ]
 }
 </script>
+
+<!-- ContactPage Schema -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Shanvi Tours & Travels",
+    "description": "24/7 contact phone numbers, office location map, WhatsApp chat, and booking request form for bus hire in Bangalore.",
+    "url": "https://www.shanvitoursandtravels.com/contact.php",
+    "mainEntity": {
+        "@type": "TravelAgency",
+        "name": "Shanvi Tours & Travels",
+        "telephone": "+91-9611120023",
+        "email": "info@shanvitoursandtravels.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "#2472/1, 3rd Block, SMV Layout, Doddabasthihalli, Nagadevanahalli",
+            "addressLocality": "Bangalore",
+            "addressRegion": "Karnataka",
+            "postalCode": "560056",
+            "addressCountry": "IN"
+        }
+    }
+}
+</script>
+
+<!-- Static Semantic Noscript Layer for Image & Search Engine Crawlers -->
+<noscript>
+    <div style="padding: 2rem; background: #fff; color: #111;">
+        <h2>Shanvi Tours &amp; Travels — 24/7 Bus Rental Booking &amp; Dispatch Desk</h2>
+        <p>Book 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus, and 49+1 Luxury Bus in Bangalore. Contact +91 9611120023.</p>
+        <img src="images/logo.png" alt="Shanvi Tours &amp; Travels Logo" title="Shanvi Tours &amp; Travels - Mini Bus &amp; Bus Rental Bangalore" width="180" height="60" loading="lazy" decoding="async">
+        <img src="images/destinations/gokarna.jpg" alt="Om Beach in Gokarna Karnataka - Outstation Tour Route" title="Outstation Holiday Route - Gokarna Coastal Tour" width="600" height="400" loading="lazy" decoding="async">
+        <img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 Seater Tempo Traveller Bangalore Exterior" title="12+1 Seater Tempo Traveller Bangalore Exterior" width="600" height="400" loading="lazy" decoding="async">
+        <img src="images/fleet/mini-bus-exterior.jpg" alt="21+1 Seater Mercedes Mini Bus Bangalore" title="21+1 Seater Mercedes Mini Bus Bangalore" width="600" height="400" loading="lazy" decoding="async">
+    </div>
+</noscript>
 
 <?php include 'includes/footer.php'; ?>
