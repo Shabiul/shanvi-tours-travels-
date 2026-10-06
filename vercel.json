@@ -8,7 +8,9 @@
     { "src": "videos/**", "use": "@vercel/static" },
     { "src": "robots.txt", "use": "@vercel/static" },
     { "src": "sitemap*.xml", "use": "@vercel/static" },
-    { "src": "llms*.txt", "use": "@vercel/static" }
+    { "src": "llms*.txt", "use": "@vercel/static" },
+    { "src": "*.txt", "use": "@vercel/static" },
+    { "src": "*.html", "use": "@vercel/static" }
   ],
   "headers": [
     {

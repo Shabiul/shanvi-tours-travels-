@@ -34,3 +34,7 @@ package-lock.json
 WhatsApp Image *.jpeg
 WhatsApp Image *.jpg
 WhatsApp Video *.mp4
+.env*
+*service-account*.json
+*gsc-key*.json
+credentials.json
