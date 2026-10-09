@@ -3,8 +3,14 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>About Shanvi Tours</h4>
-                    <p>Bangalore-based mini bus and bus rental company — a 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus, and 49+1 Luxury Bus, with drivers, for corporate, wedding, school, pilgrimage, and outstation trips.</p>
+                    <h4>About Shanvi Tours &amp; Travels Bangalore</h4>
+                    <p>Bangalore-based commercial passenger fleet operator founded in 2013 by Pradeep H.B. — 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus, and 49+1 Luxury Bus with verified drivers. 100% Yellow-Board registered under Karnataka Motor Vehicles Rules.</p>
+                    <div style="margin: 0.85rem 0;">
+                        <a href="https://maps.app.goo.gl/xzitq4A2wqQ5V18X7" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); border-radius: 50px; padding: 6px 14px; text-decoration: none; color: #ffffff; font-size: 0.85rem;" title="View Shanvi Tours &amp; Travels 5.0 Google Rating">
+                            <i class="fab fa-google" style="color: #4285F4;"></i>
+                            <span><strong style="color: #fbbc04;">★★★★★ 5.0</strong> (25 Google Reviews)</span>
+                        </a>
+                    </div>
                     <div class="social-links">
                         <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
@@ -18,7 +24,7 @@
                     <a href="index.php">Home</a>
                     <a href="about.php">About Us</a>
                     <a href="services.php">Our Services</a>
-                    <a href="fleet.php">Our Fleet</a>
+                    <a href="fleet.php">Our Fleet &amp; Tariffs</a>
                     <a href="gallery.php">Gallery</a>
                     <a href="contact.php">Contact</a>
                 </div>
@@ -44,7 +50,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?> Shanvi Tours & Travels. All Rights Reserved.</p>
+                <p>&copy; <?php echo date('Y'); ?> Shanvi Tours &amp; Travels Bangalore (Registered Commercial Passenger Transport, Karnataka). All Rights Reserved.</p>
                 <p style="font-size: 0.75rem; opacity: 0.6; margin-top: 0.4rem;">Home page photo credits: mountain sunrise by LiteraryDP, Pondicherry sea sunrise by Mkamath1976 &mdash; Wikimedia Commons (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">CC BY-SA</a>)</p>
             </div>
         </div>
@@ -70,7 +76,7 @@
         'index.php'    => 'Home',
         'about.php'    => 'About Us',
         'services.php' => 'Our Services',
-        'fleet.php'    => 'Our Fleet',
+        'fleet.php'    => 'Our Fleet & Tariffs',
         'gallery.php'  => 'Gallery',
         'contact.php'  => 'Contact',
     ];

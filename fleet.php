@@ -1,7 +1,7 @@
 <?php
-$page_title = "Our Fleet - Tempo Traveller & Buses";
-$page_description = "Browse 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus & 49+1 Luxury Bus in Bangalore. Pushback AC seats, GPS-tracked with verified driver. Call 9611120023.";
-$page_keywords = "mini bus rental bangalore, bus hire bangalore, 12 seater mini bus rental bangalore, 21 seater mini bus rental bangalore, 33 seater bus rental bangalore, 49 seater bus rental bangalore, mini bus with driver bangalore, bus rental near me, tempo traveller rental bangalore, 50 seater luxury bus bangalore";
+$page_title = "Fleet & Rental Tariffs - Tempo Traveller & Buses Bangalore | Shanvi Tours & Travels";
+$page_description = "Transparent Bangalore bus rental tariffs: 12+1 Tempo Traveller from ₹2,800, 21+1 Mini Bus from ₹4,500, 33+1 Bus & 49+1 Luxury Wedding Coach with verified driver. Call 9611120023.";
+$page_keywords = "mini bus rental bangalore, bus hire bangalore, 12 seater mini bus rental bangalore, 21 seater mini bus rental bangalore, 33 seater bus rental bangalore, 49 seater bus rental bangalore, mini bus with driver bangalore, bus rental near me, tempo traveller rental bangalore, 50 seater luxury bus bangalore, tempo traveller price bangalore, bus rental cost bangalore";
 $no_hero = true;
 include 'includes/header.php';
 include 'includes/fleet-data.php';
@@ -55,12 +55,22 @@ include 'includes/fleet-data.php';
                     </div>
                     <?php endif; ?>
                     <p style="font-size: 1rem; line-height: 1.7;"><?php echo htmlspecialchars($v['desc']); ?></p>
-                    <div style="margin: 0.75rem 0; padding: 0.5rem 0; border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); font-size: 0.92rem; color: #4a5568;">
+                    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.65rem 0.85rem; margin: 0.75rem 0; font-size: 0.92rem;">
+                        <div class="d-flex justify-content-between align-items-center mb-1">
+                            <span style="color: #64748b; font-weight: 600;">City (8hr / 80km):</span>
+                            <strong style="color: var(--brand-navy);"><?php echo htmlspecialchars($v['price_local']); ?></strong>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span style="color: #64748b; font-weight: 600;">Outstation:</span>
+                            <strong style="color: #16a34a;"><?php echo htmlspecialchars($v['price_outstation']); ?> + bata <?php echo htmlspecialchars($v['price_bata']); ?></strong>
+                        </div>
+                    </div>
+                    <div style="margin: 0.5rem 0; padding: 0.4rem 0; border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); font-size: 0.88rem; color: #4a5568;">
                         <strong>Plate:</strong> <?php echo htmlspecialchars($v['plate']); ?> | <strong>Permit:</strong> All India Tourist Permit (AITP)
                     </div>
                     <p style="color: var(--primary-color); font-weight: 600; margin-top: 0.5rem;"><?php echo htmlspecialchars($v['ideal']); ?></p>
                     <div class="d-flex gap-2 mt-3">
-                        <a href="contact.php" class="btn-price">Price on Request</a>
+                        <a href="contact.php" class="btn-hero" style="padding: 0.5rem 1.2rem; font-size: 0.92rem;">Book Vehicle</a>
                         <a href="gallery.php" class="btn-hero-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View All Photos</a>
                     </div>
                 </div>
@@ -91,9 +101,16 @@ include 'includes/fleet-data.php';
                 "vehicleConfiguration": <?php echo json_encode($v['seats']); ?>,
                 "driveWheelConfiguration": "AllWheelDriveConfiguration",
                 "fuelType": "Diesel",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": <?php echo json_encode(preg_replace('/[^0-9]/', '', explode('(', $v['price_local'])[0])); ?>,
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://www.shanvitoursandtravels.com/fleet.php"
+                },
                 "provider": {
                     "@type": "TravelAgency",
-                    "name": "Shanvi Tours & Travels",
+                    "name": "Shanvi Tours & Travels Bangalore",
                     "telephone": "+91-9611120023",
                     "url": "https://www.shanvitoursandtravels.com/"
                 }
@@ -103,6 +120,73 @@ include 'includes/fleet-data.php';
     ]
 }
 </script>
+
+<!-- Comprehensive Bangalore Commercial Fleet Tariffs (AEO & Featured Snippet Table) -->
+<section class="section-padding" style="background: #ffffff; border-top: 1px solid var(--border-subtle);">
+    <div class="container">
+        <div class="section-title">
+            <span class="eyebrow">Transparent Pricing</span>
+            <h2>Bangalore Bus &amp; Tempo Traveller Rental Tariff Card</h2>
+            <p>Clear, all-inclusive base pricing with zero hidden surcharges for local and outstation travel</p>
+        </div>
+        <div class="table-responsive" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); border: 1px solid #e2e8f0;">
+            <table class="table table-hover align-middle mb-0" style="font-size: 0.96rem;">
+                <thead style="background: var(--brand-navy); color: #ffffff;">
+                    <tr>
+                        <th style="padding: 1rem;">Vehicle Class</th>
+                        <th style="padding: 1rem;">Seating</th>
+                        <th style="padding: 1rem;">Local City Package (8 Hr / 80 Km)</th>
+                        <th style="padding: 1rem;">Extra Km / Hr</th>
+                        <th style="padding: 1rem;">Outstation Rate / Km</th>
+                        <th style="padding: 1rem;">Driver Daily Bata</th>
+                        <th style="padding: 1rem;">Instant Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 1rem; font-weight: 700;"><strong>Force Tempo Traveller</strong></td>
+                        <td style="padding: 1rem;"><span class="badge bg-primary">12+1 Seater</span></td>
+                        <td style="padding: 1rem; font-weight: 700; color: #16a34a;">₹2,800</td>
+                        <td style="padding: 1rem;">₹20/km | ₹250/hr</td>
+                        <td style="padding: 1rem; font-weight: 700;">₹24 &ndash; ₹26 / km</td>
+                        <td style="padding: 1rem;">₹500 / day</td>
+                        <td style="padding: 1rem;"><a href="contact.php" class="btn btn-sm btn-outline-primary">Book Now</a></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 1rem; font-weight: 700;"><strong>Mercedes Mini Bus</strong></td>
+                        <td style="padding: 1rem;"><span class="badge bg-primary">21+1 Seater</span></td>
+                        <td style="padding: 1rem; font-weight: 700; color: #16a34a;">₹4,500</td>
+                        <td style="padding: 1rem;">₹26/km | ₹350/hr</td>
+                        <td style="padding: 1rem; font-weight: 700;">₹32 &ndash; ₹36 / km</td>
+                        <td style="padding: 1rem;">₹600 / day</td>
+                        <td style="padding: 1rem;"><a href="contact.php" class="btn btn-sm btn-outline-primary">Book Now</a></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 1rem; font-weight: 700;"><strong>Touring Coach</strong></td>
+                        <td style="padding: 1rem;"><span class="badge bg-primary">33+1 Seater</span></td>
+                        <td style="padding: 1rem; font-weight: 700; color: #16a34a;">₹6,500</td>
+                        <td style="padding: 1rem;">₹35/km | ₹450/hr</td>
+                        <td style="padding: 1rem; font-weight: 700;">₹42 &ndash; ₹46 / km</td>
+                        <td style="padding: 1rem;">₹700 / day</td>
+                        <td style="padding: 1rem;"><a href="contact.php" class="btn btn-sm btn-outline-primary">Book Now</a></td>
+                    </tr>
+                    <tr style="background: rgba(242, 169, 59, 0.08);">
+                        <td style="padding: 1rem; font-weight: 700;"><strong>Luxury Wedding Coach</strong> (Red Carpet)</td>
+                        <td style="padding: 1rem;"><span class="badge bg-warning text-dark">49+1 Seater</span></td>
+                        <td style="padding: 1rem; font-weight: 700; color: #16a34a;">₹8,500</td>
+                        <td style="padding: 1rem;">₹45/km | ₹550/hr</td>
+                        <td style="padding: 1rem; font-weight: 700;">₹50 &ndash; ₹58 / km</td>
+                        <td style="padding: 1rem;">₹800 / day</td>
+                        <td style="padding: 1rem;"><a href="contact.php" class="btn btn-sm btn-warning text-dark font-weight-bold">Reserve Coach</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p style="margin-top: 1rem; font-size: 0.88rem; color: #64748b;">
+            * Rates include commercial Yellow Board vehicle, high-capacity dual AC, AIS-140 GPS telematics, and licensed verified chauffeur. Toll charges, state passenger entry taxes, and parking fees are charged at actuals with GST input credit invoices. Minimum outstation calendar day billing is 300 km.
+        </p>
+    </div>
+</section>
 
 <!-- Features & Amenities -->
 <section class="section-padding" style="background: var(--light-bg);">
@@ -175,6 +259,14 @@ include 'includes/fleet-data.php';
 
 <?php
 $fleet_faqs = [
+    [
+        'q' => "What are the exact rental charges and per-km tariffs for buses in Bangalore?",
+        'a' => "Shanvi Tours & Travels Bangalore offers transparent base tariffs: 1) 12+1 Force Tempo Traveller: City 8hr/80km package from ₹2,800 (outstation ₹24 to ₹26/km, driver bata ₹500/day); 2) 21+1 Mercedes Mini Bus: City package from ₹4,500 (outstation ₹32 to ₹36/km, driver bata ₹600/day); 3) 33+1 Touring Bus: City package from ₹6,500 (outstation ₹42 to ₹46/km, driver bata ₹700/day); 4) 49+1 Luxury Wedding Bus: City package from ₹8,500 (outstation ₹50 to ₹58/km, driver bata ₹800/day). Tolls, state taxes, and parking are billed at actuals with GST input credit invoices."
+    ],
+    [
+        'q' => "Is Shanvi Tours & Travels Bangalore affiliated with other operators in Indore, Lucknow, or RedBus?",
+        'a' => "No. Shanvi Tours & Travels Bangalore is an independent commercial fleet provider founded in 2013 by Pradeep H.B., based at SMV Layout, Nagadevanahalli, Bangalore, Karnataka. We operate our own fleet of yellow-board commercial buses and are not associated with namesake operators in other states or RedBus ticket resellers."
+    ],
     [
         'q' => "What's the difference between the Tempo Traveller and the Mini Bus?",
         'a' => "The 12+1 Seater Tempo Traveller is built on a Force Motors chassis and is optimal for 8-12 passengers with light luggage; the 21+1 Seater Mini Bus is built on a heavy Mercedes-Benz chassis by Singh Motor Coach Builders, offering greater aisle width, heavier passenger payload, and ideal seating for mid-size corporate groups and college departments."

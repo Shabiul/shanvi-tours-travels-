@@ -11,18 +11,21 @@ $current_path  = ($raw_path === '/index.php' || $raw_path === '' || $raw_path ==
 $canonical_url = rtrim($site_url, '/') . ($current_path === '/' ? '/' : $current_path);
 $og_image      = $site_url . '/images/img_1.jpeg';
 ?>
+<?php
+$rendered_title = (strpos($page_title, $site_name) !== false) ? $page_title : ($page_title . ' | ' . $site_name);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo htmlspecialchars($page_title); ?> | <?php echo htmlspecialchars($site_name); ?></title>
+    <title><?php echo htmlspecialchars($rendered_title); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
     <meta name="keywords" content="<?php echo htmlspecialchars($page_keywords); ?>">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="author" content="Shanvi Tours & Travels">
+    <meta name="author" content="Shanvi Tours & Travels Bangalore">
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
 
     <!-- Geo / Local-business Signals (GEO & Local Ranking) -->
@@ -34,7 +37,7 @@ $og_image      = $site_url . '/images/img_1.jpeg';
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="<?php echo htmlspecialchars($site_name); ?>">
-    <meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?> | <?php echo htmlspecialchars($site_name); ?>">
+    <meta property="og:title" content="<?php echo htmlspecialchars($rendered_title); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($page_description); ?>">
     <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url); ?>">
     <meta property="og:image" content="<?php echo htmlspecialchars($og_image); ?>">
@@ -45,7 +48,7 @@ $og_image      = $site_url . '/images/img_1.jpeg';
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="<?php echo htmlspecialchars($page_title); ?> | <?php echo htmlspecialchars($site_name); ?>">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($rendered_title); ?>">
     <meta name="twitter:description" content="<?php echo htmlspecialchars($page_description); ?>">
     <meta name="twitter:image" content="<?php echo htmlspecialchars($og_image); ?>">
     <meta name="twitter:image:alt" content="Shanvi Tours & Travels Bangalore Bus Rental Fleet">
@@ -93,12 +96,24 @@ $og_image      = $site_url . '/images/img_1.jpeg';
         "@id": "<?php echo htmlspecialchars($site_url); ?>/#organization",
         "name": "Shanvi Tours & Travels",
         "legalName": "Shanvi Tours & Travels Bangalore",
-        "alternateName": ["Shanvi Travels", "Shanvi Bus Rental Bangalore", "Shanvi Tours Bangalore"],
+        "alternateName": [
+            "Shanvi Travels Bangalore",
+            "Shanvi Bus Rental Bangalore",
+            "Shanvi Tours Bangalore",
+            "Shanvi Tours & Travels Doddabasthihalli",
+            "Shanvi Tours & Travels SMV Layout"
+        ],
+        "disambiguatingDescription": "Shanvi Tours & Travels Bangalore is an independent commercial passenger transport service based in Nagadevanahalli, Bangalore, Karnataka (PIN 560056) operating Yellow-Board buses with drivers since 2013. We are not affiliated with third-party bus operators of similar names in Indore, Lucknow, Noida, or RedBus booking agents.",
         "slogan": "Bangalore's Trusted Mini Bus & Bus Rental Service Since 2013",
         "foundingDate": "2013",
         "founder": {
             "@type": "Person",
-            "name": "Pradeep H.B."
+            "name": "Pradeep H.B.",
+            "jobTitle": "Founder & Managing Director",
+            "worksFor": {
+                "@type": "TravelAgency",
+                "name": "Shanvi Tours & Travels Bangalore"
+            }
         },
         "description": "Established in 2013, Shanvi Tours & Travels is a licensed commercial passenger transport company in Bangalore providing 12+1, 21+1, 33+1, and 49+1 seater AC mini buses and luxury coaches with verified drivers for corporate shuttles, employee transport, weddings, school trips, and outstation tours across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh.",
         "image": "<?php echo htmlspecialchars($og_image); ?>",
@@ -106,6 +121,64 @@ $og_image      = $site_url . '/images/img_1.jpeg';
         "url": "<?php echo htmlspecialchars($site_url); ?>/",
         "telephone": "+91-9611120023",
         "priceRange": "₹₹",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Bangalore Commercial Bus & Tempo Traveller Rental Tariffs",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "12+1 Seater Tempo Traveller Rental Bangalore",
+                        "description": "Local 8-Hour / 80-Km package starting from ₹2,800; outstation from ₹24/km"
+                    },
+                    "priceSpecification": {
+                        "@type": "PriceSpecification",
+                        "price": "2800",
+                        "priceCurrency": "INR"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "21+1 Seater Mercedes Mini Bus Rental Bangalore",
+                        "description": "Local 8-Hour / 80-Km package starting from ₹4,500; outstation from ₹32/km"
+                    },
+                    "priceSpecification": {
+                        "@type": "PriceSpecification",
+                        "price": "4500",
+                        "priceCurrency": "INR"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "33+1 Seater Touring Bus Rental Bangalore",
+                        "description": "Local 8-Hour / 80-Km package starting from ₹6,500; outstation from ₹42/km"
+                    },
+                    "priceSpecification": {
+                        "@type": "PriceSpecification",
+                        "price": "6500",
+                        "priceCurrency": "INR"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "49+1 Seater Luxury Wedding Coach Rental Bangalore",
+                        "description": "Local 8-Hour / 80-Km package starting from ₹8,500; outstation from ₹50/km"
+                    },
+                    "priceSpecification": {
+                        "@type": "PriceSpecification",
+                        "price": "8500",
+                        "priceCurrency": "INR"
+                    }
+                }
+            ]
+        },
         "paymentAccepted": ["Cash", "Credit Card", "UPI", "Bank Transfer", "Corporate Invoicing"],
         "currenciesAccepted": "INR",
         "knowsAbout": [
@@ -278,7 +351,7 @@ $og_image      = $site_url . '/images/img_1.jpeg';
                         <a class="nav-link" href="services.php">Our Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="fleet.php">Our Fleet</a>
+                        <a class="nav-link" href="fleet.php">Fleet &amp; Tariffs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="gallery.php">Gallery</a>

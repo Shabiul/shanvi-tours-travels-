@@ -1,7 +1,7 @@
 <?php
-$page_title = "Contact Us - Book a Bus Rental";
-$page_description = "Contact Shanvi Tours & Travels Bangalore 24/7 at +91-9611120023 or WhatsApp. Instant quotes for 12+1 to 49+1 seater mini bus & bus rentals. SMV Layout office.";
-$page_keywords = "bus rental bangalore booking, mini bus rental near me, bus rental phone number, shanvi tours contact, whatsapp bus booking bangalore, bus booking nagadevanahalli, bus hire kengeri bangalore";
+$page_title = "Contact & 24/7 Booking Office Bangalore | Shanvi Tours & Travels";
+$page_description = "Contact Shanvi Tours & Travels Bangalore 24/7 at +91-9611120023. Instant bus rental quotes from ₹2,800. Office at SMV Layout, Nagadevanahalli, Bangalore.";
+$page_keywords = "bus rental bangalore booking, mini bus rental near me, bus rental phone number, shanvi tours contact, whatsapp bus booking bangalore, bus booking nagadevanahalli, bus hire kengeri bangalore, tempo traveller price bangalore";
 include 'includes/header.php';
 ?>
 
@@ -293,7 +293,11 @@ $faqs = [
     ],
     [
         'q' => 'How are bus rental prices calculated in Bangalore?',
-        'a' => 'Pricing is determined by vehicle seating capacity, trip type (local 8hr/80km packages vs outstation per-km calculation), toll fees, and driver daily allowance (bata). We provide fully itemized quotes with zero hidden surprises at drop-off.'
+        'a' => 'Bus rental tariffs at Shanvi Tours & Travels Bangalore start from transparent benchmarks: 12+1 Tempo Travellers from ₹2,800 (8hr/80km local package) and ₹24/km outstation; 21+1 Mini Buses from ₹4,500 local and ₹32/km outstation; 33+1 Touring Buses from ₹6,500 local and ₹42/km outstation; 49+1 Luxury Coaches from ₹8,500 local and ₹50/km outstation. Driver daily allowances (bata ₹500–₹800), tolls, and parking are transparently itemized with zero hidden fees and official GST invoices.'
+    ],
+    [
+        'q' => 'Where is Shanvi Tours & Travels located and what areas do you serve?',
+        'a' => 'Our registered office and fleet depot is located at #2472/1, 3rd Block, SMV Layout, Doddabasthihalli, Near Vijaya Hospital, Nagadevanahalli, Bangalore - 560056. We serve all localities across Greater Bangalore (Whitefield, Electronic City, Koramangala, Indiranagar, Marathahalli, Hebbal, Yelahanka) and provide outstation trips across Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, and Telangana.'
     ],
     [
         'q' => 'Do all vehicles have operational air conditioning and GPS tracking?',
@@ -381,6 +385,8 @@ $faqs = [
     "mainEntity": {
         "@type": "TravelAgency",
         "name": "Shanvi Tours & Travels",
+        "legalName": "Shanvi Tours & Travels Bangalore",
+        "disambiguatingDescription": "Shanvi Tours & Travels Bangalore is an independent commercial passenger transport service based in Nagadevanahalli, Bangalore, Karnataka (PIN 560056) operating Yellow-Board buses with drivers since 2013. We are not affiliated with third-party bus operators of similar names in Indore, Lucknow, Noida, or RedBus booking agents.",
         "telephone": "+91-9611120023",
         "email": "info@shanvitoursandtravels.com",
         "address": {

@@ -1,6 +1,6 @@
 <?php
-$page_title = "Mini Bus & Bus Rental Bangalore";
-$page_description = "Rent mini buses & luxury buses in Bangalore with driver since 2013. 12+1, 21+1, 33+1 & 49+1 seater AC vehicles for corporate, wedding & outstation. Call 9611120023.";
+$page_title = "Mini Bus & Tempo Traveller Rental in Bangalore | Shanvi Tours & Travels";
+$page_description = "Shanvi Tours & Travels Bangalore: 12+1 to 49+1 seater tempo traveller, mini bus & luxury coach rental with verified driver. 5.0★ Google rated, AIS-140 GPS, 100% Yellow Board, 24/7 dispatch. Call 9611120023.";
 $page_keywords = "tempo traveller rental bangalore, tempo traveller hire bangalore, 12 seater tempo traveller bangalore, mini bus rental bangalore, mini bus hire bangalore, 21 seater mini bus bangalore, bus rental bangalore, bus hire bangalore, 33 seater bus rental bangalore, luxury bus rental bangalore, 49 seater bus rental bangalore, tourist bus rental bangalore, bus rental near me, mini bus with driver bangalore, tempo traveller with driver bangalore, corporate bus rental bangalore, employee transport bus bangalore, wedding bus rental bangalore, school bus rental bangalore, college trip bus rental bangalore, outstation bus rental bangalore, pilgrimage tour bus bangalore, bus rental whitefield, bus rental electronic city, bus rental koramangala, bus rental indiranagar, bus rental hsr layout, bus rental marathahalli, bus rental jayanagar, bus rental jp nagar, bus rental btm layout, bus rental yelahanka, bus rental hebbal, bus rental sarjapur road, bus rental bannerghatta road, tempo traveller rental karnataka, mini bus rental karnataka, bus rental karnataka";
 include 'includes/header.php';
 ?>
@@ -13,8 +13,8 @@ include 'includes/header.php';
         </video>
         <div class="carousel-overlay">
             <div class="hero-content">
-                <h1 class="fade-in-up">Mini Bus &amp; Bus Rental in Bangalore</h1>
-                <p class="fade-in-up">12+1 to 49+1 seater vehicles with driver — for corporate, wedding, school &amp; pilgrimage trips</p>
+                <h1 class="fade-in-up">Mini Bus &amp; Tempo Traveller Rental in Bangalore</h1>
+                <p class="fade-in-up">Shanvi Tours &amp; Travels &mdash; 12+1 to 49+1 seater Yellow-Board vehicles with verified drivers for corporate, wedding, school &amp; pilgrimage trips</p>
                 <div class="d-flex justify-content-center gap-3 flex-wrap">
                     <a href="contact.php" class="btn-hero">Get a Quick Quote</a>
                     <a href="tel:9611120023" class="btn-hero-outline">Call: 9611120023</a>
@@ -678,8 +678,12 @@ $home_faqs = [
         'a' => "Yes! Shanvi Tours & Travels specializes in end-to-end Wedding Transport Logistics across Bangalore during the peak November to February wedding season. Our fleet includes the flagship 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery, multi-vehicle coordinated convoys for weddings with 200+ guests, and continuous shuttle loops between guest hotels, banquet halls, and reception venues. Dedicated on-ground route coordinators ensure punctuality."
     ],
     [
-        'q' => "What is the cost of renting a mini bus or bus in Bangalore?",
-        'a' => "Bus rental rates in Bangalore depend on the vehicle seating capacity, trip type (local 8hr/80km package vs outstation per-km billing), and total days. Local 12+1 Tempo Traveller packages start from competitive standard rates, while 21+1 Mini Buses and 49+1 Luxury Coaches are calculated with transparent driver allowance (bata), state permits, and fuel included. Call +91-9611120023 for an all-inclusive instant quote with zero hidden charges."
+        'q' => "What is the cost of renting a mini bus or tempo traveller in Bangalore?",
+        'a' => "Bus and Tempo Traveller rental rates at Shanvi Tours & Travels Bangalore start from transparent base tariffs: 1) 12+1 Seater Tempo Traveller: Local (8hr/80km) package starts from ₹2,800 (extra km @ ₹20/km; outstation starts at ₹24 to ₹26/km + driver bata ₹500/day); 2) 21+1 Seater Mini Bus: Local (8hr/80km) package starts from ₹4,500 (outstation starts at ₹32 to ₹36/km + driver bata ₹600/day); 3) 33+1 Seater Touring Bus: Local package starts from ₹6,500 (outstation starts at ₹42 to ₹46/km + driver bata ₹700/day); 4) 49+1 Seater Luxury Wedding Coach: Local package starts from ₹8,500 (outstation starts at ₹50 to ₹58/km + driver bata ₹800/day). All bookings include commercial Yellow Board registration, AIS-140 GPS tracking, and a verified driver. Call 9611120023 for an all-inclusive instant quote with zero hidden charges."
+    ],
+    [
+        'q' => "Is Shanvi Tours & Travels based specifically in Bangalore, Karnataka?",
+        'a' => "Yes. Shanvi Tours & Travels operates exclusively from its Bangalore headquarters at #2472/1, 3rd Block, SMV Layout, Nagadevanahalli, Bangalore (PIN 560056). Founded in 2013 by Pradeep H.B., we are an independent commercial passenger fleet operator registered under the Karnataka Motor Vehicles Rules. We are not associated with namesake agencies in other states like Indore, Lucknow, or Noida."
     ],
     [
         'q' => "What seating capacities are available for bus hire at Shanvi Tours?",

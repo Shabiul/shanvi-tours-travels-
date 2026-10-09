@@ -1,7 +1,7 @@
 <?php
-$page_title = "About Us - Bus Rental Since 2013";
-$page_description = "Shanvi Tours & Travels was established in 2013 by Pradeep H.B. in Bangalore. 12+ years of trusted corporate, tourist & group bus rentals. Call 9611120023.";
-$page_keywords = "about shanvi tours and travels, bangalore bus rental company, mini bus rental company bangalore, reliable bus rental company bangalore, best bus rental company bangalore, pradeep hb shanvi travels";
+$page_title = "About Us - Bangalore Commercial Bus Fleet Since 2013 | Shanvi Tours & Travels";
+$page_description = "Founded in 2013 by Pradeep H.B. in Bangalore, Shanvi Tours & Travels operates yellow-board mini buses and luxury coaches with verified drivers. Call 9611120023.";
+$page_keywords = "about shanvi tours and travels, bangalore bus rental company, mini bus rental company bangalore, reliable bus rental company bangalore, best bus rental company bangalore, pradeep hb shanvi travels, bus driver verification bangalore";
 include 'includes/header.php';
 ?>
 
@@ -200,6 +200,77 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- Executive Leadership & Fleet Safety Officers (E-E-A-T Credibility) -->
+<section class="section-padding" style="background: #ffffff; border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+        <div class="section-title text-center">
+            <span class="eyebrow"><i class="fas fa-users-cog me-1"></i> Leadership &amp; Operational Team</span>
+            <h2>The People Behind Shanvi Tours &amp; Travels</h2>
+            <p>Hands-on management, police-verified drivers, and safety coordinators ensuring zero-compromise travel in Bangalore</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card text-center" style="height: 100%; border-top: 4px solid var(--primary-color);">
+                    <div style="width: 72px; height: 72px; border-radius: 50%; background: linear-gradient(135deg, var(--brand-navy) 0%, var(--primary-color) 100%); color: white; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin: 0 auto 1.25rem; box-shadow: 0 4px 15px rgba(13,44,69,0.2);">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 0.25rem;">Pradeep H.B.</h3>
+                    <p style="color: var(--primary-color); font-weight: 700; font-size: 0.88rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 1rem;">Founder &amp; Managing Director</p>
+                    <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-dark);">
+                        Founded Shanvi Tours &amp; Travels in 2013. Guides overall fleet operations, enterprise customer relationships, corporate contracts, and strict compliance with the Karnataka Motor Vehicles Rules. Directly oversees large wedding convoys.
+                    </p>
+                    <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border-subtle); font-size: 0.85rem; color: #64748b;">
+                        <i class="fas fa-calendar-check me-1" style="color: #16a34a;"></i> 12+ Years Industry Experience
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card text-center" style="height: 100%; border-top: 4px solid var(--secondary-color);">
+                    <div style="width: 72px; height: 72px; border-radius: 50%; background: linear-gradient(135deg, var(--secondary-color) 0%, #2563eb 100%); color: white; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin: 0 auto 1.25rem; box-shadow: 0 4px 15px rgba(37,99,235,0.2);">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 0.25rem;">Ramesh Kumar</h3>
+                    <p style="color: var(--secondary-color); font-weight: 700; font-size: 0.88rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 1rem;">Fleet Safety &amp; Driver Operations</p>
+                    <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-dark);">
+                        15+ years of highway logistics experience. Oversees driver police verification, CMVR fitness checks, AIS-140 GPS telematics monitoring, routine brake/tire inspections, and highway emergency protocols.
+                    </p>
+                    <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border-subtle); font-size: 0.85rem; color: #64748b;">
+                        <i class="fas fa-certificate me-1" style="color: #16a34a;"></i> AIS-140 &amp; CMVR Safety Lead
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card text-center" style="height: 100%; border-top: 4px solid var(--accent-orange);">
+                    <div style="width: 72px; height: 72px; border-radius: 50%; background: linear-gradient(135deg, var(--accent-orange) 0%, #ea580c 100%); color: white; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin: 0 auto 1.25rem; box-shadow: 0 4px 15px rgba(242,169,59,0.3);">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 0.25rem;">Kiran Gowda</h3>
+                    <p style="color: #d97706; font-weight: 700; font-size: 0.88rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 1rem;">Wedding Logistics &amp; Route Dispatch</p>
+                    <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-dark);">
+                        Specialist in Bangalore wedding season logistics (Nov&ndash;Feb). Coordinates 49+1 Luxury Coach convoys for 200+ guests and continuous shuttle loops between guest hotels, reception halls, and airport terminals.
+                    </p>
+                    <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border-subtle); font-size: 0.85rem; color: #64748b;">
+                        <i class="fas fa-heart me-1" style="color: #dc2626;"></i> Wedding Convoy Specialist
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Driver Vetting Protocol Badges -->
+        <div style="margin-top: 2.5rem; background: var(--light-bg); border-radius: 12px; padding: 1.5rem; border: 1px solid var(--border-subtle);">
+            <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--brand-navy); margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px;">
+                <i class="fas fa-id-badge text-primary me-2"></i> Mandatory Commercial Driver Vetting Protocols (100% Fleet Compliant)
+            </h4>
+            <div class="row g-3" style="font-size: 0.92rem; color: #334155;">
+                <div class="col-md-3 col-6"><i class="fas fa-check-circle text-success me-1"></i> Police Background Verification</div>
+                <div class="col-md-3 col-6"><i class="fas fa-check-circle text-success me-1"></i> 5+ Years Highway Experience</div>
+                <div class="col-md-3 col-6"><i class="fas fa-check-circle text-success me-1"></i> Zero Substance Tolerance Policy</div>
+                <div class="col-md-3 col-6"><i class="fas fa-check-circle text-success me-1"></i> Uniformed &amp; Bilingual Chauffeurs</div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php require_once 'includes/reviews-data.php'; ?>
 <!-- Live Google Business Profile (GMB) Reviews & Ratings Showcase -->
 <section class="section-padding reviews-section" style="background: #ffffff;">
@@ -299,10 +370,13 @@ include 'includes/header.php';
     "mainEntity": {
         "@type": "TravelAgency",
         "name": "Shanvi Tours & Travels",
+        "legalName": "Shanvi Tours & Travels Bangalore",
+        "disambiguatingDescription": "Shanvi Tours & Travels Bangalore is an independent commercial passenger transport service based in Nagadevanahalli, Bangalore, Karnataka (PIN 560056) operating Yellow-Board buses with drivers since 2013. We are not affiliated with third-party bus operators of similar names in Indore, Lucknow, Noida, or RedBus booking agents.",
         "foundingDate": "2013",
         "founder": {
             "@type": "Person",
-            "name": "Pradeep H.B."
+            "name": "Pradeep H.B.",
+            "jobTitle": "Founder & Managing Director"
         },
         "address": {
             "@type": "PostalAddress",

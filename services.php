@@ -1,7 +1,7 @@
 <?php
-$page_title = "Bus Rental Services in Bangalore";
-$page_description = "Corporate bus rental, employee shuttles, wedding buses & outstation tours in Bangalore. 12 to 49 seater AC fleet with driver. 24/7 quote: +91-9611120023.";
-$page_keywords = "mini bus rental bangalore, bus rental bangalore, bus hire bangalore, mini bus hire bangalore, tourist bus rental bangalore, corporate bus rental bangalore, wedding bus rental bangalore, school trip bus rental bangalore, college trip bus rental bangalore, pilgrimage bus rental bangalore, outstation bus rental bangalore, mini bus with driver bangalore, bus rental near me, employee transport bangalore, staff shuttle bus bangalore, tempo traveller corporate rental";
+$page_title = "Bus Rental Services in Bangalore - Corporate, Wedding & Outstation | Shanvi Tours & Travels";
+$page_description = "Commercial bus rental in Bangalore by Shanvi Tours & Travels: Corporate employee shuttles, wedding coach convoys, outstation tours. 12 to 49 seats from ₹2,800. Call 9611120023.";
+$page_keywords = "mini bus rental bangalore, bus rental bangalore, bus hire bangalore, mini bus hire bangalore, tourist bus rental bangalore, corporate bus rental bangalore, wedding bus rental bangalore, school trip bus rental bangalore, college trip bus rental bangalore, pilgrimage bus rental bangalore, outstation bus rental bangalore, mini bus with driver bangalore, bus rental near me, employee transport bangalore, staff shuttle bus bangalore, tempo traveller corporate rental, bus rental pricing bangalore";
 include 'includes/header.php';
 ?>
 
@@ -311,7 +311,15 @@ include 'includes/header.php';
 $service_faqs = [
     [
         'q' => "How are corporate bus rental charges calculated in Bangalore?",
-        'a' => "Corporate bus rentals are calculated based on either daily/monthly route contracts (for employee transportation) or per-day 8hr/80km packages with extra-km and extra-hour slabs (for conferences and client visits). All billing is GST-compliant with transparent toll and parking receipts."
+        'a' => "Corporate bus rentals in Bangalore start from standardized base tariffs: 12+1 Tempo Travellers from ₹2,800/day (8hr/80km), 21+1 Mini Buses from ₹4,500/day, 33+1 Buses from ₹6,500/day, and 49+1 Luxury Coaches from ₹8,500/day. For monthly employee transportation contracts across Electronic City, Whitefield, and Manyata, we provide customized route-mileage SLAs with dedicated backup vehicles and GST input tax credit invoices."
+    ],
+    [
+        'q' => "What is the cost of wedding bus rental and guest convoys in Bangalore?",
+        'a' => "Wedding transport packages range from ₹8,500 to ₹12,000 per day for our flagship 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery. Coordinated multi-vehicle convoys for weddings with 200+ guests and continuous shuttle loops between guest hotels and reception venues (Palace Grounds, Kanakapura Road, Whitefield) receive bundled package rates including dedicated on-ground route managers."
+    ],
+    [
+        'q' => "Is Shanvi Tours & Travels a verified Bangalore local transport company?",
+        'a' => "Yes. Shanvi Tours & Travels Bangalore has been operating from Nagadevanahalli, Bangalore since 2013 under founder Pradeep H.B. We are an authorized commercial fleet operator with 100% yellow-board registration, AIS-140 GPS, and 5.0 Google rating, with no affiliation to namesake agencies in Indore, Lucknow, or Noida."
     ],
     [
         'q' => "How do you manage wedding transport logistics for 200+ guests in Bangalore?",
@@ -384,12 +392,12 @@ $service_faqs = [
     "@context": "https://schema.org",
     "@type": "ItemList",
     "itemListElement": [
-        { "@type": "ListItem", "position": 1, "item": { "@type": "Service", "name": "Mini Bus Rental for Employee Transport", "serviceType": "Employee Transportation", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
-        { "@type": "ListItem", "position": 2, "item": { "@type": "Service", "name": "Corporate Bus Rental Bangalore", "serviceType": "Corporate Travel", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
-        { "@type": "ListItem", "position": 3, "item": { "@type": "Service", "name": "Wedding Transport Logistics & Bus Rental Bangalore", "serviceType": "Wedding Guest Logistics", "description": "Wedding Transport Logistics: 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery, multi-vehicle coordinated convoys for weddings with 200+ guests, and continuous shuttle loops between guest hotels and reception venues during November to February wedding season.", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
-        { "@type": "ListItem", "position": 4, "item": { "@type": "Service", "name": "School & College Trip Bus Rental", "serviceType": "Educational Excursions", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
-        { "@type": "ListItem", "position": 5, "item": { "@type": "Service", "name": "Outstation Bus Rental from Bangalore", "serviceType": "Interstate Tour Bus", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "India" } },
-        { "@type": "ListItem", "position": 6, "item": { "@type": "Service", "name": "Pilgrimage & Package Tour Bus Rental", "serviceType": "Pilgrimage Bus Tours", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "India" } }
+        { "@type": "ListItem", "position": 1, "item": { "@type": "Service", "name": "Mini Bus Rental for Employee Transport", "serviceType": "Employee Transportation", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels Bangalore", "url": "https://www.shanvitoursandtravels.com/" }, "areaServed": "Bangalore" } },
+        { "@type": "ListItem", "position": 2, "item": { "@type": "Service", "name": "Corporate Bus Rental Bangalore", "serviceType": "Corporate Travel", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels Bangalore", "url": "https://www.shanvitoursandtravels.com/" }, "areaServed": "Bangalore" } },
+        { "@type": "ListItem", "position": 3, "item": { "@type": "Service", "name": "Wedding Transport Logistics & Bus Rental Bangalore", "serviceType": "Wedding Guest Logistics", "description": "Wedding Transport Logistics: 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery, multi-vehicle coordinated convoys for weddings with 200+ guests, and continuous shuttle loops between guest hotels and reception venues during November to February wedding season.", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels Bangalore", "url": "https://www.shanvitoursandtravels.com/" }, "areaServed": "Bangalore" } },
+        { "@type": "ListItem", "position": 4, "item": { "@type": "Service", "name": "School & College Trip Bus Rental", "serviceType": "Educational Excursions", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels Bangalore", "url": "https://www.shanvitoursandtravels.com/" }, "areaServed": "Bangalore" } },
+        { "@type": "ListItem", "position": 5, "item": { "@type": "Service", "name": "Outstation Bus Rental from Bangalore", "serviceType": "Interstate Tour Bus", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels Bangalore", "url": "https://www.shanvitoursandtravels.com/" }, "areaServed": "India" } },
+        { "@type": "ListItem", "position": 6, "item": { "@type": "Service", "name": "Pilgrimage & Package Tour Bus Rental", "serviceType": "Pilgrimage Bus Tours", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels Bangalore", "url": "https://www.shanvitoursandtravels.com/" }, "areaServed": "India" } }
     ]
 }
 </script>

@@ -1,6 +1,6 @@
 <?php
-$page_title = "Fleet Photo Gallery - 12 to 49 Seats";
-$page_description = "View real photos of our Bangalore fleet: 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus & 49+1 Luxury Bus. Exterior & interior seating photos. No stock imagery.";
+$page_title = "Fleet Photo Gallery - Verified Bus Photos Bangalore | Shanvi Tours & Travels";
+$page_description = "View 100% real photos of Shanvi Tours & Travels Bangalore fleet: 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus & 49+1 Luxury Wedding Coach. Call 9611120023.";
 $page_keywords = "mini bus rental bangalore, bus hire bangalore, 12 seater mini bus rental bangalore, 21 seater mini bus rental bangalore, 33 seater bus rental bangalore, 49 seater bus rental bangalore, mini bus with driver bangalore, bus rental near me, bus photos bangalore, real bus fleet images";
 include 'includes/header.php';
 include 'includes/fleet-data.php';
