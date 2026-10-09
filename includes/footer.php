@@ -39,7 +39,7 @@
                     <p><i class="fas fa-phone"></i> <a href="tel:9611120023">9611120023</a></p>
                     <p><i class="fas fa-phone"></i> <a href="tel:8050507333">8050507333</a></p>
                     <p><i class="fas fa-envelope"></i> <a href="mailto:info@shanvitoursandtravels.com">info@shanvitoursandtravels.com</a></p>
-                    <p><i class="fab fa-google"></i> <a href="https://share.google/1OY3BJ91d12raYjMj" target="_blank" rel="noopener">Read our Google reviews</a></p>
+                    <p><i class="fab fa-google"></i> <a href="https://maps.app.goo.gl/xzitq4A2wqQ5V18X7" target="_blank" rel="noopener" title="Shanvi Tours & Travels on Google Maps & Business Profile">Find us on Google Maps &amp; Reviews</a></p>
                 </div>
             </div>
             
@@ -75,7 +75,7 @@
         'contact.php'  => 'Contact',
     ];
     $current_file = basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
-    $breadcrumb_items = [['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $site_url . '/index.php']];
+    $breadcrumb_items = [['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $site_url . '/']];
     if ($current_file !== 'index.php' && isset($breadcrumb_labels[$current_file])) {
         $breadcrumb_items[] = [
             '@type' => 'ListItem',

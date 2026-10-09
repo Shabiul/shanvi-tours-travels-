@@ -9,7 +9,9 @@ include 'includes/fleet-data.php';
 <!-- Page Header -->
 <section class="hero-section">
     <div class="carousel-item active">
-        <img src="images/fleet/bus-exterior.jpg" alt="Shanvi Tours & Travels fleet — 33+1 Seater Touring Coach on Bangalore highway" title="Shanvi Tours & Travels 33+1 Seater Touring Coach on Bangalore highway" width="1920" height="700" loading="eager" fetchpriority="high" decoding="async">
+        <a href="gallery.php" class="hero-image-link" title="Shanvi Tours &amp; Travels 33+1 Seater Touring Coach on Bangalore highway" aria-label="Shanvi Tours &amp; Travels 33+1 Seater Touring Coach on Bangalore highway">
+            <img src="images/fleet/bus-exterior.jpg" alt="Shanvi Tours &amp; Travels fleet — 33+1 Seater Touring Coach on Bangalore highway" title="Shanvi Tours &amp; Travels 33+1 Seater Touring Coach on Bangalore highway" width="1920" height="700" loading="eager" fetchpriority="high" decoding="async">
+        </a>
         <div class="carousel-overlay">
             <div class="hero-content">
                 <h1>Mini Bus &amp; Bus Rental Fleet — Bangalore</h1>
@@ -49,28 +51,28 @@ include 'includes/fleet-data.php';
 
         <div class="gallery-grid">
             <?php foreach ($fleet as $v): ?>
-            <div class="gallery-item">
+            <a href="<?php echo htmlspecialchars($v['exterior']); ?>" class="gallery-item" title="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' ' . $v['seats'] . ' - Exterior View'); ?>" aria-label="<?php echo htmlspecialchars('View full size exterior photo of Shanvi Tours & Travels ' . $v['name'] . ' ' . $v['seats']); ?>">
                 <span class="trip-badge"><?php echo htmlspecialchars($v['name'] . ' · ' . $v['seats'] . ' Exterior'); ?></span>
                 <img src="<?php echo htmlspecialchars($v['exterior']); ?>" alt="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' ' . $v['seats'] . ' Exterior View Bangalore Fleet'); ?>" title="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' ' . $v['seats'] . ' - Exterior View'); ?>" width="400" height="250" loading="lazy" decoding="async">
                 <div class="gallery-overlay">
                     <i class="fas fa-search-plus"></i>
                 </div>
-            </div>
-            <div class="gallery-item">
+            </a>
+            <a href="<?php echo htmlspecialchars($v['interior']); ?>" class="gallery-item" title="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' ' . $v['seats'] . ' - Interior Pushback Seating'); ?>" aria-label="<?php echo htmlspecialchars('View full size interior seating photo of Shanvi Tours & Travels ' . $v['name'] . ' ' . $v['seats']); ?>">
                 <span class="trip-badge"><?php echo htmlspecialchars($v['name'] . ' Interior'); ?></span>
                 <img src="<?php echo htmlspecialchars($v['interior']); ?>" alt="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' ' . $v['seats'] . ' Interior Pushback Seating'); ?>" title="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' ' . $v['seats'] . ' - Interior Pushback Seating'); ?>" width="400" height="250" loading="lazy" decoding="async">
                 <div class="gallery-overlay">
                     <i class="fas fa-search-plus"></i>
                 </div>
-            </div>
+            </a>
             <?php foreach (($v['extra'] ?? []) as $photo): ?>
-            <div class="gallery-item">
+            <a href="<?php echo htmlspecialchars($photo['src']); ?>" class="gallery-item" title="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' - ' . $photo['label']); ?>" aria-label="<?php echo htmlspecialchars('View photo of Shanvi Tours & Travels ' . $v['name'] . ' ' . $photo['label']); ?>">
                 <span class="trip-badge"><?php echo htmlspecialchars($v['name'] . ' · ' . $photo['label']); ?></span>
                 <img src="<?php echo htmlspecialchars($photo['src']); ?>" alt="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' — ' . $photo['label'] . ' on Bangalore Roads'); ?>" title="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' - ' . $photo['label']); ?>" width="400" height="250" loading="lazy" decoding="async">
                 <div class="gallery-overlay">
                     <i class="fas fa-search-plus"></i>
                 </div>
-            </div>
+            </a>
             <?php endforeach; ?>
             <?php endforeach; ?>
         </div>
@@ -146,19 +148,19 @@ include 'includes/fleet-data.php';
     <div style="padding: 2rem; background: #fff; color: #111;">
         <h2>Shanvi Tours &amp; Travels — Complete Bangalore Fleet Photo Catalogue</h2>
         <p>Photographs of our real commercial vehicles in Bangalore.</p>
-        <img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats" title="12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/tempo-traveller-interior.jpg" alt="12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC" title="12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/mini-bus-exterior.jpg" alt="21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach" title="21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/mini-bus-interior.jpg" alt="21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats" title="21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/bus-exterior.jpg" alt="33+1 Seater Touring Coach Bangalore - Highway Tourist Bus" title="33+1 Seater Touring Coach Bangalore - Highway Tourist Bus" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/bus-interior.jpg" alt="33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights" title="33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/bus-city-street.jpg" alt="33+1 Seater Bus Navigating Bangalore City Streets for Wedding Shuttles" title="33+1 Seater Bus Navigating Bangalore City Streets for Wedding Shuttles" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/bus-road-angle.jpg" alt="33+1 Seater Bus on Highway Route Across Karnataka" title="33+1 Seater Bus on Highway Route Across Karnataka" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/luxury-bus-exterior.jpg" alt="49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach" title="49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/luxury-bus-interior.jpg" alt="49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle" title="49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/luxury-bus-parked.jpg" alt="49+1 Seater Luxury Tourist Bus Parked Ready for Departure" title="49+1 Seater Luxury Tourist Bus Parked Ready for Departure" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/luxury-bus-temple-1.jpg" alt="49+1 Seater Luxury Bus on Pilgrimage Tour from Bangalore" title="49+1 Seater Luxury Bus on Pilgrimage Tour from Bangalore" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/luxury-bus-temple-2.jpg" alt="Luxury Tourist Bus on Temple Pilgrimage Circuit to Tirupati" title="Luxury Tourist Bus on Temple Pilgrimage Circuit to Tirupati" width="400" height="250" loading="lazy" decoding="async">
+        <a href="images/fleet/tempo-traveller-exterior.jpg" title="12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats" aria-label="12+1 Seater Tempo Traveller Bangalore Exterior"><img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats" title="12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/tempo-traveller-interior.jpg" title="12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC" aria-label="12+1 Seater Tempo Traveller Interior"><img src="images/fleet/tempo-traveller-interior.jpg" alt="12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC" title="12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/mini-bus-exterior.jpg" title="21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach" aria-label="21+1 Seater Mercedes Mini Bus Bangalore"><img src="images/fleet/mini-bus-exterior.jpg" alt="21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach" title="21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/mini-bus-interior.jpg" title="21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats" aria-label="21+1 Seater Mini Bus Interior"><img src="images/fleet/mini-bus-interior.jpg" alt="21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats" title="21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/bus-exterior.jpg" title="33+1 Seater Touring Coach Bangalore - Highway Tourist Bus" aria-label="33+1 Seater Touring Coach Bangalore"><img src="images/fleet/bus-exterior.jpg" alt="33+1 Seater Touring Coach Bangalore - Highway Tourist Bus" title="33+1 Seater Touring Coach Bangalore - Highway Tourist Bus" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/bus-interior.jpg" title="33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights" aria-label="33+1 Seater Bus Interior"><img src="images/fleet/bus-interior.jpg" alt="33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights" title="33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/bus-city-street.jpg" title="33+1 Seater Bus Navigating Bangalore City Streets for Wedding Shuttles" aria-label="33+1 Seater Bus Navigating Bangalore City Streets for Wedding Shuttles"><img src="images/fleet/bus-city-street.jpg" alt="33+1 Seater Bus Navigating Bangalore City Streets for Wedding Shuttles" title="33+1 Seater Bus Navigating Bangalore City Streets for Wedding Shuttles" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/bus-road-angle.jpg" title="33+1 Seater Bus on Highway Route Across Karnataka" aria-label="33+1 Seater Bus on Highway Route Across Karnataka"><img src="images/fleet/bus-road-angle.jpg" alt="33+1 Seater Bus on Highway Route Across Karnataka" title="33+1 Seater Bus on Highway Route Across Karnataka" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/luxury-bus-exterior.jpg" title="49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach" aria-label="49+1 Seater Luxury Bus Bangalore"><img src="images/fleet/luxury-bus-exterior.jpg" alt="49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach" title="49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/luxury-bus-interior.jpg" title="49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle" aria-label="49+1 Seater Luxury Bus Interior with Red Carpet"><img src="images/fleet/luxury-bus-interior.jpg" alt="49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle" title="49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/luxury-bus-parked.jpg" title="49+1 Seater Luxury Tourist Bus Parked Ready for Departure" aria-label="49+1 Seater Luxury Tourist Bus Parked"><img src="images/fleet/luxury-bus-parked.jpg" alt="49+1 Seater Luxury Tourist Bus Parked Ready for Departure" title="49+1 Seater Luxury Tourist Bus Parked Ready for Departure" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/luxury-bus-temple-1.jpg" title="49+1 Seater Luxury Bus on Pilgrimage Tour from Bangalore" aria-label="49+1 Seater Luxury Bus on Pilgrimage Tour"><img src="images/fleet/luxury-bus-temple-1.jpg" alt="49+1 Seater Luxury Bus on Pilgrimage Tour from Bangalore" title="49+1 Seater Luxury Bus on Pilgrimage Tour from Bangalore" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/luxury-bus-temple-2.jpg" title="Luxury Tourist Bus on Temple Pilgrimage Circuit to Tirupati" aria-label="Luxury Tourist Bus on Temple Pilgrimage Circuit"><img src="images/fleet/luxury-bus-temple-2.jpg" alt="Luxury Tourist Bus on Temple Pilgrimage Circuit to Tirupati" title="Luxury Tourist Bus on Temple Pilgrimage Circuit to Tirupati" width="400" height="250" loading="lazy" decoding="async"></a>
     </div>
 </noscript>
 

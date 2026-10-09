@@ -53,7 +53,7 @@ $fleet = [
             ['src' => 'images/fleet/luxury-bus-temple-2.jpg', 'label' => 'On a pilgrimage trip'],
         ],
         'plate' => 'KA 51 AL 4498',
-        'desc' => 'Our flagship coach — premium upholstered seating, an onboard entertainment screen, and a red-carpet aisle, built for the largest groups: weddings, school batches, and multi-day South India tours.',
-        'ideal' => 'Best for: weddings, school/college batches, large tours',
+        'desc' => 'Our flagship coach — 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery, onboard LED entertainment screen, and deep luggage hold. Specially deployed for wedding transport logistics, multi-vehicle coordinated convoys for weddings with 200+ guests, continuous shuttle loops between guest hotels and reception venues, and multi-day South India tours.',
+        'ideal' => 'Best for: wedding transport logistics (200+ guests), corporate summits, large tours',
     ],
 ];

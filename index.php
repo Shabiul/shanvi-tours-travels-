@@ -41,6 +41,7 @@ include 'includes/header.php';
                 <span><i class="fas fa-check-circle" style="color: #2e7d32;"></i> 100% Yellow Board Fleet</span>
                 <span><i class="fas fa-check-circle" style="color: #2e7d32;"></i> GST Invoice Compliant</span>
                 <span><i class="fas fa-check-circle" style="color: #2e7d32;"></i> 24/7 Dispatch Support</span>
+                <span><a href="https://maps.app.goo.gl/xzitq4A2wqQ5V18X7" target="_blank" rel="noopener" style="text-decoration: none; color: #1a73e8;" title="View Shanvi Tours &amp; Travels 5.0 Google Rating"><i class="fab fa-google text-danger me-1"></i> 5.0 Rating (25 Verified Google Reviews) <i class="fas fa-external-link-alt ms-1" style="font-size: 0.75rem;"></i></a></span>
             </div>
         </div>
     </div>
@@ -195,7 +196,9 @@ include 'includes/header.php';
         <div class="services-grid">
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/services/employee-transport.jpg" alt="Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses" title="Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses" loading="lazy" width="400" height="220" decoding="async">
+                    <a href="services.php#employee-transport" class="card-cover-link" title="Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses" aria-label="Explore Corporate Employee Transport Services Bangalore">
+                        <img src="images/services/employee-transport.jpg" alt="Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses" title="Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses" loading="lazy" width="400" height="220" decoding="async">
+                    </a>
                 </div>
                 <div class="service-icon"><i class="fas fa-users"></i></div>
                 <h3>Employee Transport</h3>
@@ -203,7 +206,9 @@ include 'includes/header.php';
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/services/corporate.jpg" alt="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" title="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" loading="lazy" width="400" height="220" decoding="async">
+                    <a href="services.php#corporate" class="card-cover-link" title="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" aria-label="Explore Corporate Bus Rental Bangalore">
+                        <img src="images/services/corporate.jpg" alt="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" title="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" loading="lazy" width="400" height="220" decoding="async">
+                    </a>
                 </div>
                 <div class="service-icon"><i class="fas fa-briefcase"></i></div>
                 <h3>Corporate Bus Rental</h3>
@@ -211,15 +216,22 @@ include 'includes/header.php';
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/fleet/bus-city-street.jpg" alt="Wedding Bus Rental Bangalore - Guest Transport and Baraat Luxury Buses" title="Wedding Bus Rental Bangalore - Guest Transport and Baraat Luxury Buses" loading="lazy" width="400" height="220" decoding="async">
+                    <a href="services.php#wedding" class="card-cover-link" title="Wedding Transport Logistics Bangalore - 49+1 Luxury Bus and Coordinated Convoys" aria-label="Explore Wedding Transport Logistics Bangalore">
+                        <img src="images/fleet/bus-city-street.jpg" alt="Wedding Bus Rental Bangalore - Guest Transport and Baraat Luxury Buses" title="Wedding Bus Rental Bangalore - Guest Transport and Baraat Luxury Buses" loading="lazy" width="400" height="220" decoding="async">
+                    </a>
                 </div>
                 <div class="service-icon"><i class="fas fa-heart"></i></div>
-                <h3>Wedding Bus Rental</h3>
-                <p>Guest shuttles between marriage venues and hotels on 49+1 Luxury Buses and 33+1 Buses with flexible event timings and multi-point city pickups.</p>
+                <div style="margin-bottom: 0.4rem;">
+                    <span class="wedding-badge" style="font-size: 0.72rem; padding: 3px 8px; margin-bottom: 0.2rem;"><i class="fas fa-calendar-alt text-danger me-1"></i> Nov–Feb Wedding Season</span>
+                </div>
+                <h3>Wedding Transport Logistics</h3>
+                <p>49+1 Luxury Coach with red carpet aisle and plush pushback upholstery, multi-vehicle coordinated convoys for weddings with 200+ guests, and continuous shuttle loops between guest hotels and reception venues.</p>
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/fleet/mini-bus-exterior.jpg" alt="School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses" title="School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses" loading="lazy" width="400" height="220" decoding="async">
+                    <a href="services.php#school-college" class="card-cover-link" title="School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses" aria-label="Explore School and College Excursion Bus Hire Bangalore">
+                        <img src="images/fleet/mini-bus-exterior.jpg" alt="School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses" title="School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses" loading="lazy" width="400" height="220" decoding="async">
+                    </a>
                 </div>
                 <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
                 <h3>School &amp; College Trips</h3>
@@ -227,7 +239,9 @@ include 'includes/header.php';
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/services/outstation.jpg" alt="Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu" title="Outstation Bus Rental from Bangalore Across Karnataka, Kerala and Tamil Nadu" loading="lazy" width="400" height="220" decoding="async">
+                    <a href="services.php#outstation" class="card-cover-link" title="Outstation Bus Rental from Bangalore Across Karnataka, Kerala and Tamil Nadu" aria-label="Explore Outstation Bus Rental from Bangalore">
+                        <img src="images/services/outstation.jpg" alt="Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu" title="Outstation Bus Rental from Bangalore Across Karnataka, Kerala and Tamil Nadu" loading="lazy" width="400" height="220" decoding="async">
+                    </a>
                 </div>
                 <div class="service-icon"><i class="fas fa-road"></i></div>
                 <h3>Outstation Bus Rental</h3>
@@ -235,7 +249,9 @@ include 'includes/header.php';
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/services/package-tours.jpg" alt="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages" title="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati & Dharmasthala Packages" loading="lazy" width="400" height="220" decoding="async">
+                    <a href="services.php#package-tours" class="card-cover-link" title="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati & Dharmasthala Packages" aria-label="Explore Pilgrimage and Package Tour Bus Rental Bangalore">
+                        <img src="images/services/package-tours.jpg" alt="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages" title="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati & Dharmasthala Packages" loading="lazy" width="400" height="220" decoding="async">
+                    </a>
                 </div>
                 <div class="service-icon"><i class="fas fa-suitcase-rolling"></i></div>
                 <h3>Pilgrimage &amp; Package Tours</h3>
@@ -307,6 +323,85 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- Featured: Wedding Transport Logistics (Peak Season Focus) -->
+<section class="section-padding" style="background: linear-gradient(135deg, #fdfbf7 0%, #fff6ec 100%); border-top: 2px solid rgba(224, 86, 36, 0.15); border-bottom: 2px solid rgba(224, 86, 36, 0.15);">
+    <div class="container">
+        <div class="wedding-logistics-box" style="margin-bottom: 0;">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <span class="wedding-badge"><i class="fas fa-ring me-1"></i> Peak November – February Wedding Season Special</span>
+                    <h2 style="font-size: clamp(1.6rem, 3.2vw, 2.3rem); color: var(--brand-navy); margin-top: 0.75rem; margin-bottom: 1rem; line-height: 1.25;">
+                        Wedding Transport Logistics &amp; Luxury Coach Fleet in Bangalore
+                    </h2>
+                    <p style="font-size: 1.05rem; line-height: 1.7; color: #374151; margin-bottom: 1.25rem;">
+                        Celebrate your wedding festivities with flawless, royal transit across Palace Grounds, Kanakapura Road resort corridors, Yelahanka banquet lawns, and outstation destinations. We orchestrate comprehensive <strong>Wedding Transport Logistics</strong> tailored for seamless hospitality:
+                    </p>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-12">
+                            <div class="d-flex align-items-start gap-3 p-3 bg-white rounded-3 shadow-sm border">
+                                <div style="width: 44px; height: 44px; border-radius: 50%; background: rgba(224,86,36,0.12); display: flex; align-items: center; justify-content: center; color: var(--brand-orange); font-size: 1.25rem; flex-shrink: 0;">
+                                    <i class="fas fa-gem"></i>
+                                </div>
+                                <div>
+                                    <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.25rem; color: var(--brand-navy);">49+1 Luxury Coach with Red Carpet Aisle &amp; Plush Pushback Upholstery</h4>
+                                    <p style="font-size: 0.92rem; margin: 0; color: #4b5563;">Flagship Volvo/Scania/BharatBenz-class air-conditioned coaches outfitted with an elegant red carpet aisle, plush ergonomic pushback seating, ambient cabin lighting, and massive luggage holds for traditional attire and bridal luggage.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex align-items-start gap-3 p-3 bg-white rounded-3 shadow-sm border">
+                                <div style="width: 44px; height: 44px; border-radius: 50%; background: rgba(15,32,67,0.1); display: flex; align-items: center; justify-content: center; color: var(--brand-navy); font-size: 1.25rem; flex-shrink: 0;">
+                                    <i class="fas fa-layer-group"></i>
+                                </div>
+                                <div>
+                                    <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.25rem; color: var(--brand-navy);">Multi-Vehicle Coordinated Convoys for Weddings with 200+ Guests</h4>
+                                    <p style="font-size: 0.92rem; margin: 0; color: #4b5563;">Synchronized fleet movements pairing 49+1 coaches, 21+1 mini buses, and 12+1 Tempo Travellers for mega wedding parties. Dedicated on-ground transport coordinators manage simultaneous arrivals at muhurtham timings.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex align-items-start gap-3 p-3 bg-white rounded-3 shadow-sm border">
+                                <div style="width: 44px; height: 44px; border-radius: 50%; background: rgba(224,86,36,0.12); display: flex; align-items: center; justify-content: center; color: var(--brand-orange); font-size: 1.25rem; flex-shrink: 0;">
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.25rem; color: var(--brand-navy);">Continuous Shuttle Loops Between Guest Hotels &amp; Reception Venues</h4>
+                                    <p style="font-size: 0.92rem; margin: 0; color: #4b5563;">Round-the-clock scheduled round-trip loops connecting Kempegowda International Airport (BLR), railway terminals, partnered 5-star hotels, and convention halls so out-of-town guests travel effortlessly without waiting.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap gap-3 align-items-center">
+                        <a href="contact.php?service=wedding" class="btn-hero" title="Book Wedding Transport Logistics in Bangalore">
+                            <i class="fas fa-calendar-check me-2"></i> Reserve Wedding Fleet Now
+                        </a>
+                        <a href="https://wa.me/919611120023?text=Hi%20Shanvi%20Tours,%20need%20wedding%20transport%20logistics%20for%20guests%20in%20Bangalore" target="_blank" rel="noopener" class="btn-hero-outline" style="border-color: #25D366; color: #128C7E;" title="WhatsApp Wedding Transport Coordinator">
+                            <i class="fab fa-whatsapp me-2"></i> Chat with Wedding Logistics Desk
+                        </a>
+                        <a href="fleet.php#49-luxury-bus" class="btn-hero-outline" title="Inspect 49+1 Luxury Wedding Coach Specifications">
+                            <i class="fas fa-eye me-2"></i> View 49+1 Coach Specs
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <a href="fleet.php#49-luxury-bus" class="service-image-link" title="49+1 Luxury Wedding Coach with Red Carpet Aisle & Plush Pushback Seats" aria-label="49+1 Luxury Wedding Coach with Red Carpet Aisle & Plush Pushback Seats">
+                                <img src="images/fleet/luxury-bus-interior.jpg" alt="Interior of 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery for weddings in Bangalore" title="49+1 Luxury Coach with Red Carpet Aisle & Plush Pushback Upholstery" class="img-fluid rounded-3 shadow" style="width: 100%; height: 260px; object-fit: cover;" loading="lazy" decoding="async">
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <a href="gallery.php" class="service-image-link" title="Multi-vehicle coordinated convoys for weddings with 200+ guests in Bangalore" aria-label="Multi-vehicle coordinated convoys for weddings with 200+ guests in Bangalore">
+                                <img src="images/fleet/luxury-bus-exterior.jpg" alt="Multi-vehicle coordinated convoys of 49+1 coaches for weddings with 200+ guests in Bangalore" title="Multi-vehicle Coordinated Wedding Convoys in Bangalore" class="img-fluid rounded-3 shadow" style="width: 100%; height: 220px; object-fit: cover;" loading="lazy" decoding="async">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Frequent Trips Section -->
 <section class="section-padding trips-section" style="background: var(--light-bg);">
     <div class="container">
@@ -320,7 +415,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Karnataka</span>
-                    <img src="images/destinations/mysore.jpg" alt="Mysore Palace illuminated at night - Bangalore to Mysore Bus Rental (150km)" title="Bangalore to Mysore Bus Rental (150km) - Mysore Palace Tour" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=mysore" class="trip-image-link" title="Book Bangalore to Mysore Bus Rental (150km) - Mysore Palace Tour" aria-label="Book Bangalore to Mysore Bus Rental (150km) - Mysore Palace Tour">
+                        <img src="images/destinations/mysore.jpg" alt="Mysore Palace illuminated at night - Bangalore to Mysore Bus Rental (150km)" title="Bangalore to Mysore Bus Rental (150km) - Mysore Palace Tour" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Mysore</h4>
@@ -330,7 +427,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Karnataka</span>
-                    <img src="images/destinations/coorg.jpg" alt="Green coffee plantation countryside in Coorg - Tempo Traveller Rental (270km)" title="Bangalore to Coorg Tempo Traveller Rental (270km) - Coffee Country" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=coorg" class="trip-image-link" title="Book Bangalore to Coorg Tempo Traveller Rental (270km) - Coffee Country" aria-label="Book Bangalore to Coorg Tempo Traveller Rental (270km) - Coffee Country">
+                        <img src="images/destinations/coorg.jpg" alt="Green coffee plantation countryside in Coorg - Tempo Traveller Rental (270km)" title="Bangalore to Coorg Tempo Traveller Rental (270km) - Coffee Country" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Coorg</h4>
@@ -340,7 +439,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Karnataka</span>
-                    <img src="images/destinations/chikmagalur.jpg" alt="Mullayanagiri hills in Chikmagalur Karnataka - Outstation Mini Bus Tour (245km)" title="Bangalore to Chikmagalur Mini Bus Tour (245km) - Mullayanagiri Hills" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=chikmagalur" class="trip-image-link" title="Book Bangalore to Chikmagalur Mini Bus Tour (245km) - Mullayanagiri Hills" aria-label="Book Bangalore to Chikmagalur Mini Bus Tour (245km) - Mullayanagiri Hills">
+                        <img src="images/destinations/chikmagalur.jpg" alt="Mullayanagiri hills in Chikmagalur Karnataka - Outstation Mini Bus Tour (245km)" title="Bangalore to Chikmagalur Mini Bus Tour (245km) - Mullayanagiri Hills" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Chikmagalur</h4>
@@ -350,7 +451,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Karnataka</span>
-                    <img src="images/destinations/gokarna.jpg" alt="Om Beach shoreline in Gokarna Karnataka - Coastal Beach Tour Bus Rental (485km)" title="Bangalore to Gokarna Coastal Beach Tour Bus Rental (485km) - Om Beach" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=gokarna" class="trip-image-link" title="Book Bangalore to Gokarna Coastal Beach Tour Bus Rental (485km) - Om Beach" aria-label="Book Bangalore to Gokarna Coastal Beach Tour Bus Rental (485km) - Om Beach">
+                        <img src="images/destinations/gokarna.jpg" alt="Om Beach shoreline in Gokarna Karnataka - Coastal Beach Tour Bus Rental (485km)" title="Bangalore to Gokarna Coastal Beach Tour Bus Rental (485km) - Om Beach" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Gokarna</h4>
@@ -362,7 +465,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Kerala</span>
-                    <img src="images/destinations/wayanad.jpg" alt="Forested hills of Wayanad Kerala - Tour Bus Hire from Bangalore (280km)" title="Bangalore to Wayanad Kerala Tour Bus Hire (280km) - Spice Paradise" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=wayanad" class="trip-image-link" title="Book Bangalore to Wayanad Kerala Tour Bus Hire (280km) - Spice Paradise" aria-label="Book Bangalore to Wayanad Kerala Tour Bus Hire (280km) - Spice Paradise">
+                        <img src="images/destinations/wayanad.jpg" alt="Forested hills of Wayanad Kerala - Tour Bus Hire from Bangalore (280km)" title="Bangalore to Wayanad Kerala Tour Bus Hire (280km) - Spice Paradise" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Wayanad</h4>
@@ -372,7 +477,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Kerala</span>
-                    <img src="images/destinations/alleppey.jpg" alt="Houseboat cruising the Alleppey backwaters Kerala - South India Tour Bus (540km)" title="Bangalore to Alleppey Backwaters Kerala Tour Bus (540km) - Houseboat Tours" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=alleppey" class="trip-image-link" title="Book Bangalore to Alleppey Backwaters Kerala Tour Bus (540km) - Houseboat Tours" aria-label="Book Bangalore to Alleppey Backwaters Kerala Tour Bus (540km) - Houseboat Tours">
+                        <img src="images/destinations/alleppey.jpg" alt="Houseboat cruising the Alleppey backwaters Kerala - South India Tour Bus (540km)" title="Bangalore to Alleppey Backwaters Kerala Tour Bus (540km) - Houseboat Tours" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Alleppey</h4>
@@ -382,7 +489,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Kerala</span>
-                    <img src="images/destinations/munnar.jpg" alt="Rolling tea estates in Munnar Kerala - Hill Station Bus Rental (510km)" title="Bangalore to Munnar Kerala Hill Station Bus Rental (510km) - Tea Estates" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=munnar" class="trip-image-link" title="Book Bangalore to Munnar Kerala Hill Station Bus Rental (510km) - Tea Estates" aria-label="Book Bangalore to Munnar Kerala Hill Station Bus Rental (510km) - Tea Estates">
+                        <img src="images/destinations/munnar.jpg" alt="Rolling tea estates in Munnar Kerala - Hill Station Bus Rental (510km)" title="Bangalore to Munnar Kerala Hill Station Bus Rental (510km) - Tea Estates" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Munnar</h4>
@@ -394,7 +503,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Tamil Nadu</span>
-                    <img src="images/destinations/ooty.jpg" alt="Emerald Lake surrounded by hills in Ooty Tamil Nadu - Bus Trip from Bangalore (270km)" title="Bangalore to Ooty Tamil Nadu Bus Trip (270km) - Nilgiri Hills Tour" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=ooty" class="trip-image-link" title="Book Bangalore to Ooty Tamil Nadu Bus Trip (270km) - Nilgiri Hills Tour" aria-label="Book Bangalore to Ooty Tamil Nadu Bus Trip (270km) - Nilgiri Hills Tour">
+                        <img src="images/destinations/ooty.jpg" alt="Emerald Lake surrounded by hills in Ooty Tamil Nadu - Bus Trip from Bangalore (270km)" title="Bangalore to Ooty Tamil Nadu Bus Trip (270km) - Nilgiri Hills Tour" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Ooty</h4>
@@ -404,7 +515,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Tamil Nadu</span>
-                    <img src="images/destinations/pondicherry.jpg" alt="Sunrise over the sea at Pondicherry Tamil Nadu - Coastal Bus Tour (310km)" title="Bangalore to Pondicherry Coastal Bus Tour (310km) - French Quarter" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=pondicherry" class="trip-image-link" title="Book Bangalore to Pondicherry Coastal Bus Tour (310km) - French Quarter" aria-label="Book Bangalore to Pondicherry Coastal Bus Tour (310km) - French Quarter">
+                        <img src="images/destinations/pondicherry.jpg" alt="Sunrise over the sea at Pondicherry Tamil Nadu - Coastal Bus Tour (310km)" title="Bangalore to Pondicherry Coastal Bus Tour (310km) - French Quarter" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Pondicherry</h4>
@@ -414,7 +527,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Tamil Nadu</span>
-                    <img src="images/destinations/yercaud.jpg" alt="Emerald Lake in the hill station of Yercaud Tamil Nadu - Budget Bus Tour (230km)" title="Bangalore to Yercaud Hill Station Bus Tour (230km) - Shevaroy Hills" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=yercaud" class="trip-image-link" title="Book Bangalore to Yercaud Hill Station Bus Tour (230km) - Shevaroy Hills" aria-label="Book Bangalore to Yercaud Hill Station Bus Tour (230km) - Shevaroy Hills">
+                        <img src="images/destinations/yercaud.jpg" alt="Emerald Lake in the hill station of Yercaud Tamil Nadu - Budget Bus Tour (230km)" title="Bangalore to Yercaud Hill Station Bus Tour (230km) - Shevaroy Hills" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Yercaud</h4>
@@ -426,7 +541,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Andhra Pradesh</span>
-                    <img src="images/destinations/tirupati.jpg" alt="Tirumala Venkateswara Temple in Tirupati Andhra Pradesh - Pilgrimage Bus Rental (250km)" title="Bangalore to Tirupati Pilgrimage Bus Rental (250km) - Tirumala Temple" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=tirupati" class="trip-image-link" title="Book Bangalore to Tirupati Pilgrimage Bus Rental (250km) - Tirumala Temple" aria-label="Book Bangalore to Tirupati Pilgrimage Bus Rental (250km) - Tirumala Temple">
+                        <img src="images/destinations/tirupati.jpg" alt="Tirumala Venkateswara Temple in Tirupati Andhra Pradesh - Pilgrimage Bus Rental (250km)" title="Bangalore to Tirupati Pilgrimage Bus Rental (250km) - Tirumala Temple" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Tirupati</h4>
@@ -436,7 +553,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Andhra Pradesh</span>
-                    <img src="images/destinations/nellore.jpg" alt="Western Ghats mountains en route to Nellore Andhra Pradesh (275km)" title="Bangalore to Nellore Highway Route (275km) - Coastal Transit Bus Hire" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=nellore" class="trip-image-link" title="Book Bangalore to Nellore Highway Route (275km) - Coastal Transit Bus Hire" aria-label="Book Bangalore to Nellore Highway Route (275km) - Coastal Transit Bus Hire">
+                        <img src="images/destinations/nellore.jpg" alt="Western Ghats mountains en route to Nellore Andhra Pradesh (275km)" title="Bangalore to Nellore Highway Route (275km) - Coastal Transit Bus Hire" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Nellore</h4>
@@ -448,7 +567,9 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Telangana</span>
-                    <img src="images/destinations/hyderabad.jpg" alt="Charminar monument in Hyderabad Telangana - Long Distance Bus Hire (570km)" title="Bangalore to Hyderabad Long Distance Bus Hire (570km) - City of Pearls" loading="lazy" width="400" height="250" decoding="async">
+                    <a href="contact.php?destination=hyderabad" class="trip-image-link" title="Book Bangalore to Hyderabad Long Distance Bus Hire (570km) - City of Pearls" aria-label="Book Bangalore to Hyderabad Long Distance Bus Hire (570km) - City of Pearls">
+                        <img src="images/destinations/hyderabad.jpg" alt="Charminar monument in Hyderabad Telangana - Long Distance Bus Hire (570km)" title="Bangalore to Hyderabad Long Distance Bus Hire (570km) - City of Pearls" loading="lazy" width="400" height="250" decoding="async">
+                    </a>
                 </div>
                 <div class="trip-content">
                     <h4>Hyderabad</h4>
@@ -459,9 +580,103 @@ include 'includes/header.php';
     </div>
 </section>
 
+<?php require_once 'includes/reviews-data.php'; ?>
+<!-- Live Google Business Profile (GMB) Reviews & Ratings Showcase -->
+<section class="section-padding reviews-section" style="background: #ffffff;">
+    <div class="container">
+        <div class="section-title text-center">
+            <span class="eyebrow"><i class="fab fa-google text-danger me-1"></i> Verified Google Reviews</span>
+            <h2>What Our Travelers Say on Google</h2>
+            <p>100% authentic customer reviews fetched directly from our official Google Business Profile in Bangalore</p>
+        </div>
+
+        <!-- GMB Overall Score & Review Action Banner -->
+        <div class="gmb-summary-card">
+            <div class="gmb-brand-block">
+                <div class="gmb-logo-circle">
+                    <i class="fab fa-google" style="color: #4285F4;"></i>
+                </div>
+                <div>
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="gmb-score-number"><?php echo htmlspecialchars($gmb_stats['rating_display']); ?></span>
+                        <div>
+                            <div class="gmb-stars-row">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <span style="font-size: 0.92rem; color: #64748b; font-weight: 600;">Overall Rating</span>
+                        </div>
+                    </div>
+                    <p style="margin: 0.25rem 0 0; font-size: 0.95rem; color: #334155; font-weight: 600;">
+                        Based on <strong><?php echo (int)$gmb_stats['total_reviews']; ?> Verified Google Reviews</strong> for Shanvi Tours &amp; Travels Bangalore
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap gap-2 align-items-center">
+                <a href="<?php echo htmlspecialchars($gmb_url); ?>" target="_blank" rel="noopener" class="btn-hero" title="Open Google Maps Profile and Read All Reviews">
+                    <i class="fab fa-google me-2"></i> View on Google Maps
+                </a>
+                <a href="<?php echo htmlspecialchars($gmb_url); ?>" target="_blank" rel="noopener" class="btn-hero-outline" title="Write a Review for Shanvi Tours on Google">
+                    <i class="fas fa-pen me-2"></i> Review Us on Google
+                </a>
+            </div>
+        </div>
+
+        <!-- Live Reviews Grid (Each Card Clickable to GMB) -->
+        <div class="gmb-reviews-grid">
+            <?php foreach ($gmb_reviews as $r): ?>
+            <a href="<?php echo htmlspecialchars($gmb_url); ?>" target="_blank" rel="noopener" class="review-card-link" title="<?php echo htmlspecialchars('Read ' . $r['name'] . '\'s review on Google Business Profile'); ?>" aria-label="<?php echo htmlspecialchars('Read ' . $r['name'] . '\'s review on Google Business Profile'); ?>">
+                <div>
+                    <div class="review-card-top">
+                        <div class="review-author-wrap">
+                            <div class="review-avatar" style="background-color: <?php echo htmlspecialchars($r['avatar_bg']); ?>;">
+                                <?php echo htmlspecialchars($r['initials']); ?>
+                            </div>
+                            <div>
+                                <h4 class="review-author-name"><?php echo htmlspecialchars($r['name']); ?></h4>
+                                <span class="review-date"><?php echo htmlspecialchars($r['date']); ?></span>
+                            </div>
+                        </div>
+                        <span class="review-google-badge">
+                            <i class="fab fa-google" style="color: #4285F4;"></i> GMB
+                        </span>
+                    </div>
+
+                    <div class="review-stars-line">
+                        <?php for ($s = 0; $s < $r['rating']; $s++): ?>
+                        <i class="fas fa-star"></i>
+                        <?php endfor; ?>
+                    </div>
+
+                    <p class="review-body-text">
+                        &ldquo;<?php echo htmlspecialchars($r['text']); ?>&rdquo;
+                    </p>
+                </div>
+
+                <div class="review-action-footer">
+                    <span style="color: #16a34a;"><i class="fas fa-check-circle me-1"></i> Verified Review</span>
+                    <span>Read on Google Maps <i class="fas fa-arrow-right ms-1"></i></span>
+                </div>
+            </a>
+            <?php endforeach; ?>
+        </div>
+
+        <!-- Google Business Profile Direct Interconnection Callout -->
+        <div class="text-center mt-4 pt-2">
+            <p style="font-size: 0.95rem; color: #64748b;">
+                <i class="fas fa-info-circle me-1"></i> All reviews above are independently written by verified customers on our 
+                <a href="<?php echo htmlspecialchars($gmb_url); ?>" target="_blank" rel="noopener" style="font-weight: 700; color: #2563eb; text-decoration: underline;">Google Business Profile (Shanvi Tours &amp; Travels Bangalore)</a>. Click any review card to open and inspect directly on Google Maps.
+            </p>
+        </div>
+    </div>
+</section>
+
 <!-- Frequently Asked Questions (AEO & AI Search Snippet Targeting) -->
 <?php
 $home_faqs = [
+    [
+        'q' => "Do you provide wedding transport logistics and luxury coach convoys in Bangalore?",
+        'a' => "Yes! Shanvi Tours & Travels specializes in end-to-end Wedding Transport Logistics across Bangalore during the peak November to February wedding season. Our fleet includes the flagship 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery, multi-vehicle coordinated convoys for weddings with 200+ guests, and continuous shuttle loops between guest hotels, banquet halls, and reception venues. Dedicated on-ground route coordinators ensure punctuality."
+    ],
     [
         'q' => "What is the cost of renting a mini bus or bus in Bangalore?",
         'a' => "Bus rental rates in Bangalore depend on the vehicle seating capacity, trip type (local 8hr/80km package vs outstation per-km billing), and total days. Local 12+1 Tempo Traveller packages start from competitive standard rates, while 21+1 Mini Buses and 49+1 Luxury Coaches are calculated with transparent driver allowance (bata), state permits, and fuel included. Call +91-9611120023 for an all-inclusive instant quote with zero hidden charges."
@@ -572,11 +787,11 @@ $home_faqs = [
         <h3>Outstation Destinations</h3>
         <p>Mysore, Coorg, Chikmagalur, Gokarna, Wayanad, Alleppey, Munnar, Ooty, Pondicherry, Yercaud, Tirupati, Nellore, Hyderabad, Hampi, Dharmasthala.</p>
         <div style="margin-top: 1rem;">
-            <img src="images/logo.png" alt="Shanvi Tours &amp; Travels Logo" title="Shanvi Tours &amp; Travels - Mini Bus &amp; Bus Rental Bangalore" width="180" height="60" loading="lazy" decoding="async">
-            <img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 Seater Tempo Traveller Bangalore Fleet" title="12+1 Seater Tempo Traveller Bangalore Fleet" width="400" height="250" loading="lazy" decoding="async">
-            <img src="images/fleet/mini-bus-exterior.jpg" alt="21+1 Seater Mercedes Mini Bus Bangalore Fleet" title="21+1 Seater Mercedes Mini Bus Bangalore Fleet" width="400" height="250" loading="lazy" decoding="async">
-            <img src="images/fleet/bus-exterior.jpg" alt="33+1 Seater Tourist Bus Bangalore Fleet" title="33+1 Seater Tourist Bus Bangalore Fleet" width="400" height="250" loading="lazy" decoding="async">
-            <img src="images/fleet/luxury-bus-exterior.jpg" alt="49+1 Seater Luxury Bus Bangalore Fleet" title="49+1 Seater Luxury Bus Bangalore Fleet" width="400" height="250" loading="lazy" decoding="async">
+            <a href="index.php" title="Shanvi Tours &amp; Travels Logo"><img src="images/logo.png" alt="Shanvi Tours &amp; Travels Logo" title="Shanvi Tours &amp; Travels - Mini Bus &amp; Bus Rental Bangalore" width="180" height="60" loading="lazy" decoding="async"></a>
+            <a href="fleet.php#12-tempo-traveller" title="12+1 Seater Tempo Traveller Bangalore Fleet"><img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 Seater Tempo Traveller Bangalore Fleet" title="12+1 Seater Tempo Traveller Bangalore Fleet" width="400" height="250" loading="lazy" decoding="async"></a>
+            <a href="fleet.php#21-mini-bus" title="21+1 Seater Mercedes Mini Bus Bangalore Fleet"><img src="images/fleet/mini-bus-exterior.jpg" alt="21+1 Seater Mercedes Mini Bus Bangalore Fleet" title="21+1 Seater Mercedes Mini Bus Bangalore Fleet" width="400" height="250" loading="lazy" decoding="async"></a>
+            <a href="fleet.php#33-tourist-bus" title="33+1 Seater Tourist Bus Bangalore Fleet"><img src="images/fleet/bus-exterior.jpg" alt="33+1 Seater Tourist Bus Bangalore Fleet" title="33+1 Seater Tourist Bus Bangalore Fleet" width="400" height="250" loading="lazy" decoding="async"></a>
+            <a href="fleet.php#49-luxury-bus" title="49+1 Seater Luxury Bus Bangalore Fleet"><img src="images/fleet/luxury-bus-exterior.jpg" alt="49+1 Seater Luxury Bus Bangalore Fleet" title="49+1 Seater Luxury Bus Bangalore Fleet" width="400" height="250" loading="lazy" decoding="async"></a>
         </div>
     </div>
 </noscript>

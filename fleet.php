@@ -34,6 +34,7 @@ include 'includes/fleet-data.php';
                 <span><i class="fas fa-check-circle" style="color: #2e7d32;"></i> 100% Real Fleet Photos (No Stock Images)</span>
                 <span><i class="fas fa-check-circle" style="color: #2e7d32;"></i> AIS-140 GPS Telemetry &amp; Speed Governors</span>
                 <span><i class="fas fa-check-circle" style="color: #2e7d32;"></i> Pushback Reclining Seats in Every Coach</span>
+                <span><a href="https://maps.app.goo.gl/xzitq4A2wqQ5V18X7" target="_blank" rel="noopener" style="text-decoration: none; color: #1a73e8;" title="View Shanvi Tours 5.0 Google Rating"><i class="fab fa-google text-danger me-1"></i> 5.0 Rating (25 Verified Google Reviews) <i class="fas fa-external-link-alt ms-1" style="font-size: 0.75rem;"></i></a></span>
             </div>
         </div>
 
@@ -42,10 +43,17 @@ include 'includes/fleet-data.php';
             <div class="col-md-6">
                 <div class="service-card">
                     <div class="card-cover card-cover--vehicle">
-                        <img src="<?php echo htmlspecialchars($v['exterior']); ?>" alt="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ', ' . $v['seats'] . ' Bangalore Fleet'); ?>" title="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' (' . $v['seats'] . ') - Commercial Passenger Bus Rental Bangalore'); ?>" loading="lazy" width="400" height="200" decoding="async">
+                        <a href="gallery.php" class="card-cover-link" title="<?php echo htmlspecialchars('View Photos of Shanvi Tours & Travels ' . $v['name'] . ' ' . $v['seats'] . ' Bangalore Fleet'); ?>" aria-label="<?php echo htmlspecialchars('View photo gallery of ' . $v['name'] . ' ' . $v['seats']); ?>">
+                            <img src="<?php echo htmlspecialchars($v['exterior']); ?>" alt="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ', ' . $v['seats'] . ' Bangalore Fleet'); ?>" title="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' (' . $v['seats'] . ') - Commercial Passenger Bus Rental Bangalore'); ?>" loading="lazy" width="400" height="200" decoding="async">
+                        </a>
                     </div>
                     <div class="service-icon"><i class="fas <?php echo $v['icon']; ?>"></i></div>
                     <h3><?php echo htmlspecialchars($v['name']); ?> — <?php echo htmlspecialchars($v['seats']); ?></h3>
+                    <?php if ($v['seats'] === '49+1 Seater'): ?>
+                    <div style="margin-bottom: 0.75rem;">
+                        <span class="wedding-badge" style="font-size: 0.75rem; padding: 4px 10px; margin-bottom: 0.25rem;"><i class="fas fa-heart text-danger me-1"></i> Wedding Logistics Flagship Coach</span>
+                    </div>
+                    <?php endif; ?>
                     <p style="font-size: 1rem; line-height: 1.7;"><?php echo htmlspecialchars($v['desc']); ?></p>
                     <div style="margin: 0.75rem 0; padding: 0.5rem 0; border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); font-size: 0.92rem; color: #4a5568;">
                         <strong>Plate:</strong> <?php echo htmlspecialchars($v['plate']); ?> | <strong>Permit:</strong> All India Tourist Permit (AITP)
@@ -186,6 +194,10 @@ $fleet_faqs = [
     [
         'q' => "Can I inspect the vehicle in person before booking?",
         'a' => "Yes. All photos on this website are real photos of our actual fleet. You are welcome to inspect any vehicle at our SMV Layout office in Nagadevanahalli, Bangalore prior to confirming your booking."
+    ],
+    [
+        'q' => "Which vehicle is best for wedding transport logistics and 200+ guests in Bangalore?",
+        'a' => "For wedding transport logistics, our 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery is the flagship choice. For weddings with 200+ guests during the November to February wedding season, we deploy multi-vehicle coordinated convoys with continuous shuttle loops between guest hotels, reception venues, and kalyana mantapas."
     ]
 ];
 ?>
@@ -255,14 +267,14 @@ $fleet_faqs = [
     <div style="padding: 2rem; background: #fff; color: #111;">
         <h2>Shanvi Tours &amp; Travels — Complete Bangalore Fleet Catalogue</h2>
         <p>12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus, 49+1 Luxury Bus available in Bangalore with driver.</p>
-        <img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats" title="12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/tempo-traveller-interior.jpg" alt="12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC" title="12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/mini-bus-exterior.jpg" alt="21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach" title="21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/mini-bus-interior.jpg" alt="21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats" title="21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/bus-exterior.jpg" alt="33+1 Seater Touring Coach Bangalore - Highway Tourist Bus" title="33+1 Seater Touring Coach Bangalore - Highway Tourist Bus" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/bus-interior.jpg" alt="33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights" title="33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/luxury-bus-exterior.jpg" alt="49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach" title="49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach" width="400" height="250" loading="lazy" decoding="async">
-        <img src="images/fleet/luxury-bus-interior.jpg" alt="49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle" title="49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle" width="400" height="250" loading="lazy" decoding="async">
+        <a href="images/fleet/tempo-traveller-exterior.jpg" title="12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats" aria-label="12+1 Seater Tempo Traveller Bangalore Exterior"><img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats" title="12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/tempo-traveller-interior.jpg" title="12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC" aria-label="12+1 Seater Tempo Traveller Interior"><img src="images/fleet/tempo-traveller-interior.jpg" alt="12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC" title="12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/mini-bus-exterior.jpg" title="21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach" aria-label="21+1 Seater Mercedes Mini Bus Bangalore"><img src="images/fleet/mini-bus-exterior.jpg" alt="21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach" title="21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/mini-bus-interior.jpg" title="21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats" aria-label="21+1 Seater Mini Bus Interior"><img src="images/fleet/mini-bus-interior.jpg" alt="21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats" title="21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/bus-exterior.jpg" title="33+1 Seater Touring Coach Bangalore - Highway Tourist Bus" aria-label="33+1 Seater Touring Coach Bangalore"><img src="images/fleet/bus-exterior.jpg" alt="33+1 Seater Touring Coach Bangalore - Highway Tourist Bus" title="33+1 Seater Touring Coach Bangalore - Highway Tourist Bus" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/bus-interior.jpg" title="33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights" aria-label="33+1 Seater Bus Interior"><img src="images/fleet/bus-interior.jpg" alt="33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights" title="33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/luxury-bus-exterior.jpg" title="49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach" aria-label="49+1 Seater Luxury Bus Bangalore"><img src="images/fleet/luxury-bus-exterior.jpg" alt="49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach" title="49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach" width="400" height="250" loading="lazy" decoding="async"></a>
+        <a href="images/fleet/luxury-bus-interior.jpg" title="49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle" aria-label="49+1 Seater Luxury Bus Interior with Red Carpet"><img src="images/fleet/luxury-bus-interior.jpg" alt="49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle" title="49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle" width="400" height="250" loading="lazy" decoding="async"></a>
     </div>
 </noscript>
 

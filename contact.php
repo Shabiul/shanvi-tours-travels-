@@ -224,6 +224,11 @@ include 'includes/header.php';
                 title="Shanvi Tours and Travels Office Location Bangalore">
             </iframe>
         </div>
+        <div class="text-center mt-3">
+            <a href="https://maps.app.goo.gl/xzitq4A2wqQ5V18X7" target="_blank" rel="noopener" class="btn-hero" title="Open Shanvi Tours &amp; Travels on Google Business Profile &amp; Maps">
+                <i class="fas fa-map-marked-alt me-2"></i> Open in Google Maps (Google Business Profile)
+            </a>
+        </div>
     </div>
 </section>
 
@@ -236,28 +241,36 @@ include 'includes/header.php';
             <p>Choose the fastest channel to reserve your vehicle</p>
         </div>
         <div class="row g-4">
-            <div class="col-md-4">
-                <div class="service-card text-center">
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card text-center" style="height: 100%;">
                     <div class="service-icon" style="margin: 0 auto 20px;"><i class="fas fa-phone-alt"></i></div>
                     <h3>Call Us Directly</h3>
                     <p>Immediate vehicle confirmation with our senior dispatch coordinator.</p>
                     <a href="tel:9611120023" class="btn-hero" style="margin-top: 1rem;">Call 9611120023</a>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="service-card text-center">
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card text-center" style="height: 100%;">
                     <div class="service-icon" style="margin: 0 auto 20px;"><i class="fab fa-whatsapp"></i></div>
                     <h3>WhatsApp Booking</h3>
                     <p>Get vehicle exterior and interior photos, rate cards, and location pins instantly.</p>
                     <a href="https://wa.me/919611120023" target="_blank" class="btn-hero" style="margin-top: 1rem;">Start WhatsApp Chat</a>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="service-card text-center">
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card text-center" style="height: 100%;">
                     <div class="service-icon" style="margin: 0 auto 20px;"><i class="fas fa-envelope"></i></div>
                     <h3>Corporate Email</h3>
                     <p>Submit formal RFPs, vendor onboarding packages, and monthly shuttle requirements.</p>
                     <a href="mailto:info@shanvitoursandtravels.com" class="btn-hero" style="margin-top: 1rem;">Send Email</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card text-center" style="height: 100%;">
+                    <div class="service-icon" style="margin: 0 auto 20px;"><i class="fab fa-google" style="color: #4285F4;"></i></div>
+                    <h3>Google Reviews</h3>
+                    <p>Rated 5.0 / 5.0 Stars across 25 verified travelers on Google Maps.</p>
+                    <a href="https://maps.app.goo.gl/xzitq4A2wqQ5V18X7" target="_blank" rel="noopener" class="btn-hero" style="margin-top: 1rem;">View All 25 Reviews</a>
                 </div>
             </div>
         </div>
@@ -287,8 +300,8 @@ $faqs = [
         'a' => 'Yes. 100% of our fleet (12+1, 21+1, 33+1, 49+1) is equipped with dual-zone climate-controlled air conditioning and government-certified AIS-140 GPS telematics with emergency SOS buttons.'
     ],
     [
-        'q' => 'Do you handle wedding guest transportation and corporate event logistics?',
-        'a' => 'Yes. Wedding guest shuttles, corporate team offsites, conference transfers, and pilgrimage tours represent our primary daily operations. We coordinate multi-bus convoys and continuous shuttle loops.'
+        'q' => 'Do you provide wedding transport logistics and luxury coaches in Bangalore?',
+        'a' => 'Yes! Shanvi Tours & Travels specializes in end-to-end Wedding Transport Logistics across Bangalore during the peak November to February wedding season. Our fleet includes the 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery, multi-vehicle coordinated convoys for weddings with 200+ guests, and continuous shuttle loops between guest hotels, reception venues, and airport terminals.'
     ],
     [
         'q' => 'Which outstation holiday and pilgrimage routes do you cover?',
@@ -377,6 +390,18 @@ $faqs = [
             "addressRegion": "Karnataka",
             "postalCode": "560056",
             "addressCountry": "IN"
+        },
+        "hasMap": "https://maps.app.goo.gl/xzitq4A2wqQ5V18X7",
+        "sameAs": [
+            "https://maps.app.goo.gl/xzitq4A2wqQ5V18X7"
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "25",
+            "reviewCount": "25"
         }
     }
 }
@@ -387,10 +412,10 @@ $faqs = [
     <div style="padding: 2rem; background: #fff; color: #111;">
         <h2>Shanvi Tours &amp; Travels — 24/7 Bus Rental Booking &amp; Dispatch Desk</h2>
         <p>Book 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus, and 49+1 Luxury Bus in Bangalore. Contact +91 9611120023.</p>
-        <img src="images/logo.png" alt="Shanvi Tours &amp; Travels Logo" title="Shanvi Tours &amp; Travels - Mini Bus &amp; Bus Rental Bangalore" width="180" height="60" loading="lazy" decoding="async">
-        <img src="images/destinations/gokarna.jpg" alt="Om Beach in Gokarna Karnataka - Outstation Tour Route" title="Outstation Holiday Route - Gokarna Coastal Tour" width="600" height="400" loading="lazy" decoding="async">
-        <img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 Seater Tempo Traveller Bangalore Exterior" title="12+1 Seater Tempo Traveller Bangalore Exterior" width="600" height="400" loading="lazy" decoding="async">
-        <img src="images/fleet/mini-bus-exterior.jpg" alt="21+1 Seater Mercedes Mini Bus Bangalore" title="21+1 Seater Mercedes Mini Bus Bangalore" width="600" height="400" loading="lazy" decoding="async">
+        <a href="index.php" title="Shanvi Tours &amp; Travels Logo"><img src="images/logo.png" alt="Shanvi Tours &amp; Travels Logo" title="Shanvi Tours &amp; Travels - Mini Bus &amp; Bus Rental Bangalore" width="180" height="60" loading="lazy" decoding="async"></a>
+        <a href="gallery.php" title="Outstation Holiday Route - Gokarna Coastal Tour"><img src="images/destinations/gokarna.jpg" alt="Om Beach in Gokarna Karnataka - Outstation Tour Route" title="Outstation Holiday Route - Gokarna Coastal Tour" width="600" height="400" loading="lazy" decoding="async"></a>
+        <a href="fleet.php#12-tempo-traveller" title="12+1 Seater Tempo Traveller Bangalore Exterior"><img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 Seater Tempo Traveller Bangalore Exterior" title="12+1 Seater Tempo Traveller Bangalore Exterior" width="600" height="400" loading="lazy" decoding="async"></a>
+        <a href="fleet.php#21-mini-bus" title="21+1 Seater Mercedes Mini Bus Bangalore"><img src="images/fleet/mini-bus-exterior.jpg" alt="21+1 Seater Mercedes Mini Bus Bangalore" title="21+1 Seater Mercedes Mini Bus Bangalore" width="600" height="400" loading="lazy" decoding="async"></a>
     </div>
 </noscript>
 

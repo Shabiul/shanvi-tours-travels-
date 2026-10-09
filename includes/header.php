@@ -119,11 +119,16 @@ $og_image      = $site_url . '/images/img_1.jpeg';
             "Corporate Bus Rental Bangalore",
             "Employee Transport Services Bangalore",
             "Wedding Bus Rental Bangalore",
+            "Wedding Transport Logistics Bangalore",
+            "49+1 Luxury Coach Wedding Rental",
+            "Multi-Vehicle Coordinated Convoys for Weddings with 200+ Guests",
+            "Continuous Shuttle Loops Between Guest Hotels and Reception Venues",
             "School and College Excursion Bus Hire",
             "Pilgrimage Bus Rental Tirupati Dharmasthala",
             "Outstation Bus Hire Karnataka South India",
             "All India Tourist Permit Commercial Buses"
         ],
+        "hasMap": "https://maps.app.goo.gl/xzitq4A2wqQ5V18X7",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "#2472/1, 3rd Block, SMV Layout, Doddabasthihalli, Near Vijaya Hospital, Nagadevanahalli",
@@ -180,11 +185,56 @@ $og_image      = $site_url . '/images/img_1.jpeg';
             "geoRadius": "50000"
         },
         "sameAs": [
-            "https://share.google/1OY3BJ91d12raYjMj",
+            "https://maps.app.goo.gl/xzitq4A2wqQ5V18X7",
             "https://facebook.com",
             "https://instagram.com",
             "https://twitter.com",
             "https://linkedin.com"
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "25",
+            "reviewCount": "25"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Goutham Gowda" },
+                "datePublished": "2026-09-01",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                "reviewBody": "Good and friendly driver and had a pleasant trip with Shanvi tours and travels. Very good service"
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Ranjitha Gowda" },
+                "datePublished": "2026-09-10",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                "reviewBody": "Good and clean buses, and the driver is polite and good and safe driving. Super experiences in Shanvi tours and travels bus."
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Praveen K" },
+                "datePublished": "2026-09-18",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                "reviewBody": "Good Service, super interior and exterior, driving was to good. Thank you for Shanvi tours and travels"
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Manoj Kumar C" },
+                "datePublished": "2026-09-05",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                "reviewBody": "Service was very good and communication with driver also friendly"
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Anand H S" },
+                "datePublished": "2026-09-02",
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                "reviewBody": "Good experience good driver and maintain"
+            }
         ],
         "contactPoint": [
             {

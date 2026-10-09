@@ -8,7 +8,9 @@ include 'includes/header.php';
 <!-- Page Header -->
 <section class="hero-section">
     <div class="carousel-item active">
-        <img src="images/img_11 (6).jpeg" alt="Mini bus and bus rental fleet, Shanvi Tours & Travels Bangalore" title="Mini Bus and Luxury Bus Rental Fleet - Shanvi Tours & Travels Bangalore" width="1920" height="700" loading="eager" fetchpriority="high" decoding="async">
+        <a href="services.php" class="hero-image-link" title="Mini Bus and Luxury Bus Rental Fleet - Shanvi Tours &amp; Travels Bangalore" aria-label="Mini Bus and Luxury Bus Rental Fleet - Shanvi Tours &amp; Travels Bangalore">
+            <img src="images/img_11 (6).jpeg" alt="Mini bus and bus rental fleet, Shanvi Tours &amp; Travels Bangalore" title="Mini Bus and Luxury Bus Rental Fleet - Shanvi Tours &amp; Travels Bangalore" width="1920" height="700" loading="eager" fetchpriority="high" decoding="async">
+        </a>
         <div class="carousel-overlay">
             <div class="hero-content">
                 <h1>Bus Rental Services in Bangalore</h1>
@@ -38,6 +40,7 @@ include 'includes/header.php';
                 <span><i class="fas fa-check-circle" style="color: #2e7d32;"></i> AIS-140 GPS Route Tracking</span>
                 <span><i class="fas fa-check-circle" style="color: #2e7d32;"></i> Comprehensive Passenger Insurance</span>
                 <span><i class="fas fa-check-circle" style="color: #2e7d32;"></i> All India Tourist Permit (AITP)</span>
+                <span><a href="https://maps.app.goo.gl/xzitq4A2wqQ5V18X7" target="_blank" rel="noopener" style="text-decoration: none; color: #1a73e8;" title="View Shanvi Tours 5.0 Google Rating"><i class="fab fa-google text-danger me-1"></i> 5.0 Rating (25 Verified Google Reviews) <i class="fas fa-external-link-alt ms-1" style="font-size: 0.75rem;"></i></a></span>
             </div>
         </div>
     </div>
@@ -78,8 +81,12 @@ include 'includes/header.php';
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/services/employee-transport.jpg" alt="Corporate Employee Transport Services Bangalore - Daily Staff Shuttles in 12+1 & 21+1 Seater AC Buses" title="Corporate Employee Transport Services Bangalore - Daily Staff Shuttles" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
-                <img src="images/fleet/tempo-traveller-interior.jpg" alt="12+1 seater Tempo Traveller interior for employee transport Bangalore" title="12+1 Seater Tempo Traveller Interior Pushback Seats for Employee Transport" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                <a href="contact.php" class="service-image-link mb-3" title="Corporate Employee Transport Services Bangalore - Daily Staff Shuttles in 12+1 & 21+1 Seater AC Buses" aria-label="Enquire for Corporate Employee Transport Services Bangalore">
+                    <img src="images/services/employee-transport.jpg" alt="Corporate Employee Transport Services Bangalore - Daily Staff Shuttles in 12+1 & 21+1 Seater AC Buses" title="Corporate Employee Transport Services Bangalore - Daily Staff Shuttles" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
+                </a>
+                <a href="fleet.php" class="service-image-link" title="12+1 Seater Tempo Traveller Interior Pushback Seats for Employee Transport" aria-label="View 12+1 Seater Tempo Traveller Interior Pushback Seats">
+                    <img src="images/fleet/tempo-traveller-interior.jpg" alt="12+1 seater Tempo Traveller interior for employee transport Bangalore" title="12+1 Seater Tempo Traveller Interior Pushback Seats for Employee Transport" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                </a>
             </div>
         </div>
 
@@ -108,8 +115,12 @@ include 'includes/header.php';
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/services/corporate.jpg" alt="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" title="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
-                <img src="images/fleet/mini-bus-interior.jpg" alt="21+1 seater Mini Bus interior for corporate bus rental Bangalore" title="21+1 Seater Mini Bus Interior Reclining Seats for Corporate Travel" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                <a href="contact.php" class="service-image-link mb-3" title="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" aria-label="Request Corporate Bus Rental Quote">
+                    <img src="images/services/corporate.jpg" alt="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" title="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
+                </a>
+                <a href="fleet.php" class="service-image-link" title="21+1 Seater Mini Bus Interior Reclining Seats for Corporate Travel" aria-label="View 21+1 Seater Mini Bus Interior Reclining Seats">
+                    <img src="images/fleet/mini-bus-interior.jpg" alt="21+1 seater Mini Bus interior for corporate bus rental Bangalore" title="21+1 Seater Mini Bus Interior Reclining Seats for Corporate Travel" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                </a>
             </div>
         </div>
 
@@ -118,28 +129,36 @@ include 'includes/header.php';
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-heart"></i></div>
-                    <h3>Wedding Bus Rental Bangalore</h3>
+                    <div style="margin-bottom: 0.5rem;">
+                        <span class="wedding-badge"><i class="fas fa-calendar-check me-1"></i> Peak Season: November to February Weddings</span>
+                    </div>
+                    <h3>Wedding Transport Logistics &amp; Bus Rental Bangalore</h3>
                     <p style="font-size: 1.05rem; line-height: 1.8;">
-                        Seamless guest logistics between marriage halls, kalyana mantapas, five-star banquet venues, and hotels. Accommodates large wedding guest parties without parking bottlenecks or delayed arrivals.
+                        Comprehensive, stress-free wedding guest transportation between marriage halls, kalyana mantapas, five-star banquet hotels, and reception venues. During the peak November to February wedding season, we ensure your wedding party arrives together in synchronized, air-conditioned comfort.
                     </p>
                     <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-light);">
-                        From baraat processions to airport reception convoys and multi-stop family pickups across Bangalore, our 49+1 flagship Luxury Bus and 33+1 touring coaches ensure everyone travels together in air-conditioned comfort.
+                        From baraat processions and BLR airport reception transfers to multi-stop guest pickups across Bangalore (Palace Grounds, Whitefield, Kanakapura Road, Nelamangala resorts, Yelahanka), our dedicated wedding convoy managers keep every schedule running like clockwork.
                     </p>
                     <h5 style="color: var(--primary-color); margin-top: 1.5rem; margin-bottom: 0.8rem; font-weight: 700;">Wedding Transport Logistics:</h5>
                     <ul style="line-height: 2; font-size: 0.95rem;">
-                        <li>49+1 Luxury Coach with red carpet aisle and plush pushback upholstery</li>
-                        <li>Multi-vehicle coordinated convoys for weddings with 200+ guests</li>
-                        <li>Continuous shuttle loops between guest hotels and reception venues</li>
-                        <li>Flexible timing adapting to ceremony extensions and muhurtham schedules</li>
+                        <li><strong>49+1 Luxury Coach with red carpet aisle and plush pushback upholstery</strong></li>
+                        <li><strong>Multi-vehicle coordinated convoys for weddings with 200+ guests</strong></li>
+                        <li><strong>Continuous shuttle loops between guest hotels and reception venues</strong></li>
+                        <li>Flexible timing adapting to muhurtham ceremonies, sangeet, and reception extensions</li>
                         <li>Generous underfloor luggage bays for heavy bridal trunks and gift packaging</li>
+                        <li>Uniformed, courteous chauffeurs and dedicated lead convoy coordinator</li>
                         <li>Vehicle floral decoration coordination available upon request</li>
                     </ul>
-                    <a href="contact.php" class="btn-price" style="margin-top: 1rem;">Plan Wedding Transport</a>
+                    <a href="contact.php" class="btn-price" style="margin-top: 1rem;">Plan Wedding Transport (Nov–Feb Peak Dates)</a>
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/fleet/luxury-bus-interior.jpg" alt="49+1 seater Luxury Bus interior for wedding guest transport Bangalore" title="49+1 Seater Luxury Bus Interior with Red Carpet for Wedding Guest Shuttles" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
-                <img src="images/fleet/bus-city-street.jpg" alt="Wedding Bus Rental Bangalore - Guest Transport on City Streets" title="Wedding Bus Rental Bangalore - Guest Transport on City Streets" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                <a href="fleet.php" class="service-image-link mb-3" title="49+1 Seater Luxury Bus Interior with Red Carpet for Wedding Guest Shuttles" aria-label="View 49+1 Luxury Bus Interior with Red Carpet Aisle">
+                    <img src="images/fleet/luxury-bus-interior.jpg" alt="49+1 seater Luxury Bus interior for wedding guest transport Bangalore" title="49+1 Seater Luxury Bus Interior with Red Carpet for Wedding Guest Shuttles" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
+                </a>
+                <a href="contact.php" class="service-image-link" title="Wedding Bus Rental Bangalore - Guest Transport on City Streets" aria-label="Wedding Bus Rental Bangalore - Guest Transport on City Streets">
+                    <img src="images/fleet/bus-city-street.jpg" alt="Wedding Bus Rental Bangalore - Guest Transport on City Streets" title="Wedding Bus Rental Bangalore - Guest Transport on City Streets" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                </a>
             </div>
         </div>
 
@@ -168,8 +187,12 @@ include 'includes/header.php';
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/fleet/mini-bus-exterior.jpg" alt="School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses" title="School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
-                <img src="images/fleet/bus-interior.jpg" alt="33+1 seater Bus interior for school and college trips Bangalore" title="33+1 Seater Bus Interior for Educational Tours & College Excursions" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                <a href="contact.php" class="service-image-link mb-3" title="School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses" aria-label="Book School and College Excursion Bus Hire Bangalore">
+                    <img src="images/fleet/mini-bus-exterior.jpg" alt="School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses" title="School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
+                </a>
+                <a href="fleet.php" class="service-image-link" title="33+1 Seater Bus Interior for Educational Tours & College Excursions" aria-label="View 33+1 Seater Bus Interior">
+                    <img src="images/fleet/bus-interior.jpg" alt="33+1 seater Bus interior for school and college trips Bangalore" title="33+1 Seater Bus Interior for Educational Tours & College Excursions" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                </a>
             </div>
         </div>
 
@@ -198,8 +221,12 @@ include 'includes/header.php';
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/services/outstation.jpg" alt="Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu" title="Outstation Bus Rental from Bangalore Across Karnataka, Kerala & Tamil Nadu" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
-                <img src="images/fleet/luxury-bus-temple-1.jpg" alt="Bus on an outstation route from Bangalore" title="Luxury Bus on Inter-State Outstation Route from Bangalore" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                <a href="contact.php" class="service-image-link mb-3" title="Outstation Bus Rental from Bangalore Across Karnataka, Kerala & Tamil Nadu" aria-label="Book Outstation Bus Rental from Bangalore">
+                    <img src="images/services/outstation.jpg" alt="Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu" title="Outstation Bus Rental from Bangalore Across Karnataka, Kerala & Tamil Nadu" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
+                </a>
+                <a href="fleet.php" class="service-image-link" title="Luxury Bus on Inter-State Outstation Route from Bangalore" aria-label="View Luxury Bus on Outstation Route">
+                    <img src="images/fleet/luxury-bus-temple-1.jpg" alt="Bus on an outstation route from Bangalore" title="Luxury Bus on Inter-State Outstation Route from Bangalore" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                </a>
             </div>
         </div>
 
@@ -227,8 +254,12 @@ include 'includes/header.php';
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/services/package-tours.jpg" alt="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages" title="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati & Dharmasthala Packages" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
-                <img src="images/fleet/bus-exterior.jpg" alt="Bus used for pilgrimage and package tours from Bangalore" title="Touring Coach Bus for Temple Pilgrimage Tours from Bangalore" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                <a href="contact.php" class="service-image-link mb-3" title="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati & Dharmasthala Packages" aria-label="Book Pilgrimage and Package Tour Bus Rental Bangalore">
+                    <img src="images/services/package-tours.jpg" alt="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages" title="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati & Dharmasthala Packages" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 1rem;">
+                </a>
+                <a href="fleet.php" class="service-image-link" title="Touring Coach Bus for Temple Pilgrimage Tours from Bangalore" aria-label="View Touring Coach Bus for Temple Pilgrimage Tours">
+                    <img src="images/fleet/bus-exterior.jpg" alt="Bus used for pilgrimage and package tours from Bangalore" title="Touring Coach Bus for Temple Pilgrimage Tours from Bangalore" width="600" height="400" loading="lazy" decoding="async" style="width: 100%; border-radius: 20px; box-shadow: var(--shadow);">
+                </a>
             </div>
         </div>
     </div>
@@ -281,6 +312,10 @@ $service_faqs = [
     [
         'q' => "How are corporate bus rental charges calculated in Bangalore?",
         'a' => "Corporate bus rentals are calculated based on either daily/monthly route contracts (for employee transportation) or per-day 8hr/80km packages with extra-km and extra-hour slabs (for conferences and client visits). All billing is GST-compliant with transparent toll and parking receipts."
+    ],
+    [
+        'q' => "How do you manage wedding transport logistics for 200+ guests in Bangalore?",
+        'a' => "Shanvi Tours & Travels specializes in November to February wedding season transport logistics. We deploy our 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery alongside multi-vehicle coordinated convoys for weddings with 200+ guests. Our dispatch desk coordinates continuous shuttle loops between guest hotels and reception venues across Palace Grounds, Whitefield, Kanakapura Road, and Nelamangala with dedicated convoy managers and luggage assistance."
     ],
     [
         'q' => "Can we arrange multiple pickups for a wedding bus in Bangalore?",
@@ -351,7 +386,7 @@ $service_faqs = [
     "itemListElement": [
         { "@type": "ListItem", "position": 1, "item": { "@type": "Service", "name": "Mini Bus Rental for Employee Transport", "serviceType": "Employee Transportation", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
         { "@type": "ListItem", "position": 2, "item": { "@type": "Service", "name": "Corporate Bus Rental Bangalore", "serviceType": "Corporate Travel", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
-        { "@type": "ListItem", "position": 3, "item": { "@type": "Service", "name": "Wedding Bus Rental Bangalore", "serviceType": "Wedding Guest Logistics", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
+        { "@type": "ListItem", "position": 3, "item": { "@type": "Service", "name": "Wedding Transport Logistics & Bus Rental Bangalore", "serviceType": "Wedding Guest Logistics", "description": "Wedding Transport Logistics: 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery, multi-vehicle coordinated convoys for weddings with 200+ guests, and continuous shuttle loops between guest hotels and reception venues during November to February wedding season.", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
         { "@type": "ListItem", "position": 4, "item": { "@type": "Service", "name": "School & College Trip Bus Rental", "serviceType": "Educational Excursions", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
         { "@type": "ListItem", "position": 5, "item": { "@type": "Service", "name": "Outstation Bus Rental from Bangalore", "serviceType": "Interstate Tour Bus", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "India" } },
         { "@type": "ListItem", "position": 6, "item": { "@type": "Service", "name": "Pilgrimage & Package Tour Bus Rental", "serviceType": "Pilgrimage Bus Tours", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "India" } }
@@ -377,10 +412,10 @@ $service_faqs = [
     <div style="padding: 2rem; background: #fff; color: #111;">
         <h2>Shanvi Tours &amp; Travels — Bus Rental Services in Bangalore</h2>
         <p>Offering employee transport, corporate bus rental, wedding shuttles, school trip buses, outstation bus hire, and pilgrimage tours. Vehicles include 12+1 Seater Tempo Traveller, 21+1 Seater Mini Bus, 33+1 Seater Bus, and 49+1 Seater Luxury Bus. Contact +91 9611120023 or info@shanvitoursandtravels.com.</p>
-        <img src="images/services/employee-transport.jpg" alt="Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses" title="Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses" width="600" height="400" loading="lazy" decoding="async">
-        <img src="images/services/corporate.jpg" alt="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" title="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" width="600" height="400" loading="lazy" decoding="async">
-        <img src="images/services/outstation.jpg" alt="Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu" title="Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu" width="600" height="400" loading="lazy" decoding="async">
-        <img src="images/services/package-tours.jpg" alt="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages" title="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages" width="600" height="400" loading="lazy" decoding="async">
+        <a href="images/services/employee-transport.jpg" title="Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses" aria-label="Corporate Employee Transport Services Bangalore"><img src="images/services/employee-transport.jpg" alt="Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses" title="Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses" width="600" height="400" loading="lazy" decoding="async"></a>
+        <a href="images/services/corporate.jpg" title="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" aria-label="Corporate Bus Rental Bangalore"><img src="images/services/corporate.jpg" alt="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" title="Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites" width="600" height="400" loading="lazy" decoding="async"></a>
+        <a href="images/services/outstation.jpg" title="Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu" aria-label="Outstation Bus Rental from Bangalore"><img src="images/services/outstation.jpg" alt="Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu" title="Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu" width="600" height="400" loading="lazy" decoding="async"></a>
+        <a href="images/services/package-tours.jpg" title="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages" aria-label="Pilgrimage and Package Tour Bus Rental Bangalore"><img src="images/services/package-tours.jpg" alt="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages" title="Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages" width="600" height="400" loading="lazy" decoding="async"></a>
     </div>
 </noscript>
 

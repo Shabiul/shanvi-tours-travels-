@@ -82,7 +82,8 @@ function initLightbox() {
     const galleryItems = document.querySelectorAll('.gallery-item');
     
     galleryItems.forEach(item => {
-        item.addEventListener('click', function() {
+        item.addEventListener('click', function(e) {
+            e.preventDefault();
             const img = this.querySelector('img');
             const lightbox = document.createElement('div');
             lightbox.className = 'lightbox-overlay';
