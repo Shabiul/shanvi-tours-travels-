@@ -2,7 +2,7 @@
   "version": 2,
   "cleanUrls": true,
   "builds": [
-    { "src": "*.php", "use": "vercel-php@0.9.0" },
+    { "src": "api/index.php", "use": "vercel-php@0.9.0" },
     { "src": "images/**", "use": "@vercel/static" },
     { "src": "css/**", "use": "@vercel/static" },
     { "src": "js/**", "use": "@vercel/static" },
@@ -25,20 +25,7 @@
     { "src": "/shanvi(.*).txt", "dest": "/shanvi$1.txt" },
     { "src": "/index.php", "status": 301, "headers": { "Location": "/" } },
     { "src": "/index_comingsoon.html", "status": 301, "headers": { "Location": "/" } },
-    { "src": "/fleet", "dest": "/fleet.php" },
-    { "src": "/services", "dest": "/services.php" },
-    { "src": "/about", "dest": "/about.php" },
-    { "src": "/gallery", "dest": "/gallery.php" },
-    { "src": "/contact", "dest": "/contact.php" },
-    { "src": "/21-seater-bus-rental-bangalore", "dest": "/21-seater-bus-rental-bangalore.php" },
-    { "src": "/blog", "dest": "/blog.php" },
-    { "src": "/blog-21-seater-mini-bus-rental-bangalore", "dest": "/blog-21-seater-mini-bus-rental-bangalore.php" },
-    { "src": "/blog-tempo-traveller-vs-21-seater-bus", "dest": "/blog-tempo-traveller-vs-21-seater-bus.php" },
-    { "src": "/blog-weekend-road-trips-bangalore-21-seater", "dest": "/blog-weekend-road-trips-bangalore-21-seater.php" },
-    { "src": "/blog-corporate-team-outing-bus-bangalore", "dest": "/blog-corporate-team-outing-bus-bangalore.php" },
-    { "src": "/(.*)\\.php", "dest": "/$1.php" },
-    { "src": "/", "dest": "/index.php" },
-    { "src": "/(.*)", "status": 404, "dest": "/404.php" }
+    { "src": "/(.*)", "dest": "/api/index.php" }
   ],
   "headers": [
     {
