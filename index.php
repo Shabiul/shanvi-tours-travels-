@@ -294,12 +294,12 @@ include 'includes/header.php';
                         <td style="padding: 1rem;"><a href="fleet.php" class="btn-price" style="padding: 0.3rem 0.9rem; font-size: 0.85rem;">View Specs</a></td>
                     </tr>
                     <tr>
-                        <td style="padding: 1rem; font-weight: 700; color: var(--brand-navy);"><i class="fas fa-bus-alt me-2 text-warning"></i> Mini Bus</td>
-                        <td style="padding: 1rem;">21+1 Seater</td>
-                        <td style="padding: 1rem;"><span class="badge bg-success">Individual Vents</span></td>
-                        <td style="padding: 1rem;">AIS-140 GPS &amp; Reclining Seats</td>
+                        <td style="padding: 1rem; font-weight: 700; color: var(--brand-navy);"><i class="fas fa-bus-alt me-2 text-warning"></i> Mini Bus <span class="badge bg-warning text-dark" style="font-size: 0.7rem; font-weight: 700;">★ Popular</span></td>
+                        <td style="padding: 1rem; font-weight: 700;">21+1 Seater</td>
+                        <td style="padding: 1rem;"><span class="badge bg-success">Dual Heavy AC</span></td>
+                        <td style="padding: 1rem;">AIS-140 GPS &amp; 2x2 Reclining Seats</td>
                         <td style="padding: 1rem;">14 to 21 Passengers (Office Outings, Teams)</td>
-                        <td style="padding: 1rem;"><a href="fleet.php" class="btn-price" style="padding: 0.3rem 0.9rem; font-size: 0.85rem;">View Specs</a></td>
+                        <td style="padding: 1rem;"><a href="21-seater-bus-rental-bangalore.php" class="btn-price" style="padding: 0.3rem 0.9rem; font-size: 0.85rem; background: var(--color-desertsun); color: var(--brand-navy); font-weight: 700;">View 21-Seater &rarr;</a></td>
                     </tr>
                     <tr>
                         <td style="padding: 1rem; font-weight: 700; color: var(--brand-navy);"><i class="fas fa-bus me-2 text-warning"></i> Touring Bus</td>
@@ -322,6 +322,65 @@ include 'includes/header.php';
         </div>
     </div>
 </section>
+
+<!-- Featured: 21 Seater Mercedes Mini Coach Spotlight (High-Intent SEO/GEO Push) -->
+<section class="section-padding" style="background: linear-gradient(135deg, #0d2c45 0%, #14477e 100%); color: #ffffff;">
+    <div class="container">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-7">
+                <span style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(242, 169, 59, 0.2); border: 1px solid rgba(242, 169, 59, 0.5); padding: 5px 14px; border-radius: 50px; font-size: 0.85rem; font-weight: 700; color: #f2a93b; margin-bottom: 1rem;">
+                    <i class="fas fa-star"></i> Featured Fleet Highlight &bull; 14 to 21 Passengers
+                </span>
+                <h2 style="font-size: clamp(1.8rem, 3.5vw, 2.6rem); color: #ffffff; margin-bottom: 1rem; line-height: 1.25;">
+                    21 Seater Mini Bus Rental in Bangalore &mdash; The Executive Sweet Spot
+                </h2>
+                <p style="font-size: 1.05rem; line-height: 1.75; opacity: 0.92; margin-bottom: 1.5rem;">
+                    When your team or extended family outgrows a 12-seater Tempo Traveller, our <strong>21+1 Seater Mercedes-Chassis Mini Coach</strong> provides the ideal upgrade without the bulk or high cost of a 33 or 49-seater bus. Engineered by <em>Singh Motor Coach Builders</em>, it delivers supreme comfort for Bangalore corporate team outings, wedding guest shuttles, and weekend road trips to Coorg, Ooty, and Chikmagalur.
+                </p>
+                <div class="row g-3 mb-4">
+                    <div class="col-sm-6">
+                        <div class="p-3 rounded-3" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);">
+                            <div style="color: var(--color-desertsun); font-size: 1.3rem; font-weight: 800; margin-bottom: 0.25rem;">₹4,500 / Day</div>
+                            <div style="font-size: 0.88rem; opacity: 0.9;">Local 8hr / 80km package (₹26/extra km, ₹350/extra hr)</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="p-3 rounded-3" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);">
+                            <div style="color: #4ade80; font-size: 1.3rem; font-weight: 800; margin-bottom: 0.25rem;">₹32 &ndash; ₹36 / Km</div>
+                            <div style="font-size: 0.88rem; opacity: 0.9;">Outstation interstate rate + ₹600/day driver bata</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap gap-3 align-items-center">
+                    <a href="21-seater-bus-rental-bangalore.php" class="btn-hero" style="background: var(--color-desertsun); color: var(--color-burgundy); border-color: var(--color-desertsun); font-weight: 700; padding: 0.75rem 1.8rem;" title="Explore 21 Seater Mini Bus Rental in Bangalore">
+                        <i class="fas fa-arrow-right me-2"></i> View 21-Seater Tariffs &amp; Specs
+                    </a>
+                    <a href="contact.php?vehicle=21-seater" class="btn-hero-outline" style="border-color: rgba(255,255,255,0.4); color: #ffffff; padding: 0.75rem 1.5rem;" title="Reserve 21 Seater Coach">
+                        <i class="fas fa-calendar-check me-2"></i> Reserve This Coach
+                    </a>
+                    <a href="https://wa.me/919611120023?text=Hi%20Shanvi%20Tours,%20need%20quote%20for%2021%20Seater%20Mini%20Bus" target="_blank" rel="noopener" class="btn-hero-outline" style="border-color: #25D366; color: #25D366; padding: 0.75rem 1.5rem;" title="WhatsApp 21-Seater Dispatch">
+                        <i class="fab fa-whatsapp me-2"></i> WhatsApp Dispatch
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <a href="21-seater-bus-rental-bangalore.php" class="service-image-link" title="21 Seater Mini Bus Exterior KA 51 AB 8485" aria-label="21 Seater Mini Bus Exterior">
+                            <img src="images/fleet/mini-bus-exterior.jpg" alt="Shanvi Tours & Travels 21 Seater Mini Bus Bangalore Exterior KA 51 AB 8485" class="img-fluid rounded-3 shadow" style="width: 100%; height: 210px; object-fit: cover;" width="400" height="210" loading="lazy" decoding="async">
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <a href="21-seater-bus-rental-bangalore.php" class="service-image-link" title="21 Seater Mini Bus Interior 2x2 Pushback Seating" aria-label="21 Seater Mini Bus Interior 2x2 Pushback Seating">
+                            <img src="images/fleet/mini-bus-interior.jpg" alt="Shanvi Tours & Travels 21 Seater Mini Bus Interior 2x2 Pushback Seating Bangalore" class="img-fluid rounded-3 shadow" style="width: 100%; height: 210px; object-fit: cover;" width="400" height="210" loading="lazy" decoding="async">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Featured: Wedding Transport Logistics (Peak Season Focus) -->
 <section class="section-padding" style="background: linear-gradient(135deg, #fdfbf7 0%, #fff6ec 100%); border-top: 2px solid rgba(224, 86, 36, 0.15); border-bottom: 2px solid rgba(224, 86, 36, 0.15);">
@@ -791,7 +850,7 @@ $home_faqs = [
         <h3>Outstation Destinations</h3>
         <p>Mysore, Coorg, Chikmagalur, Gokarna, Wayanad, Alleppey, Munnar, Ooty, Pondicherry, Yercaud, Tirupati, Nellore, Hyderabad, Hampi, Dharmasthala.</p>
         <div style="margin-top: 1rem;">
-            <a href="index.php" title="Shanvi Tours &amp; Travels Logo"><img src="images/logo.png" alt="Shanvi Tours &amp; Travels Logo" title="Shanvi Tours &amp; Travels - Mini Bus &amp; Bus Rental Bangalore" width="180" height="60" loading="lazy" decoding="async"></a>
+            <a href="/" title="Shanvi Tours &amp; Travels Logo"><img src="images/logo.png" alt="Shanvi Tours &amp; Travels Logo" title="Shanvi Tours &amp; Travels - Mini Bus &amp; Bus Rental Bangalore" width="180" height="60" loading="lazy" decoding="async"></a>
             <a href="fleet.php#12-tempo-traveller" title="12+1 Seater Tempo Traveller Bangalore Fleet"><img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 Seater Tempo Traveller Bangalore Fleet" title="12+1 Seater Tempo Traveller Bangalore Fleet" width="400" height="250" loading="lazy" decoding="async"></a>
             <a href="fleet.php#21-mini-bus" title="21+1 Seater Mercedes Mini Bus Bangalore Fleet"><img src="images/fleet/mini-bus-exterior.jpg" alt="21+1 Seater Mercedes Mini Bus Bangalore Fleet" title="21+1 Seater Mercedes Mini Bus Bangalore Fleet" width="400" height="250" loading="lazy" decoding="async"></a>
             <a href="fleet.php#33-tourist-bus" title="33+1 Seater Tourist Bus Bangalore Fleet"><img src="images/fleet/bus-exterior.jpg" alt="33+1 Seater Tourist Bus Bangalore Fleet" title="33+1 Seater Tourist Bus Bangalore Fleet" width="400" height="250" loading="lazy" decoding="async"></a>

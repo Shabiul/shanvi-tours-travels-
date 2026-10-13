@@ -28,8 +28,10 @@ $fleet = [
         'price_local' => 'From ₹4,500 (8hr / 80km)',
         'price_outstation' => 'From ₹32/km',
         'price_bata' => '₹600/day',
-        'desc' => 'A Mercedes-chassis mini coach built by Singh Motor Coach Builders, right-sized for mid-size groups — college trips, office outings, and wedding parties that have outgrown a Tempo Traveller.',
-        'ideal' => 'Best for: college trips, office outings, mid-size groups',
+        'page' => '21-seater-bus-rental-bangalore.php',
+        'tag' => 'Top Pick for 14-21 Pax Groups',
+        'desc' => 'Executive 21+1 Seater Mercedes-Chassis Mini Coach built by Singh Motor Coach Builders. Outfitted with plush 2x2 pushback reclining seats, high-efficiency dual AC, individual mobile charging points, LED audio-visual system, and a deep luggage boot. The #1 rated vehicle in Bangalore for corporate team outings, wedding guest hospitality loops, college excursions, and outstation road trips to Coorg, Ooty, Chikmagalur & Mysore.',
+        'ideal' => 'Best for: 14-21 passengers, corporate team offsites, college tours, family weddings, outstation road trips',
     ],
     [
         'name' => 'Bus',

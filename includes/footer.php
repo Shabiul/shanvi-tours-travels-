@@ -21,16 +21,19 @@
                 
                 <div class="footer-section">
                     <h4>Quick Links</h4>
-                    <a href="index.php">Home</a>
+                    <a href="/">Home</a>
                     <a href="about.php">About Us</a>
                     <a href="services.php">Our Services</a>
                     <a href="fleet.php">Our Fleet &amp; Tariffs</a>
+                    <a href="21-seater-bus-rental-bangalore.php" style="color: var(--color-desertsun); font-weight: 700;">★ 21 Seater Mini Bus</a>
+                    <a href="blog.php">Travel Blog &amp; Guides</a>
                     <a href="gallery.php">Gallery</a>
                     <a href="contact.php">Contact</a>
                 </div>
                 
                 <div class="footer-section">
                     <h4>Bus Rental Services</h4>
+                    <a href="21-seater-bus-rental-bangalore.php">21 Seater Mini Bus Rental</a>
                     <a href="services.php#employee-transport">Employee Transport</a>
                     <a href="services.php#corporate">Corporate Bus Rental</a>
                     <a href="services.php#wedding">Wedding Bus Rental</a>
@@ -73,16 +76,36 @@
     <!-- BreadcrumbList structured data: page context for AI answer engines and rich results -->
     <?php
     $breadcrumb_labels = [
-        'index.php'    => 'Home',
-        'about.php'    => 'About Us',
-        'services.php' => 'Our Services',
-        'fleet.php'    => 'Our Fleet & Tariffs',
-        'gallery.php'  => 'Gallery',
-        'contact.php'  => 'Contact',
+        'index.php'                            => 'Home',
+        'about.php'                            => 'About Us',
+        'services.php'                         => 'Our Services',
+        'fleet.php'                            => 'Our Fleet & Tariffs',
+        '21-seater-bus-rental-bangalore.php'   => '21 Seater Mini Bus Rental',
+        'blog.php'                             => 'Travel Blog & Guides',
+        'blog-21-seater-mini-bus-rental-bangalore.php' => '21 Seater Mini Bus Rental Guide',
+        'blog-tempo-traveller-vs-21-seater-bus.php'   => 'Tempo Traveller vs 21 Seater Bus',
+        'blog-weekend-road-trips-bangalore-21-seater.php' => 'Weekend Road Trips Bangalore',
+        'blog-corporate-team-outing-bus-bangalore.php' => 'Corporate Team Outing Bus Rental',
+        'gallery.php'                          => 'Gallery',
+        'contact.php'                          => 'Contact',
+        '404.php'                              => 'Page Not Found',
     ];
     $current_file = basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
     $breadcrumb_items = [['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $site_url . '/']];
-    if ($current_file !== 'index.php' && isset($breadcrumb_labels[$current_file])) {
+    if (strpos($current_file, 'blog-') === 0) {
+        $breadcrumb_items[] = [
+            '@type' => 'ListItem',
+            'position' => 2,
+            'name' => 'Travel Blog',
+            'item' => $site_url . '/blog.php',
+        ];
+        $breadcrumb_items[] = [
+            '@type' => 'ListItem',
+            'position' => 3,
+            'name' => isset($breadcrumb_labels[$current_file]) ? $breadcrumb_labels[$current_file] : 'Article',
+            'item' => $site_url . '/' . $current_file,
+        ];
+    } elseif ($current_file !== 'index.php' && isset($breadcrumb_labels[$current_file])) {
         $breadcrumb_items[] = [
             '@type' => 'ListItem',
             'position' => 2,

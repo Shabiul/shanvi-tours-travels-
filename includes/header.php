@@ -6,10 +6,13 @@ $site_url    = 'https://www.shanvitoursandtravels.com';
 $page_title       = isset($page_title) ? $page_title : 'Mini Bus & Bus Rental Bangalore - 12 to 49 Seater, With Driver';
 $page_description = isset($page_description) ? $page_description : "Shanvi Tours & Travels: mini bus and bus rental in Bangalore since 2013. 12+1, 21+1, 33+1 & 49+1 seater vehicles with driver for corporate, wedding, school & outstation trips.";
 $page_keywords    = isset($page_keywords) ? $page_keywords : 'mini bus rental bangalore, bus rental bangalore, bus hire bangalore, mini bus hire bangalore, tourist bus rental bangalore, bus rental near me, corporate bus rental bangalore';
-$raw_path      = isset($_SERVER['REQUEST_URI']) ? strtok($_SERVER['REQUEST_URI'], '?') : '/';
-$current_path  = ($raw_path === '/index.php' || $raw_path === '' || $raw_path === '/') ? '/' : $raw_path;
-$canonical_url = rtrim($site_url, '/') . ($current_path === '/' ? '/' : $current_path);
-$og_image      = $site_url . '/images/img_1.jpeg';
+if (!isset($canonical_url)) {
+    $raw_path      = isset($_SERVER['REQUEST_URI']) ? strtok($_SERVER['REQUEST_URI'], '?') : '/';
+    $current_path  = ($raw_path === '/index.php' || $raw_path === '' || $raw_path === '/') ? '/' : $raw_path;
+    $canonical_url = rtrim($site_url, '/') . ($current_path === '/' ? '/' : $current_path);
+}
+$og_image      = isset($og_image) ? $og_image : ($site_url . '/images/img_1.jpeg');
+
 ?>
 <?php
 $rendered_title = (strpos($page_title, $site_name) !== false) ? $page_title : ($page_title . ' | ' . $site_name);
@@ -333,7 +336,7 @@ $rendered_title = (strpos($page_title, $site_name) !== false) ? $page_title : ($
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.php" title="Shanvi Tours & Travels - Home">
+            <a class="navbar-brand" href="/" title="Shanvi Tours & Travels - Home">
                 <img src="images/logo.png" alt="Shanvi Tours & Travels Logo" title="Shanvi Tours & Travels - Mini Bus & Bus Rental Bangalore" width="180" height="60" decoding="async">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -342,7 +345,7 @@ $rendered_title = (strpos($page_title, $site_name) !== false) ? $page_title : ($
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.php">About Us</a>
@@ -352,6 +355,15 @@ $rendered_title = (strpos($page_title, $site_name) !== false) ? $page_title : ($
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="fleet.php">Fleet &amp; Tariffs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="21-seater-bus-rental-bangalore.php" style="position: relative;">
+                            21 Seater Mini Bus
+                            <span class="badge" style="background: var(--accent-orange, #f2a93b); color: #0d2c45; font-size: 0.65rem; padding: 2px 6px; border-radius: 20px; font-weight: 700; vertical-align: middle; margin-left: 2px;">Hot</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.php">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="gallery.php">Gallery</a>

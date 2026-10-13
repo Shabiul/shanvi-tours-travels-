@@ -89,8 +89,7 @@ async function auditLiveEndpoints() {
     `${DOMAIN}/`,
     `${DOMAIN}/robots.txt`,
     ...SITEMAP_ENDPOINTS,
-    `${DOMAIN}/fleet.php`,
-    `${DOMAIN}/services.php`,
+    ...getTargetUrls().filter(u => u !== `${DOMAIN}/`),
   ];
 
   let allPassed = true;

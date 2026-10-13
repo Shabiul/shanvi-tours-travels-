@@ -2,6 +2,7 @@
 $page_title = "Fleet Photo Gallery - Verified Bus Photos Bangalore | Shanvi Tours & Travels";
 $page_description = "View 100% real photos of Shanvi Tours & Travels Bangalore fleet: 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus & 49+1 Luxury Wedding Coach. Call 9611120023.";
 $page_keywords = "mini bus rental bangalore, bus hire bangalore, 12 seater mini bus rental bangalore, 21 seater mini bus rental bangalore, 33 seater bus rental bangalore, 49 seater bus rental bangalore, mini bus with driver bangalore, bus rental near me, bus photos bangalore, real bus fleet images";
+$canonical_url = "https://www.shanvitoursandtravels.com/gallery.php";
 include 'includes/header.php';
 include 'includes/fleet-data.php';
 ?>
@@ -75,6 +76,53 @@ include 'includes/fleet-data.php';
             </a>
             <?php endforeach; ?>
             <?php endforeach; ?>
+        </div>
+
+        <!-- Real Fleet Verification Guide & Physical Inspection -->
+        <div class="mt-5 p-4 p-lg-5 rounded-4" style="background: var(--light-bg); border: 1px solid var(--border-subtle);">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <span class="eyebrow">Trust &amp; Transparency</span>
+                    <h3 style="font-size: 1.6rem; color: var(--brand-navy); margin-bottom: 1rem;">
+                        How to Verify Authentic Fleet Photos vs. Aggregator Stock Images
+                    </h3>
+                    <p style="font-size: 1rem; color: #475569; line-height: 1.7; margin-bottom: 1rem;">
+                        Many online travel portals display stock studio photos or borrow pictures from unrelated bus operators. When booking with Shanvi Tours &amp; Travels, you receive the exact vehicle shown:
+                    </p>
+                    <ul style="font-size: 0.95rem; color: #334155; line-height: 1.8; margin-bottom: 1.5rem;">
+                        <li><strong>Karnataka Yellow Board Registration:</strong> Every vehicle carries legitimate commercial registration plates (e.g. Mini Bus <strong>KA 51 AB 8485</strong>, Tempo Traveller <strong>KA 51 AM 0045</strong>).</li>
+                        <li><strong>Physical Depot Inspection:</strong> Customers planning wedding convoys or corporate contracts are welcome to visit our garage at SMV Layout, Nagadevanahalli to inspect seating upholstery and AC performance in person.</li>
+                        <li><strong>Pre-Trip Video Confirmation:</strong> On request via WhatsApp (+91-9611120023), our dispatch team will send live walkaround video clips of your assigned coach before you pay your advance.</li>
+                    </ul>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="21-seater-bus-rental-bangalore.php" class="btn-hero" style="padding: 0.55rem 1.4rem; font-size: 0.92rem;">21-Seater Mini Bus Specs</a>
+                        <a href="fleet.php" class="btn-hero-outline" style="padding: 0.55rem 1.4rem; font-size: 0.92rem;">Tariffs &amp; Pricing</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bg-white p-4 rounded-3 shadow-sm border">
+                        <h4 style="font-size: 1.1rem; color: var(--brand-navy); font-weight: 700; margin-bottom: 1rem;">
+                            <i class="fas fa-id-card text-warning me-2"></i> Active Fleet Registration Index
+                        </h4>
+                        <div class="d-flex justify-content-between py-2 border-bottom" style="font-size: 0.92rem;">
+                            <span>12+1 Tempo Traveller:</span>
+                            <strong style="color: var(--brand-navy);">KA 51 AM 0045</strong>
+                        </div>
+                        <div class="d-flex justify-content-between py-2 border-bottom" style="font-size: 0.92rem;">
+                            <span>21+1 Mercedes Mini Bus:</span>
+                            <strong style="color: #16a34a;">KA 51 AB 8485</strong>
+                        </div>
+                        <div class="d-flex justify-content-between py-2 border-bottom" style="font-size: 0.92rem;">
+                            <span>33+1 Touring Coach:</span>
+                            <strong style="color: var(--brand-navy);">KA 51 AL 7388</strong>
+                        </div>
+                        <div class="d-flex justify-content-between py-2" style="font-size: 0.92rem;">
+                            <span>49+1 Luxury Wedding Coach:</span>
+                            <strong style="color: var(--brand-navy);">KA 51 AL 4498</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -418,7 +418,7 @@ $faqs = [
     <div style="padding: 2rem; background: #fff; color: #111;">
         <h2>Shanvi Tours &amp; Travels — 24/7 Bus Rental Booking &amp; Dispatch Desk</h2>
         <p>Book 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus, and 49+1 Luxury Bus in Bangalore. Contact +91 9611120023.</p>
-        <a href="index.php" title="Shanvi Tours &amp; Travels Logo"><img src="images/logo.png" alt="Shanvi Tours &amp; Travels Logo" title="Shanvi Tours &amp; Travels - Mini Bus &amp; Bus Rental Bangalore" width="180" height="60" loading="lazy" decoding="async"></a>
+        <a href="/" title="Shanvi Tours &amp; Travels Logo"><img src="images/logo.png" alt="Shanvi Tours &amp; Travels Logo" title="Shanvi Tours &amp; Travels - Mini Bus &amp; Bus Rental Bangalore" width="180" height="60" loading="lazy" decoding="async"></a>
         <a href="gallery.php" title="Outstation Holiday Route - Gokarna Coastal Tour"><img src="images/destinations/gokarna.jpg" alt="Om Beach in Gokarna Karnataka - Outstation Tour Route" title="Outstation Holiday Route - Gokarna Coastal Tour" width="600" height="400" loading="lazy" decoding="async"></a>
         <a href="fleet.php#12-tempo-traveller" title="12+1 Seater Tempo Traveller Bangalore Exterior"><img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 Seater Tempo Traveller Bangalore Exterior" title="12+1 Seater Tempo Traveller Bangalore Exterior" width="600" height="400" loading="lazy" decoding="async"></a>
         <a href="fleet.php#21-mini-bus" title="21+1 Seater Mercedes Mini Bus Bangalore"><img src="images/fleet/mini-bus-exterior.jpg" alt="21+1 Seater Mercedes Mini Bus Bangalore" title="21+1 Seater Mercedes Mini Bus Bangalore" width="600" height="400" loading="lazy" decoding="async"></a>

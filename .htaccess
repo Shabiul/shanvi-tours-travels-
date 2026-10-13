@@ -37,9 +37,23 @@ ServerSignature Off
     php_flag log_errors on
 </IfModule>
 
-# --- Force HTTPS once an SSL certificate is installed on the live domain -
-# <IfModule mod_rewrite.c>
-#     RewriteEngine On
-#     RewriteCond %{HTTPS} off
-#     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-# </IfModule>
+# --- Clean URL Rewrites and 404 Handling --------------------------
+ErrorDocument 404 /404.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 301 Redirect /index.php to / (resolves Alternate page with proper canonical tag)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php[?\ ] [NC]
+    RewriteRule ^index\.php$ / [R=301,L]
+
+    # 301 Redirect legacy coming-soon page to /
+    RewriteRule ^index_comingsoon\.html$ / [R=301,L]
+
+    # Check if request without .php matches an existing .php file
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php [L]
+</IfModule>
+

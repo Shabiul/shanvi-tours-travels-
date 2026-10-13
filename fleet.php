@@ -49,7 +49,11 @@ include 'includes/fleet-data.php';
                     </div>
                     <div class="service-icon"><i class="fas <?php echo $v['icon']; ?>"></i></div>
                     <h3><?php echo htmlspecialchars($v['name']); ?> — <?php echo htmlspecialchars($v['seats']); ?></h3>
-                    <?php if ($v['seats'] === '49+1 Seater'): ?>
+                    <?php if ($v['seats'] === '21+1 Seater'): ?>
+                    <div style="margin-bottom: 0.75rem;">
+                        <span class="badge" style="background: var(--accent-orange, #f2a93b); color: #0d2c45; font-size: 0.78rem; padding: 5px 12px; font-weight: 700; border-radius: 20px;"><i class="fas fa-fire me-1"></i> Most Popular for 14–21 Pax &bull; Corporate &amp; Outstation Choice</span>
+                    </div>
+                    <?php elseif ($v['seats'] === '49+1 Seater'): ?>
                     <div style="margin-bottom: 0.75rem;">
                         <span class="wedding-badge" style="font-size: 0.75rem; padding: 4px 10px; margin-bottom: 0.25rem;"><i class="fas fa-heart text-danger me-1"></i> Wedding Logistics Flagship Coach</span>
                     </div>
@@ -69,9 +73,15 @@ include 'includes/fleet-data.php';
                         <strong>Plate:</strong> <?php echo htmlspecialchars($v['plate']); ?> | <strong>Permit:</strong> All India Tourist Permit (AITP)
                     </div>
                     <p style="color: var(--primary-color); font-weight: 600; margin-top: 0.5rem;"><?php echo htmlspecialchars($v['ideal']); ?></p>
-                    <div class="d-flex gap-2 mt-3">
+                    <div class="d-flex gap-2 mt-3 flex-wrap">
+                        <?php if ($v['seats'] === '21+1 Seater'): ?>
+                        <a href="21-seater-bus-rental-bangalore.php" class="btn-hero" style="padding: 0.5rem 1.2rem; font-size: 0.92rem; background: var(--accent-orange, #f2a93b); color: #0d2c45; border-color: var(--accent-orange, #f2a93b); font-weight: 700;">View 21-Seater Details</a>
+                        <a href="contact.php?vehicle=21-seater" class="btn-hero-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Book Now</a>
+                        <a href="gallery.php" class="btn-hero-outline" style="padding: 0.5rem 0.9rem; font-size: 0.88rem;">Photos</a>
+                        <?php else: ?>
                         <a href="contact.php" class="btn-hero" style="padding: 0.5rem 1.2rem; font-size: 0.92rem;">Book Vehicle</a>
                         <a href="gallery.php" class="btn-hero-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View All Photos</a>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>

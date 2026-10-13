@@ -1,6 +1,454 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap><loc>https://www.shanvitoursandtravels.com/sitemap-pages.xml</loc><lastmod>2026-10-09</lastmod></sitemap>
-  <sitemap><loc>https://www.shanvitoursandtravels.com/sitemap-images.xml</loc><lastmod>2026-10-09</lastmod></sitemap>
-  <sitemap><loc>https://www.shanvitoursandtravels.com/sitemap-videos.xml</loc><lastmod>2026-10-09</lastmod></sitemap>
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/21-seater-bus-rental-bangalore.php</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-exterior.jpg</image:loc>
+      <image:title>Shanvi Tours &amp; Travels 21 Seater Mercedes Mini Bus Bangalore Exterior</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-interior.jpg</image:loc>
+      <image:title>Interior 2x2 luxury pushback reclining seats of 21 seater mini bus Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/coorg.jpg</image:loc>
+      <image:title>Bangalore to Coorg 21 Seater Mini Bus Rental</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/chikmagalur.jpg</image:loc>
+      <image:title>Bangalore to Chikmagalur 21 Seater Mini Bus Hire</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/mysore.jpg</image:loc>
+      <image:title>Bangalore to Mysore 21 Seater Mini Bus Rental</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/about.php</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/img_11%20(4).jpeg</image:loc>
+      <image:title>About Shanvi Tours &amp;amp; Travels Bangalore Commercial Passenger Transport</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/img_11%20(5).jpeg</image:loc>
+      <image:title>Shanvi Tours &amp;amp; Travels fleet vehicle on Bangalore road</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/mysore.jpg</image:loc>
+      <image:title>Mysore Palace illuminated at night Karnataka</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/coorg.jpg</image:loc>
+      <image:title>Peaceful green countryside in Coorg Karnataka</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/chikmagalur.jpg</image:loc>
+      <image:title>Misty hills of Chikmagalur Western Ghats</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/wayanad.jpg</image:loc>
+      <image:title>Forested hills of Wayanad Kerala</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/munnar.jpg</image:loc>
+      <image:title>Rolling tea estates in Munnar Kerala</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/gokarna.jpg</image:loc>
+      <image:title>Om Beach in Gokarna Karnataka</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/img_11%20(5).jpeg</image:loc>
+      <image:title>Shanvi Tours fleet vehicle on Bangalore road</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-interior.jpg</image:loc>
+      <image:title>Interior of 49+1 Luxury Coach with red carpet aisle</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/blog-21-seater-mini-bus-rental-bangalore.php</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-exterior.jpg</image:loc>
+      <image:title>Shanvi Tours 21 Seater Mercedes Mini Bus Bangalore KA 51 AB 8485</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-interior.jpg</image:loc>
+      <image:title>Interior 2x2 pushback seating of 21 seater mini bus Bangalore</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/blog-corporate-team-outing-bus-bangalore.php</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/blog-tempo-traveller-vs-21-seater-bus.php</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/blog-weekend-road-trips-bangalore-21-seater.php</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/blog.php</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/contact.php</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://www.shanvitoursandtravels.com/images/destinations/gokarna.jpg</video:thumbnail_loc>
+      <video:title>Cinematic FPV drone footage over a tropical beach cove and South India travel route</video:title>
+      <video:description>Cinematic FPV drone footage over a tropical beach cove and South India travel route</video:description>
+      <video:content_loc>https://www.shanvitoursandtravels.com/videos/scene-w1.mp4</video:content_loc>
+      <video:publication_date>2026-10-13</video:publication_date>
+    </video:video>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/logo.png</image:loc>
+      <image:title>Shanvi Tours &amp;amp; Travels Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/gokarna.jpg</image:loc>
+      <image:title>Om Beach in Gokarna Karnataka - Outstation Tour Route</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/tempo-traveller-exterior.jpg</image:loc>
+      <image:title>12+1 Seater Tempo Traveller Bangalore Exterior</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-exterior.jpg</image:loc>
+      <image:title>21+1 Seater Mercedes Mini Bus Bangalore</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/fleet.php</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/tempo-traveller-exterior.jpg</image:loc>
+      <image:title>12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/tempo-traveller-interior.jpg</image:loc>
+      <image:title>12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-exterior.jpg</image:loc>
+      <image:title>21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-interior.jpg</image:loc>
+      <image:title>21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-exterior.jpg</image:loc>
+      <image:title>33+1 Seater Touring Coach Bangalore - Highway Tourist Bus</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-interior.jpg</image:loc>
+      <image:title>33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-exterior.jpg</image:loc>
+      <image:title>49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-interior.jpg</image:loc>
+      <image:title>49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/gallery.php</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-exterior.jpg</image:loc>
+      <image:title>Shanvi Tours &amp;amp; Travels fleet — 33+1 Seater Touring Coach on Bangalore highway</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/tempo-traveller-exterior.jpg</image:loc>
+      <image:title>12+1 Seater Tempo Traveller Bangalore Exterior - Pushback AC Seats</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/tempo-traveller-interior.jpg</image:loc>
+      <image:title>12+1 Seater Tempo Traveller Interior - Captain Seats and Overhead AC</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-exterior.jpg</image:loc>
+      <image:title>21+1 Seater Mercedes Mini Bus Bangalore - Commercial Coach</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-interior.jpg</image:loc>
+      <image:title>21+1 Seater Mini Bus Interior - Ergonomic Reclining Seats</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-exterior.jpg</image:loc>
+      <image:title>33+1 Seater Touring Coach Bangalore - Highway Tourist Bus</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-interior.jpg</image:loc>
+      <image:title>33+1 Seater Bus Interior - 2x2 Reclining Seats with Reading Lights</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-city-street.jpg</image:loc>
+      <image:title>33+1 Seater Bus Navigating Bangalore City Streets for Wedding Shuttles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-road-angle.jpg</image:loc>
+      <image:title>33+1 Seater Bus on Highway Route Across Karnataka</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-exterior.jpg</image:loc>
+      <image:title>49+1 Seater Luxury Bus Bangalore - 50 Seater Highway Coach</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-interior.jpg</image:loc>
+      <image:title>49+1 Seater Luxury Bus Interior - Upholstered Seats with Red Carpet Aisle</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-parked.jpg</image:loc>
+      <image:title>49+1 Seater Luxury Tourist Bus Parked Ready for Departure</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-temple-1.jpg</image:loc>
+      <image:title>49+1 Seater Luxury Bus on Pilgrimage Tour from Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-temple-2.jpg</image:loc>
+      <image:title>Luxury Tourist Bus on Temple Pilgrimage Circuit to Tirupati</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <video:video>
+      <video:thumbnail_loc>https://www.shanvitoursandtravels.com/images/destinations/tajmahal-poster.jpg</video:thumbnail_loc>
+      <video:title>Cinematic drone footage of the Taj Mahal and South India luxury travel</video:title>
+      <video:description>Cinematic drone footage of the Taj Mahal and South India luxury travel</video:description>
+      <video:content_loc>https://www.shanvitoursandtravels.com/videos/scene-w2.mp4</video:content_loc>
+      <video:publication_date>2026-10-13</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://www.shanvitoursandtravels.com/images/destinations/tajmahal-poster.jpg</video:thumbnail_loc>
+      <video:title>Shanvi Tours and Travels South India Luxury Bus and Tour Video</video:title>
+      <video:description>Shanvi Tours and Travels South India Luxury Bus and Tour Video</video:description>
+      <video:content_loc>https://www.shanvitoursandtravels.com/videos/scene-w2.mp4</video:content_loc>
+      <video:publication_date>2026-10-13</video:publication_date>
+    </video:video>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/employee-transport.jpg</image:loc>
+      <image:title>Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/corporate.jpg</image:loc>
+      <image:title>Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-city-street.jpg</image:loc>
+      <image:title>Wedding Bus Rental Bangalore - Guest Transport and Baraat Luxury Buses</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-exterior.jpg</image:loc>
+      <image:title>School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/outstation.jpg</image:loc>
+      <image:title>Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/package-tours.jpg</image:loc>
+      <image:title>Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-exterior.jpg</image:loc>
+      <image:title>Shanvi Tours &amp; Travels 21 Seater Mini Bus Bangalore Exterior KA 51 AB 8485</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-interior.jpg</image:loc>
+      <image:title>Shanvi Tours &amp; Travels 21 Seater Mini Bus Interior 2x2 Pushback Seating Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-interior.jpg</image:loc>
+      <image:title>Interior of 49+1 Luxury Coach with red carpet aisle and plush pushback upholstery for weddings in Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-exterior.jpg</image:loc>
+      <image:title>Multi-vehicle coordinated convoys of 49+1 coaches for weddings with 200+ guests in Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/mysore.jpg</image:loc>
+      <image:title>Mysore Palace illuminated at night - Bangalore to Mysore Bus Rental (150km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/coorg.jpg</image:loc>
+      <image:title>Green coffee plantation countryside in Coorg - Tempo Traveller Rental (270km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/chikmagalur.jpg</image:loc>
+      <image:title>Mullayanagiri hills in Chikmagalur Karnataka - Outstation Mini Bus Tour (245km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/gokarna.jpg</image:loc>
+      <image:title>Om Beach shoreline in Gokarna Karnataka - Coastal Beach Tour Bus Rental (485km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/wayanad.jpg</image:loc>
+      <image:title>Forested hills of Wayanad Kerala - Tour Bus Hire from Bangalore (280km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/alleppey.jpg</image:loc>
+      <image:title>Houseboat cruising the Alleppey backwaters Kerala - South India Tour Bus (540km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/munnar.jpg</image:loc>
+      <image:title>Rolling tea estates in Munnar Kerala - Hill Station Bus Rental (510km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/ooty.jpg</image:loc>
+      <image:title>Emerald Lake surrounded by hills in Ooty Tamil Nadu - Bus Trip from Bangalore (270km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/pondicherry.jpg</image:loc>
+      <image:title>Sunrise over the sea at Pondicherry Tamil Nadu - Coastal Bus Tour (310km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/yercaud.jpg</image:loc>
+      <image:title>Emerald Lake in the hill station of Yercaud Tamil Nadu - Budget Bus Tour (230km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/tirupati.jpg</image:loc>
+      <image:title>Tirumala Venkateswara Temple in Tirupati Andhra Pradesh - Pilgrimage Bus Rental (250km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/nellore.jpg</image:loc>
+      <image:title>Western Ghats mountains en route to Nellore Andhra Pradesh (275km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/destinations/hyderabad.jpg</image:loc>
+      <image:title>Charminar monument in Hyderabad Telangana - Long Distance Bus Hire (570km)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/logo.png</image:loc>
+      <image:title>Shanvi Tours &amp;amp; Travels Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/tempo-traveller-exterior.jpg</image:loc>
+      <image:title>12+1 Seater Tempo Traveller Bangalore Fleet</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-exterior.jpg</image:loc>
+      <image:title>21+1 Seater Mercedes Mini Bus Bangalore Fleet</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-exterior.jpg</image:loc>
+      <image:title>33+1 Seater Tourist Bus Bangalore Fleet</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-exterior.jpg</image:loc>
+      <image:title>49+1 Seater Luxury Bus Bangalore Fleet</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.shanvitoursandtravels.com/services.php</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/img_11%20(6).jpeg</image:loc>
+      <image:title>Mini bus and bus rental fleet, Shanvi Tours &amp;amp; Travels Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/employee-transport.jpg</image:loc>
+      <image:title>Corporate Employee Transport Services Bangalore - Daily Staff Shuttles in 12+1 &amp; 21+1 Seater AC Buses</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/tempo-traveller-interior.jpg</image:loc>
+      <image:title>12+1 seater Tempo Traveller interior for employee transport Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/corporate.jpg</image:loc>
+      <image:title>Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-interior.jpg</image:loc>
+      <image:title>21+1 seater Mini Bus interior for corporate bus rental Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-interior.jpg</image:loc>
+      <image:title>49+1 seater Luxury Bus interior for wedding guest transport Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-city-street.jpg</image:loc>
+      <image:title>Wedding Bus Rental Bangalore - Guest Transport on City Streets</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/mini-bus-exterior.jpg</image:loc>
+      <image:title>School and College Excursion Bus Hire Bangalore - Safe RTO-Compliant Buses</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-interior.jpg</image:loc>
+      <image:title>33+1 seater Bus interior for school and college trips Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/outstation.jpg</image:loc>
+      <image:title>Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/luxury-bus-temple-1.jpg</image:loc>
+      <image:title>Bus on an outstation route from Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/package-tours.jpg</image:loc>
+      <image:title>Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/fleet/bus-exterior.jpg</image:loc>
+      <image:title>Bus used for pilgrimage and package tours from Bangalore</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/employee-transport.jpg</image:loc>
+      <image:title>Corporate Employee Transport Services Bangalore - 12+1 and 21+1 Seater Mini Buses</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/corporate.jpg</image:loc>
+      <image:title>Corporate Bus Rental Bangalore - Executive Luxury Coach Hire for Conferences and Offsites</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/outstation.jpg</image:loc>
+      <image:title>Outstation Bus Rental from Bangalore Across Karnataka Kerala and Tamil Nadu</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.shanvitoursandtravels.com/images/services/package-tours.jpg</image:loc>
+      <image:title>Pilgrimage and Package Tour Bus Rental Bangalore - Tirupati Dharmasthala Packages</image:title>
+    </image:image>
+  </url>
+</urlset>
